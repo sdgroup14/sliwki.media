@@ -1,0 +1,129 @@
+.case1-s3 {
+  height: 765px;
+  background-color: $header-bg;
+  h2 {
+    text-align: center;
+    margin: 92px auto 82px;
+  }
+  .case1-s3-l {
+    width: 50%;
+    &:after {
+      position: absolute;
+      @extend .sprite;
+      background-position: 0 0;
+      width: 485px;
+      height: 315px;
+      right: 20px;
+      top: 280px;
+    }
+  }
+  .case1-s3-l {
+    padding: 0 71px 0 188px;
+    h3 {
+      @extend .med;
+      line-height: 24px;
+      font-size: 1.286rem;
+      font-weight: 400;
+      letter-spacing: -.9px;
+      margin-bottom: 20px;
+    }
+    p {
+      @extend .lig;
+      font-size: 0.857rem;
+      line-height: 18px;
+      font-weight: 400;
+      color: #5b636e;
+      letter-spacing: -.3px;
+      margin-bottom: 30px;
+    }
+    .case1-s3-ico {
+      position: relative;
+      &:after {
+        position: absolute;
+        @extend .sprite;
+        top: 50%;
+      }
+    }
+    .case1-s3-ico-name:after {
+      left: 13px;
+      margin-top: -6px;
+      background-position: -668px -428px;
+      width: 14px;
+      height: 14px;
+    }
+    .case1-s3-ico-mail:after {
+      left: 12px;
+      margin-top: -4px;
+      background-position: -668px -449px;
+      width: 14px;
+      height: 10px;
+    }
+    .case1-s3-inp {
+      width: 253px;
+      height: 39px;
+      border-radius: 5px;
+      border: 1px solid #e0e4ec;
+      margin-bottom: 18px;
+      padding-left: 40px;
+    }
+    .case1-s3-sbmt {
+      @extend .btn;
+      margin: 13px auto;
+      width: 162px;
+      color: #fa2247;
+      border: 1px solid #fa2247;
+      &:hover {
+        background-color: #fa2247;
+        color: #ffffff;
+      }
+    }
+  }
+  ::-webkit-input-placeholder {
+    color: #a9a6b0;
+    font-size: .857rem;
+    letter-spacing: 1px;
+  }
+  ::-moz-placeholder {
+    color: #a9a6b0;
+    font-size: .857rem;
+    letter-spacing: 1px;
+  }
+  :-moz-placeholder {
+    color: #a9a6b0;
+    font-size: .857rem;
+    letter-spacing: 1px;
+  }
+  :-ms-input-placeholder {
+    color: #a9a6b0;
+    font-size: .857rem;
+    letter-spacing: 1px;
+  }
+}
+
+@mixin media_768_case_2_s3 {
+  .case1-s3 {
+    height: 554px;
+    h2 {
+      margin: 15px auto 49px;
+    }
+    .case1-s3-l {
+      &:after {
+        right: -64px;
+        top: 126px;
+        transform: scale(.76);
+      }
+    }
+    .case1-s3-l {
+      padding: 0 71px 0 44px;
+      h3 {
+        line-height: 23px;
+        font-size: 1.286rem;
+      }
+      .case1-s3-sbmt {
+        @extend .btn-768;
+      }
+    }
+  }
+}
+
+@mixin media_480_page-1_s3 {}

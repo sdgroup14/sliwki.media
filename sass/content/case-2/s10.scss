@@ -1,0 +1,109 @@
+.case1-s10 {
+  height: 768px;
+  background-color: #f4f7fc;
+  h2 {
+    text-align: center;
+    margin: 0 auto 109px;
+  }
+  .container {
+    overflow: visible;
+    padding-top: 168px;
+  }
+  .case1-s10-l {
+    width: 50%;
+    &:after {
+      position: absolute;
+      right: 77px;
+      top: 290px;
+      @extend .sprite;
+      background-position: 0 -323px;
+      width: 444px;
+      height: 343px;
+    }
+  }
+  .case1-s10-l {
+    padding: 0 71px 0 188px;
+    h3 {
+      @extend .med;
+      line-height: 24px;
+      font-size: 1.286rem;
+      font-weight: 400;
+      letter-spacing: -.9px;
+      margin-bottom: 32px;
+    }
+    p {
+      @extend .lig;
+      @extend .px12;
+      line-height: 18px;
+      font-weight: 400;
+      color: #5b636e;
+      letter-spacing: -.3px;
+      margin-bottom: 44px;
+    }
+    .case1-s10-ico {
+      position: relative;
+      &:after {
+        transform: scale(.6);
+        position: absolute;
+        @extend .sprite;
+      }
+    }
+    .case1-s10-ico-name:after {
+      left: 7px;
+      top: -4px;
+      background-position: -234px -255px;
+      width: 26px;
+      height: 25px;
+    }
+    .case1-s10-ico-mail:after {
+      left: 3px;
+      top: -3px;
+      background-position: -305px -256px;
+      width: 34px;
+      height: 24px;
+    }
+    .case1-s10-inp {
+      width: 253px;
+      height: 39px;
+      border-radius: 5px;
+      border: 1px solid #e0e4ec;
+      margin-bottom: 18px;
+      padding-left: 40px;
+    }
+    .case1-s10-sbmt {
+      @extend .btn;
+      margin: 13px auto;
+      width: 162px;
+      color: #fa2247;
+      border: 1px solid #fa2247;
+      &:hover {
+        background-color: #fa2247;
+        color: #ffffff;
+      }
+    }
+  }
+  ::-webkit-input-placeholder {
+    color: #a9a6b0;
+    font-size: .857rem;
+    letter-spacing: 1px;
+  }
+  ::-moz-placeholder {
+    color: #a9a6b0;
+    font-size: .857rem;
+    letter-spacing: 1px;
+  }
+  :-moz-placeholder {
+    color: #a9a6b0;
+    font-size: .857rem;
+    letter-spacing: 1px;
+  }
+  :-ms-input-placeholder {
+    color: #a9a6b0;
+    font-size: .857rem;
+    letter-spacing: 1px;
+  }
+}
+
+@mixin media_768_page-1_s5 {}
+
+@mixin media_480_page-1_s5 {}

@@ -1,0 +1,214 @@
+.case1-s4 {
+  height: 768px;
+  color: #ffffff;
+  background-color: #282d37;
+  background: repeating-linear-gradient(-55deg, #282d37, #2e333c 7px, #2e333c 1px, #2e333c 1px);
+  .u1:after {
+    width: 37px;
+  }
+  h2 {
+    text-align: center;
+    margin: 43px auto 57px;
+  }
+  .container {
+    width: 841px;
+  }
+  .c1-s4-item {
+    float: left;
+    width: 33.3%;
+    height: 280px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .c1-s4-item:hover > .s4-manifestation {
+    background-color: rgba(0, 0, 0, .7);
+    visibility: visible;
+    opacity: 1;
+  }
+  .c1-s4-i1 {
+    background: url(../img/case4/case_1.jpg);
+  }
+  .c1-s4-i2 {
+    background: url(../img/case4/case_2.jpg);
+  }
+  .c1-s4-i3 {
+    background: url(../img/case4/case_3.jpg);
+  }
+  .c1-s4-i4 {
+    background: url(../img/case4/case_4.jpg);
+  }
+  .c1-s4-i5 {
+    background: url(../img/case4/case_5.jpg);
+  }
+  .c1-s4-i6 {
+    background-color: #1f72d0;
+    @extend .lig;
+    text-align: center;
+    h3 {
+      font-size: 1rem;
+      margin: 35px auto 1px;
+      font-weight: 200;
+      letter-spacing: -.5px;
+      text-transform: uppercase;
+    }
+    .s4-sub-h3 {
+      line-height: 14px;
+      font-size: .786rem;
+      letter-spacing: -.4px;
+      margin-bottom: 20px;
+    }
+    .s4-sub-promo {
+      font-size: .929rem;
+      margin-bottom: 13px;
+    }
+    .c1-s4-inp {
+      background-color: transparent;
+      outline: 0;
+      height: 25px;
+      width: 211px;
+      border-bottom: 1px solid #ffffff;
+      margin-bottom: 13px;
+      color: #ffffff;
+      padding-left: 32px;
+      @extend .lig;
+      font-size: 1rem;
+      font-weight: 200;
+    }
+    .case1-s4-ico {
+      position: relative;
+      &:after {
+        position: absolute;
+        @extend .sprite;
+        top: 50%;
+      }
+    }
+    .case1-s4-ico-name:after {
+      left: 7px;
+      margin-top: -7px;
+      background-position: -714px -205px;
+      width: 15px;
+      height: 14px;
+    }
+    .case1-s4-ico-mail:after {
+      left: 6px;
+      margin-top: -5px;
+      background-position: -710px -392px;
+      width: 15px;
+      height: 10px;
+    }
+    ::-webkit-input-placeholder {
+      color: #ffffff;
+      font-size: .857rem;
+      letter-spacing: 1px;
+      @extend .lig;
+    }
+    ::-moz-placeholder {
+      color: #ffffff;
+      font-size: .857rem;
+      letter-spacing: 1px;
+    }
+    :-moz-placeholder {
+      color: #ffffff;
+      font-size: .857rem;
+      letter-spacing: 1px;
+    }
+    :-ms-input-placeholder {
+      color: #ffffff;
+      font-size: .857rem;
+      letter-spacing: 1px;
+    }
+    .c1-s4-sbmt {
+      @extend .btn;
+      margin: 13px auto;
+      width: 168px;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      &:hover {
+        background-color: #ffffff;
+        color: #1f72d0;
+      }
+    }
+  }
+  .s4-manifestation {
+    visibility: hidden;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid #00aeef;
+    opacity: 0;
+    transition: all 0.25s ease;
+    h3 {
+      padding: 117px 0 78px;
+      font-size: 1rem;
+      line-height: 19px;
+      letter-spacing: -.4px;
+      @extend .med;
+      font-weight: 200;
+    }
+    a {
+      color: #00aeef;
+      font-size: .857rem;
+      &:after {
+        @extend .sprite;
+        display: inline-block;
+        margin-left: 4px;
+        background-position: -714px -253px;
+        width: 9px;
+        height: 7px;
+      }
+    }
+  }
+}
+
+@mixin media_768_case_2_s4 {
+  .case1-s4 {
+    height: 689px;
+    h2 {
+      margin: 37px auto 44px;
+    }
+    .container {
+      width: 720px;
+    }
+    .c1-s4-item {
+      height: 239px;
+      background-size: cover;
+    }
+    .c1-s4-i6 {
+      h3 {
+        font-size: .847rem;
+        margin: 28px auto 1px;
+        letter-spacing: 0;
+      }
+      .s4-sub-h3 {
+        line-height: 11.94px;
+        font-size: .671rem;
+        letter-spacing: 0;
+        margin-bottom: 18px;
+      }
+      .s4-sub-promo {
+        font-size: .857rem;
+        margin-bottom: 8px;
+      }
+      .c1-s4-inp {
+        width: 181px;
+        margin-bottom: 8px;
+      }
+      .c1-s4-sbmt {
+        @extend .btn-768;
+      }
+    }
+    .s4-manifestation {
+      h3 {
+        padding: 75px 0 78px;
+        font-size: .857rem;
+      }
+      a {
+        font-size: .731rem;
+        &:after {
+          transform: scale(0.8);
+        }
+      }
+    }
+  }
+}

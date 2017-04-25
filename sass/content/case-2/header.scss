@@ -1,0 +1,287 @@
+ .logo-white {
+   position: absolute;
+   left: 50%;
+   top: 0;
+   margin-left: -60.05px;
+ }
+ 
+ .header-section-case1 {
+   height: 735px;
+   background-color: $header-bg;
+   overflow: hidden;
+   .video {
+     display: block;
+     height: auto;
+     min-width: 100%;
+     min-height: 735px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 0;
+   }
+   .container {
+     position: relative;
+     margin-top: 34px;
+     height: 100%;
+     .menu-button {
+       float: left;
+       height: 21px;
+       width: 28px;
+       transition: all .5s ease;
+       &:before,
+       &:after,
+       div {
+         display: block;
+         width: 27.5px;
+         height: 3px;
+         background-color: #ffffff;
+         border-radius: 2px;
+       }
+       &:before,
+       &:after {
+         content: '';
+       }
+       div {
+         margin: 3px 0;
+         transition: all .15s ease-in-out;
+       }
+       &:hover div {
+         margin: 5px 0;
+       }
+     }
+     .b-contact {
+       display: inline-block;
+       float: right;
+       padding-top: 5px;
+       text-align: right;
+     }
+     .b-contact-item {
+       line-height: 1.2;
+       font-size: 0.714rem;
+       color: $white-col;
+       a {
+         color: $white-col;
+       }
+     }
+     .phone {
+       font-family: 'GothamProBold';
+       font-size: 1rem;
+     }
+     .phone:nth-child(2) {
+       margin-bottom: 3px;
+     }
+     .header-content {
+       margin: 162px 0 0 0;
+       color: $white-col;
+       text-align: center;
+       .br-second {
+         display: none;
+       }
+       .br-third {
+         display: none;
+       }
+       .header-underline {
+         position: relative;
+         &:after {
+           position: absolute;
+           bottom: -7px;
+           left: 0;
+           content: '';
+           border-bottom: 4px solid #06aceb;
+           display: inline-block;
+           width: 37px;
+         }
+       }
+       h1 {
+         font-family: 'GothamProBold';
+         margin-bottom: 28px;
+         font-size: 2.143rem;
+         line-height: 40px;
+         letter-spacing: -1.8px;
+         text-shadow: 0px 0px 13px rgba(53, 14, 86, 0.75);
+       }
+       p {
+         margin-bottom: 63px;
+         font-size: 1.02rem;
+       }
+       .content-btn {
+         @extend .btn;
+         width: 199px;
+         line-height: 43px;
+         @extend .px13;
+         color: #ffffff;
+         border: 1px solid #ffffff;
+         &:hover {
+           background-color: #ffffff;
+           color: #000000;
+         }
+       }
+     }
+   }
+   .header-footer {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     height: 77px;
+     width: 100%;
+     background: rgba(0, 0, 0, 0.25);
+     z-index: 1;
+     .footer-wrapper {
+       width: 1024px;
+       margin: 0 auto;
+     }
+     .swiper-slide {
+       text-align: center;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: -moz-box;
+       display: flex;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       -webkit-justify-content: center;
+       -moz-box-pack: center;
+       justify-content: center;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       -webkit-align-items: center;
+       -moz-box-align: center;
+       align-items: center;
+       &:after {
+         @extend .sprite;
+       }
+     }
+     .slide-1:after {
+       background-position: -668px 0;
+       width: 74px;
+       height: 28px;
+     }
+     .slide-2:after {
+       background-position: -668px -412px;
+       width: 35px;
+       height: 9px;
+     }
+     .slide-3:after {
+       background-position: -668px -392px;
+       width: 35px;
+       height: 12px;
+     }
+     .slide-4:after {
+       background-position: -668px -36px;
+       width: 66px;
+       height: 29px;
+     }
+     .slide-5:after {
+       background-position: -707px -118px;
+       width: 35px;
+       height: 9px;
+     }
+     .slide-6:after {
+       background-position: -706px -72px;
+       width: 33px;
+       height: 15px;
+     }
+     .slide-7:after {
+       background-position: -668px -330px;
+       width: 49px;
+       height: 18px;
+     }
+     .slide-8:after {
+       background-position: -668px -356px;
+       width: 54px;
+       height: 12px;
+     }
+     .slide-9:after {
+       background-position: -668px -311px;
+       width: 68px;
+       height: 12px;
+     }
+     .slide-10:after {
+       background-position: -668px -375px;
+       width: 53px;
+       height: 10px;
+     }
+     .swiper-wrapper {
+       height: 77px;
+     }
+   }
+   .swiper-container,
+   .swiper-container1,
+   .swiper-container2 {
+     width: 100%;
+     height: 100%;
+   }
+   .swiper-container1,
+   .swiper-container2 {
+     pointer-events: none;
+   }
+   .swiper-pagination {
+     display: none;
+   }
+ }
+ 
+ @mixin media_768_case_2_header {
+   .logo-white {
+     width: 85px;
+     margin-left: -42.5px;
+   }
+   .header-section-case1 {
+     height: 537px;
+     .video {
+       min-height: 537px;
+     }
+     .container {
+       margin-top: 22px;
+       .menu-button {
+         width: 25px;
+         &:before,
+         &:after,
+         div {
+           width: 24.5px;
+         }
+       }
+       .b-contact-item {
+         font-size: 0.714rem;
+       }
+       .phone {
+         font-size: 0.857rem;
+       }
+       .header-content {
+         margin: 128px 0 0 0;
+         .header-underline {
+           &:after {
+             width: 28px;
+           }
+         }
+         h1 {
+           margin-bottom: 17px;
+           font-size: 1.714rem;
+           line-height: 28px;
+         }
+         p {
+           margin-bottom: 41px;
+           letter-spacing: -.6px;
+         }
+         .content-btn {
+           @extend .btn-768;
+         }
+       }
+     }
+     .header-footer {
+       height: 55px;
+       .footer-wrapper {
+         width: 728px;
+       }
+       .swiper-slide {
+         &:after {
+           transform: scale(.82);
+         }
+       }
+       .swiper-wrapper {
+         height: 55px;
+       }
+     }
+   }
+ }

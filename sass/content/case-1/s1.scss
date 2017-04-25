@@ -1,0 +1,133 @@
+.br_s1_it {
+  display: none;
+}
+
+.s1 {
+  height: 402px;
+  background-color: $s1-bg;
+  text-align: center;
+  &:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+    bottom: -24px;
+    border: 13px solid transparent;
+    border-top: 12px solid $s1-bg;
+    z-index: 1;
+  }
+  h2 {
+    text-align: center;
+  }
+  .s1-list-item {
+    position: relative;
+    width: 33.3%;
+    float: left;
+    padding: 5px 22px;
+    &:after {
+      display: block;
+      content: '';
+      position: absolute;
+      right: -3px;
+      top: 0;
+      width: 1px;
+      height: 100%;
+      background-color: #a0b4b9;
+    }
+    p {
+      font-family: "GothamProLight", sans-serif;
+      letter-spacing: -0.1px;
+      line-height: 18px;
+      margin-bottom: 5px;
+      span {
+        font-family: "GothamProMedium", sans-serif;
+        font-size: 1.14rem;
+      }
+    }
+    p:first-of-type {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.section-h2 {
+  display: block;
+  font-family: "GothamProLight", sans-serif;
+  font-size: 1.71rem;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 70px auto;
+  letter-spacing: 4.8px;
+}
+
+@mixin media_768_page-1_s1 {
+  .br_s1_it {
+    display: block;
+  }
+  .s1 {
+    height: 305px;
+    &:after {
+      bottom: -20px;
+      border: 8px solid transparent;
+      border-top: 18px solid $s1-bg;
+    }
+    .s1-list-item {
+      padding: 12px 10px;
+      p {
+        font-size: 0.85rem;
+        span {
+          font-size: 1.14rem;
+        }
+      }
+      p:first-of-type {
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .section-h2 {
+    font-size: 1.41rem;
+    line-height: 34px;
+    margin: 25px auto 45px;
+  }
+}
+
+@mixin media_480_page-1_s1 {
+  .br_s1_it {
+    display: none;
+  }
+  .s1 {
+    height: 708px;
+    &:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      margin-left: -13px;
+      bottom: -24px;
+      border: 13px solid transparent;
+      border-top: 12px solid $s1-bg;
+      z-index: 1;
+    }
+    .s1-list-item {
+      float: none;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 60px;
+      p {
+        font-size: 1.43rem;
+        line-height: 26px;
+        letter-spacing: -0.3px;
+        span {
+          font-size: 1.64rem;
+        }
+      }
+      p:first-of-type {
+        margin-bottom: 18px;
+      }
+    }
+  }
+  .section-h2 {
+    font-size: 2.14rem;
+    line-height: 68px;
+    letter-spacing: 2.8px;
+  }
+}

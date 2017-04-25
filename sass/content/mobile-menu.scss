@@ -1,0 +1,79 @@
+.mobile-menu {
+  display: none;
+  .mobile-menu-logo {
+    @extend .logo-white;
+    top: 34px;
+  }
+  .mobile-menu-closee-wrap {
+    position: absolute;
+    left: 50%;
+    margin-left: -512px;
+    top: 34px;
+    width: 24px;
+    height: 24px;
+    transform: rotate(135deg);
+    transition: transform .5s ease;
+    cursor: pointer;
+    &:hover {
+      transform: rotate(315deg);
+    }
+    .mobile-menu-close {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-radius: 2px;
+        background-color: #ffffff;
+      }
+      &:before {
+        margin-top: -1px;
+        margin-left: -10.5px;
+        width: 22px;
+        height: 3px;
+      }
+      &:after {
+        margin-top: -10.5px;
+        margin-left: -1px;
+        width: 3px;
+        height: 22px;
+      }
+    }
+  }
+  .mobile-menu-list {
+    margin-bottom: 85px;
+  }
+  .mob-list-item {
+    @extend .bol;
+    @extend .px24;
+    line-height: 41px;
+    a:hover {
+      color: #ffffff;
+    }
+  }
+  .mob-social-item {
+    @extend .c1-s12-social-item;
+  }
+  .mob-s-inst:after {
+    @extend .c1-s12-s-inst:after;
+    height: 20px;
+  }
+  .mob-s-fb:after {
+    @extend .c1-s12-s-fb:after;
+    height: 19px;
+  }
+  .mob-s-vk:after {
+    @extend .c1-s12-s-vk:after;
+  }
+  .mob-s-yt:after {
+    @extend .c1-s12-s-yt:after;
+  }
+  .mob-s-be:after {
+    @extend .c1-s12-s-be:after;
+  }
+}

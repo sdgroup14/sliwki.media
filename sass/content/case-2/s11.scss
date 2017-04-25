@@ -1,0 +1,119 @@
+.case1-s11 {
+  height: 768px;
+  background: url(../img/s11-bg.jpg) 50% 0;
+  background-repeat: no-repeat;
+  h2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto 93px;
+    padding-top: 76px;
+  }
+  .container {
+    .c1-s11-item {
+      width: 50%;
+      height: 211px;
+      float: left;
+      overflow: hidden;
+      color: #ffffff;
+    }
+    .c1-s11-i1 {
+      background-color: rgba(182, 16, 110, .5);
+    }
+    .c1-s11-i2 {
+      background-color: rgba(78, 124, 32, .5);
+    }
+    .c1-s11-i3 {
+      background-color: rgba(9, 109, 149, .5);
+    }
+    .c1-s11-i4 {
+      background-color: rgba(68, 14, 98, .5);
+    }
+    .c11-slider-wrap {
+      height: 200%;
+      &:hover > .c1-s11-up {
+        margin-top: -211px;
+      }
+      .c1-s11-up,
+      .c1-s11-down {
+        height: 211px;
+      }
+      .c1-s11-up1 {
+        &:before {
+          background-position: -668px -136px;
+          width: 43px;
+          height: 41px;
+        }
+      }
+      .c1-s11-up2 {
+        &:before {
+          background-position: -668px -269px;
+          width: 36px;
+          height: 35px;
+        }
+      }
+      .c1-s11-up3 {
+        &:before {
+          background-position: -668px -226px;
+          width: 39px;
+          height: 35px;
+        }
+      }
+      .c1-s11-up4 {
+        &:before {
+          background-position: -668px -184px;
+          width: 39px;
+          height: 35px;
+        }
+      }
+      .c1-s11-up {
+        padding-top: 68px;
+        transition: all 0.3s ease;
+        &:before {
+          @extend .sprite;
+        }
+        h3 {
+          text-align: center;
+          @extend .med;
+          @extend .px16;
+          font-weight: 200;
+          letter-spacing: -.8px;
+          padding-top: 15px;
+        }
+      }
+      .c1-s11-down {
+        padding: 28px 0 0 50px;
+        h3 {
+          @extend .med;
+          @extend .px16;
+          font-weight: 200;
+          letter-spacing: -.8px;
+          margin-bottom: 15px;
+        }
+        p {
+          @extend .lig;
+          line-height: 18px;
+          margin-bottom: 23px;
+          letter-spacing: -.75px;
+        }
+        .c1-s11-btn {
+          @extend .btn;
+          width: 160px;
+          margin: 0 125px;
+          color: #ffffff;
+          border: 1px solid #ffffff;
+          &:hover {
+            background-color: #ffffff;
+            color: #000000;
+          }
+        }
+      }
+    }
+    .c1-s11-i2 .c11-slider-wrap .c1-s11-down p {
+      margin-bottom: 13px;
+    }
+  }
+}
+
+@mixin media_768_page-1_s5 {}
+
+@mixin media_480_page-1_s5 {}

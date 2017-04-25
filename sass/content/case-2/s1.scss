@@ -1,0 +1,127 @@
+.case1-s1 {
+  height: 768px;
+  text-align: center;
+  h2 {
+    margin: 98px auto 104px;
+  }
+  .c1-l-item {
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 85px;
+    &:before {
+      @extend .sprite;
+      margin-bottom: 16px;
+    }
+    h3 {
+      font-size: 1.143rem;
+      font-family: "GothamProMedium";
+      line-height: 41px;
+      font-weight: 300;
+      letter-spacing: -0.8px;
+    }
+    p {
+      font-family: "GothamProLight";
+      line-height: 18px;
+      color: #5b636e;
+    }
+  }
+  .c1-i-1:before {
+    background-position: -492px -333px;
+    width: 56px;
+    height: 54px;
+  }
+  .c1-i-2:before {
+    background-position: -492px -84px;
+    width: 57px;
+    height: 58px;
+  }
+  .c1-i-3:before {
+    background-position: -492px -271px;
+    width: 57px;
+    height: 55px;
+  }
+  .c1-i-4:before {
+    background-position: -492px -515px;
+    width: 56px;
+    height: 49px;
+  }
+  .c1-i-5:before {
+    background-position: -492px -395px;
+    width: 55px;
+    height: 53px;
+  }
+  .c1-i-6:before {
+    background-position: -668px -72px;
+    width: 34px;
+    height: 56px;
+  }
+}
+
+@mixin media_768_case_2_s1 {
+  .case1-s1 {
+    height: 539px;
+    h2 {
+      margin: 49px auto 41px;
+    }
+    .container {
+      width: 768px;
+    }
+    .c1-l-item {
+      width: 32.9%;
+      margin-bottom: 69px;
+      &:before {
+        margin-bottom: 8px;
+      }
+      h3 {
+        font-size: 1rem;
+        line-height: 39px;
+      }
+      p {
+        line-height: 16px;
+        font-size: 0.893rem;
+        letter-spacing: -.9px;
+      }
+    }
+  }
+}
+
+// @mixin media_480_page-1_s1 {
+//   .br_s1_it {
+//     display: none;
+//   }
+//   .s1 {
+//     height: 708px;
+//     &:after {
+//       content: '';
+//       position: absolute;
+//       left: 50%;
+//       margin-left: -13px;
+//       bottom: -24px;
+//       border: 13px solid transparent;
+//       border-top: 12px solid $s1-bg;
+//       z-index: 1;
+//     }
+//     .s1-list-item {
+//       float: none;
+//       width: 100%;
+//       padding: 0;
+//       margin-bottom: 60px;
+//       p {
+//         font-size: 1.43rem;
+//         line-height: 26px;
+//         letter-spacing: -0.3px;
+//         span {
+//           font-size: 1.64rem;
+//         }
+//       }
+//       p:first-of-type {
+//         margin-bottom: 18px;
+//       }
+//     }
+//   }
+//   .section-h2 {
+//     font-size: 2.14rem;
+//     line-height: 68px;
+//     letter-spacing: 2.8px;
+//   }
+// }

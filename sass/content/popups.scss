@@ -1,0 +1,226 @@
+.modal-tint {
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 30, 37, .95);
+  z-index: 100;
+  transition: all 0.2s linear;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-tint-wrapeer {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-tint-active {
+  transition: all 0.2s linear;
+  opacity: 1;
+  overflow: hidden;
+  visibility: visible;
+  overflow-y: visible;
+  overflow-y: scroll;
+}
+
+.popup1-active {
+  display: block;
+}
+
+.body-scroll-hide {
+  overflow: hidden;
+}
+
+.popup1-close-wrap {
+  position: absolute;
+  right: -17px;
+  top: -17px;
+  width: 38px;
+  height: 38px;
+}
+
+.popup1-close {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fa2247;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  transform: rotate(135deg);
+  transition: transform .5s ease;
+  cursor: pointer;
+  &:hover {
+    transform: rotate(315deg);
+  }
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+  }
+  &:before {
+    margin-top: -1px;
+    margin-left: -9px;
+    width: 18px;
+    height: 2px;
+  }
+  &:after {
+    margin-top: -9px;
+    margin-left: -1px;
+    width: 2px;
+    height: 18px;
+  }
+}
+
+.popup {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #7e7b87;
+  h3 {
+    @extend .bol;
+    @extend .px16;
+    line-height: 24px;
+    margin: 0 auto 25px;
+    color: #ffffff;
+  }
+  p {
+    @extend .px12;
+    line-height: 20px;
+    margin-bottom: 24px;
+  }
+  .popup-input {
+    display: block;
+    margin: 0 auto 19px;
+    padding-left: 36px;
+    width: 254px;
+    height: 47px;
+    background-color: #302c39;
+    border: 1px solid #7c7883;
+  }
+  .popup-inp-ico {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 254px;
+    &:after {
+      position: absolute;
+      @extend .sprite;
+      top: 50%;
+    }
+  }
+  .popup-inp-ico-name:after {
+    left: 13px;
+    margin-top: -7px;
+    background-position: -668px -428px;
+    width: 14px;
+    height: 14px;
+  }
+  .popup-inp-ico-mail:after {
+    left: 12px;
+    margin-top: -5px;
+    background-position: -668px -449px;
+    width: 14px;
+    height: 10px;
+  }
+  .popup-btn {
+    @extend .btn;
+    margin: 10px auto 40px;
+    width: 176px;
+    color: #fa2247;
+    border: 1px solid #fa2247;
+    &:hover {
+      background-color: #fa2247;
+      color: #ffffff;
+    }
+  }
+  .modal-close-dwn {
+    color: #96929e;
+    @extend .px13;
+    text-decoration: underline;
+  }
+}
+
+.popup1 {
+  position: relative;
+  display: block;
+  margin: 40px auto;
+  width: 824px;
+  background-color: #ffffff;
+  padding: 50px 58px 46px 42px;
+  .u1:after {
+    width: 41px;
+    bottom: -3px;
+  }
+  h3 {
+    @extend .bol;
+    @extend .px20;
+    line-height: 35px;
+    color: #000000;
+  }
+  p {
+    @extend .px16;
+    line-height: 27px;
+    color: #000000;
+    margin: 22px 0;
+  }
+  a {
+    color: #00baff;
+  }
+  ol {
+    list-style: none;
+    counter-reset: point;
+  }
+  li {
+    position: relative;
+    padding-left: 25px;
+    @extend .px16;
+    line-height: 27px;
+    margin: 22px 0;
+    color: #000000;
+    span {
+      @extend .bol;
+    }
+  }
+  li:before {
+    content: counter(point);
+    counter-increment: point 1;
+    @extend .px16;
+    line-height: 21px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    background: #00baff;
+    padding: 1px 0;
+    width: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.calc,
+.calc1,
+.call,
+.compl,
+.details,
+.download-file,
+.politics,
+.respon,
+.statem,
+.subsc {
+  display: none;
+}
+
+@mixin media_768_page-1_s5 {}
+
+@mixin media_480_page-1_s5 {}

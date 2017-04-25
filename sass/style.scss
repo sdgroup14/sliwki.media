@@ -1,0 +1,305 @@
+@import "libs/blank";
+@import "libs/elements";
+
+/*
+================================================================================
+|                                     reset                                     |
+================================================================================
+*/
+
+@import "libs/reset";
+
+/*
+================================================================================
+|                                     Fonts                                    |
+================================================================================
+*/
+
+@import "libs/fonts";
+
+/*
+================================================================================
+|                                     Start rools                              |
+================================================================================
+*/
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+body {
+  font-family: "GothamProRegular", sans-serif;
+  color: $base-txt;
+}
+
+section {
+  width: 100%;
+  min-width: 1024px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-up {
+  display: block;
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  margin-left: -504px;
+  background: url('../img/sprite.png') no-repeat -165px -173px;
+  width: 36px;
+  height: 37px;
+  z-index: 9999;
+  cursor: pointer;
+  &:hover {
+    background: url('../img/sprite.png') no-repeat -264px -173px;
+  }
+}
+
+.prev-project,
+.next-project {
+  display: block;
+  position: fixed;
+  width: 17px;
+  height: 32px;
+  font-family: "GothamProBold", sans-serif;
+  top: 50%;
+  margin-top: -16px;
+  z-index: 9999;
+  &:hover {
+    width: 140px;
+    height: 30px;
+  }
+}
+
+.prev-project {
+  left: 50%;
+  margin-left: -504px;
+  background: url('../img/sprite.png') no-repeat -25px -178px;
+  a {
+    position: relative;
+    display: block;
+  }
+  &:hover {
+    margin-left: -488px;
+    &:before {
+      right: 100%;
+      top: 0px;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      border-color: rgba(6, 172, 235, 0);
+      border-right-color: $base-col;
+      border-width: 15px;
+      z-index: 555;
+    }
+    &:after {
+      content: 'Предыдущий проект';
+      line-height: 30px;
+      font-size: 0.85rem;
+      padding-left: 3px;
+    }
+    display: block;
+    color: #ffffff;
+    background: url('') no-repeat -13px -255px;
+    background-color:$base-col;
+    cursor: pointer;
+  }
+}
+
+.next-project {
+  right: 50%;
+  margin-right: -504px;
+  background: url('../img/sprite.png') no-repeat -93px -178px;
+  a {
+    position: relative;
+    display: block;
+  }
+  &:hover {
+    margin-right: -488px;
+    &:before {
+      left: 100%;
+      top: 0px;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      border-color: rgba(6, 172, 235, 0);
+      border-left-color: $base-col;
+      border-width: 15px;
+      z-index: 555;
+    }
+    &:after {
+      content: 'Следующий проект';
+      line-height: 30px;
+      font-size: 0.85rem;
+      padding-left: 7px;
+
+    }
+    display: block;
+    color: #ffffff;
+    background: url('') no-repeat -13px -255px;
+    background-color:$base-col;
+    cursor: pointer;
+  }
+}
+
+.line {
+  display: block;
+  width: 51px;
+  height: 1px;
+  margin-bottom: 96px;
+  background-color: $style-col;
+}
+
+.u1 {
+  position: relative;
+  &:after {
+    @extend .underline;
+    left: 0;
+    bottom: -11px;
+  }
+}
+
+
+
+@import "content/case-1/header";
+@import "content/case-1/s1";
+@import "content/case-1/s2";
+@import "content/case-1/s3";
+@import "content/case-1/s4";
+@import "content/case-1/s5";
+@import "content/case-awake";
+@import "content/social-1";
+@import "content/footer-1";
+@import "content/popup";
+
+@import "content/case-2/header";
+@import "content/case-2/s1";
+@import "content/case-2/s2";
+@import "content/case-2/s3";
+@import "content/case-2/s4";
+@import "content/case-2/s5";
+@import "content/case-2/s6";
+@import "content/case-2/s7";
+@import "content/case-2/s8";
+@import "content/case-2/s9";
+@import "content/case-2/s10";
+@import "content/case-2/s11";
+@import "content/case-2/s12";
+@import "content/case-2/footer-2";
+
+
+@import "content/popups";
+@import "content/mobile-menu";
+
+
+@media screen and (max-width: 1024px) {
+  section {
+    min-width: 768px;
+  }
+  .container {
+    width: 718px;
+  }
+  .slide-up {
+    margin-left: -362px;
+  }
+  .prev-project {
+    &:hover {
+      margin-left: -346px;
+    }
+    margin-left: -362px;
+  }
+  .next-project {
+    &:hover {
+      margin-right: -346px;
+    }
+    margin-right: -362px;
+  }
+
+  .section-h2 {
+  font-size: 1.429rem;
+  // line-height: 34px;
+  letter-spacing: 3.8px;
+}
+
+.u1 {
+  &:after {
+    bottom: -7px;
+  }
+}
+
+.btn-768 {
+   line-height: 36px;
+   font-size: 0.857rem;
+   width: 158px;   
+}
+
+  // @include media_768_page-1_header;
+  // @include media_768_page-1_s1;
+  // @include media_768_page-1_s2;
+  // @include media_768_page-1_s3;
+  // @include media_768_page-1_s5;
+  // @include media_768_footer-1;
+  // @include media_768_popup;
+
+  @include media_768_case_2_header;
+  @include media_768_case_2_s1;
+  @include media_768_case_2_s2;
+  @include media_768_case_2_s3;
+  @include media_768_case_2_s4;
+  @include media_768_case_2_s5;
+  @include media_768_case_2_s6;
+  @include media_768_case_2_s7;
+  @include media_768_case_2_s8;
+  @include media_768_case_2_s9;
+}
+
+@media screen and (max-width: 767px) {
+  // section {
+  //   min-width: 480px;
+  // }
+  // .container {
+  //   // max-width: 432px;
+  // }
+  // .slide-up {
+  //   margin-left: -218px;
+  // }
+  // .prev-project {
+  //   &:hover {
+  //     margin-left: -202px;
+  //   }
+  //   margin-left: -218px;
+  // }
+  // .next-project {
+  //   &:hover {
+  //     margin-right: -202px;
+  //   }
+  //   margin-right: -218px;
+  // }
+  // @include media_480_page-1_header;
+  // @include media_480_page-1_s1;
+  // @include media_480_page-1_s2;
+  // @include media_480_page-1_s3;
+  // @include media_480_page-1_s5;
+  // @include media_480_case-awake;
+  // @include media_480_social-1;
+  //@include media_480_footer-1;
+  // @include media_480_popup;
+}

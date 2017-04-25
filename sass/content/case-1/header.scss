@@ -1,0 +1,151 @@
+.header-section {
+  height: 707px;
+  background-color: $header-bg;
+  overflow: hidden;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 887px;
+    height: 486px;
+    margin-left: -181px;
+    top: 26%;
+    z-index: 1;
+    left: 50%;
+    background: url('../img/header-bg.png') no-repeat 50% 50%;
+  }
+  .container {
+    position: relative;
+    padding: 0 8px;
+    .logo {
+      width: 106px;
+      height: 52px;
+      margin: 60px auto 74px;
+    }
+    h1 {
+      margin-bottom: 65px;
+      font-size: 1.78rem;
+      line-height: 40px;
+      font-family: "GothamProBold", sans-serif;
+      font-weight: 400;
+    }
+    .header-price {
+      font-size: 1.14rem;
+      line-height: 30px;
+      span {
+        font-size: 1.6rem;
+        margin-left: 15px;
+      }
+    }
+  }
+  .header-arrow {
+    position: absolute;
+    left: 50%;
+    margin-left: -14px;
+    bottom: 42px;
+    span {
+      display: block;
+      background: url('../img/sprite.png') no-repeat -25px -25px;
+      width: 28px;
+      height: 28px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@mixin media_768_page-1_header {
+  .header-section {
+    height: 487px;
+    &:after {
+      width: 580px;
+      height: 330px;
+      margin-left: -75px;
+      top: 30%;
+      background: url('../img/header-bg.png') no-repeat 0 0;
+      background-size: 560px;
+    }
+    .container {
+      padding: 0;
+      .line {
+        margin-bottom: 39px;
+      }
+      .logo {
+        width: 82px;
+        height: 40px;
+        margin: 42px auto 63px;
+      }
+      h1 {
+        margin-bottom: 43px;
+        font-size: 1.42rem;
+        line-height: 33px;
+      }
+      .header-price {
+        font-size: 1rem;
+        line-height: 26px;
+        span {
+          font-size: 1.42rem;
+          margin-left: 12px;
+        }
+      }
+    }
+    .header-arrow {
+      margin-left: -11.5px;
+      bottom: 20px;
+      span {
+        transform: scale(0.84);
+      }
+    }
+  }
+}
+
+@mixin media_480_page-1_header {
+  .header-section {
+    height: 827px;
+    &:after {
+      width: 480px;
+      height: 290px;
+      margin-left: -215px;
+      top: 58%;
+      background: url('../img/header-bg.png') no-repeat 0 0;
+      background-size: 525px;
+    }
+    .container {
+      padding: 0;
+      .line {
+        width: 42px;
+        margin: 0 auto 28px auto;
+      }
+      .logo {
+        width: 147px;
+        height: 72px;
+        margin: 46px auto 45px;
+        img {
+          width: 100%;
+        }
+      }
+      h1 {
+        margin-bottom: 43px;
+        font-size: 2rem;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1.8px;
+      }
+      .br-h {}
+      .header-price {
+        margin-left: 76px;
+        font-size: 1.26rem;
+        line-height: 38px;
+        span {
+          font-size: 2.03rem;
+          margin-left: 14px;
+        }
+      }
+    }
+    .header-arrow {
+      margin-left: -15px;
+      bottom: 25px;
+      span {
+        transform: scale(1.071);
+      }
+    }
+  }
+}
