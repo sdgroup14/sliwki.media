@@ -121,6 +121,9 @@ var swiper = new Swiper('.swiper-container', {
         breakpoints: {
       1023: {
           spaceBetween: 0
+      },
+      767: {
+          spaceBetween: 8
       }
   }
     });
@@ -132,6 +135,9 @@ var swiper = new Swiper('.swiper-container', {
         breakpoints: {
       1023: {
           spaceBetween: 0
+      },
+      767: {
+          spaceBetween: 8
       }
   }
     });
