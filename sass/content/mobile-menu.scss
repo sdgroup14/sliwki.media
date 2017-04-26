@@ -1,5 +1,6 @@
 .mobile-menu {
   display: none;
+  padding: 93px 0 25px;
   .mobile-menu-logo {
     @extend .logo-white;
     top: 34px;
@@ -75,5 +76,23 @@
   }
   .mob-s-be:after {
     @extend .c1-s12-s-be:after;
+  }
+}
+
+@mixin media_768_case_2_mobile-menu {
+  .mobile-menu {
+    width: 718px;
+    padding: 81px 0 25px;
+    .mobile-menu-logo {
+      top: 22px;
+    }
+    .mobile-menu-closee-wrap {
+      margin-left: -351px;
+      top: 22px;
+    }
+    .mob-list-item {
+      font-size: 1.143rem;
+      line-height: 30px;
+    }
   }
 }

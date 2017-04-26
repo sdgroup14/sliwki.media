@@ -2975,7 +2975,7 @@ ul {
   background-size: 22px 14px; }
 
 .case1-footer {
-  height: 313px;
+  height: 325px;
   background-color: #313131;
   text-align: center;
   color: #868484; }
@@ -3198,7 +3198,8 @@ ul {
   display: none; }
 
 .mobile-menu {
-  display: none; }
+  display: none;
+  padding: 93px 0 25px; }
   .mobile-menu .mobile-menu-logo {
     top: 34px; }
   .mobile-menu .mobile-menu-closee-wrap {
@@ -3607,6 +3608,17 @@ ul {
   .case1-footer .c1-f-sub {
     letter-spacing: -.8px; }
   .case1-footer .c1-f-btn {
-    margin: 0 auto 34px; } }
+    margin: 0 auto 34px; }
+  .mobile-menu {
+    width: 718px;
+    padding: 81px 0 25px; }
+    .mobile-menu .mobile-menu-logo {
+      top: 22px; }
+    .mobile-menu .mobile-menu-closee-wrap {
+      margin-left: -351px;
+      top: 22px; }
+    .mobile-menu .mob-list-item {
+      font-size: 1.143rem;
+      line-height: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
