@@ -3266,7 +3266,7 @@ ul {
     letter-spacing: 3.8px; }
   .u1:after {
     bottom: -7px; }
-  .btn-768, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn {
+  .btn-768, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn {
     line-height: 36px;
     font-size: 0.857rem;
     width: 158px; }
@@ -3288,6 +3288,8 @@ ul {
         .header-section-case1 .container .menu-button:before, .header-section-case1 .container .menu-button:after,
         .header-section-case1 .container .menu-button div {
           width: 24.5px; }
+      .header-section-case1 .container .b-contact {
+        padding-top: 2px; }
       .header-section-case1 .container .b-contact-item {
         font-size: 0.714rem; }
       .header-section-case1 .container .phone {
@@ -3576,6 +3578,28 @@ ul {
       .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn {
         margin: 0 68px; }
     .case1-s11 .c1-s11-i4 .c11-slider-wrap .c1-s11-down p {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; }
+  .case1-s12 {
+    height: 542px; }
+    .case1-s12 .c1-s12-map {
+      height: 542px;
+      width: 62%; }
+    .case1-s12 .c1-s12-contacts {
+      padding-left: 14px; }
+    .case1-s12 .c1-s12-ofice {
+      margin-bottom: 20px; }
+    .case1-s12 .c1-s12-contact {
+      margin-bottom: 22px; }
+    .case1-s12 h2 {
+      margin: 39px auto 25px; }
+    .case1-s12 .c1-s12-text {
+      padding-left: 26px;
+      letter-spacing: -.7px; }
+    .case1-s12 .c1-s12-btn {
+      margin: 10px 0 21px; }
+  ul {
+    margin-top: 14px; }
+  .c1-s12-social-item:first-of-type, .mobile-menu .mob-social-item:first-of-type {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */
