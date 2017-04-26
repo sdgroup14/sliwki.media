@@ -576,7 +576,7 @@
     </div>
   </div>
 </section>
-<!-- <section class="case1-footer">
+<section class="case1-footer">
   <div class="container">
     <h2>Остались вопросы?</h2>
     <p class="c1-f-sub">Задайте их нашему специалисту</p>
@@ -588,7 +588,7 @@
       <li><a href="" class="c1-f-link c1-f-renoun">Отказ от ответственности</a></li>
     </ul>
   </div>
-</section> -->
+</section>
 
 
 
