@@ -542,53 +542,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s12">
-  <div class="container clearfix">
-    <div class="c1-s12-contacts">
-      <h2 class="section-h2"><span class="u1">Наш</span>и контакты</h2>
-      <div class="c1-s12-ofice">
-        <p class="c1-s12-head">Наш офис</p>
-        <p class="c1-s12-text c1-s12-place">г. Ивано-Франковск, Украина<br>ул. Грешевского, 22А</p>
-      </div>
-      <div class="c1-s12-contact">
-        <p class="c1-s12-head">Как с нами связаться</p>
-        <p class="c1-s12-text c1-s12-phone">+38 066 631 36 41 (Украина)<br>+7 495 133 92 19 (Россия)</p>
-        <p class="c1-s12-text c1-s12-mail">info@slivkimedia.com</p>
-      </div>
-      <div class="c1-s12-disp">
-        <p class="c1-s12-head">E-mail рассылка</p>
-        <p class="c1-s12-text">Опыт, идеи, новости</p>
-        <a href="" class="c1-s12-btn">Подписаться</a>
-      </div>
-      <div class="c1-s12-join">
-        <p class="c1-s12-head">Присоединяйтесь к нам:</p>
-        <ul>
-          <li class="c1-s12-social-item c1-s12-s-inst"></li>
-          <li class="c1-s12-social-item c1-s12-s-fb"></li>
-          <li class="c1-s12-social-item c1-s12-s-vk"></li>
-          <li class="c1-s12-social-item c1-s12-s-yt"></li>
-          <li class="c1-s12-social-item c1-s12-s-be"></li>
-        </ul>
-      </div>
-    </div>
-    <div  class="c1-s12-map">
-      <div id="map"></div>
-    </div>
-  </div>
-</section>
-<section class="case1-footer">
-  <div class="container">
-    <h2>Остались вопросы?</h2>
-    <p class="c1-f-sub">Задайте их нашему специалисту</p>
-    <a href="" class="c1-f-btn">Заказать звонок</a>
-    <p class="c1-f-copy">Все права защищены. © 2015 — 2017 ООО «Сливки Медиа»<br>Любое копирование материалов разрешено только с согласия правообладателей</p>
-    <ul>
-      <li><a href="" class="c1-f-link c1-f-polit">Политика конфиденциальности</a></li>
-      <li><a href="" class="c1-f-link c1-f-compl">Согласие с рассылкой</a></li>
-      <li><a href="" class="c1-f-link c1-f-renoun">Отказ от ответственности</a></li>
-    </ul>
-  </div>
-</section>
+
 
 
 

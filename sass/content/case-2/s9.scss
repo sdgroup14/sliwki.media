@@ -69,8 +69,9 @@
 
 @mixin media_768_case_2_s9 {
   .case1-s9 {
+    min-height: 720px;
     h2 {
-      margin: 42px auto 39px
+      margin: 42px auto 39px;
     }
     .container {
       width: 768px;
