@@ -552,6 +552,9 @@ section {
     left: 0;
     bottom: -11px; }
 
+.c2-br2-1024 {
+  display: none; }
+
 .header-section {
   height: 707px;
   background-color: #f4f7fc;
@@ -3263,10 +3266,14 @@ ul {
     letter-spacing: 3.8px; }
   .u1:after {
     bottom: -7px; }
-  .btn-768, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt {
+  .btn-768, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn {
     line-height: 36px;
     font-size: 0.857rem;
     width: 158px; }
+  .c2-br1-1024 {
+    display: none; }
+  .c2-br2-1024 {
+    display: block; }
   .logo-white, .mobile-menu .mobile-menu-logo {
     width: 85px;
     margin-left: -42.5px; }
@@ -3530,8 +3537,7 @@ ul {
     .case1-s9 .c1-s9-list {
       padding-left: 61px; }
   .case1-s10 {
-    height: 592px;
-    height: 554px; }
+    height: 592px; }
     .case1-s10 .container {
       padding-top: 64px; }
     .case1-s10 h2 {
@@ -3547,6 +3553,29 @@ ul {
         font-size: 1.286rem;
         margin-bottom: 34px; }
       .case1-s10 .case1-s10-l .case1-s10-sbmt {
-        margin: 13px 0; } }
+        margin: 13px 0; }
+  .case1-s11 {
+    height: 694px; }
+    .case1-s11 h2 {
+      margin: 0 auto 38px;
+      padding-top: 61px; }
+    .case1-s11 .container .c1-s11-item {
+      height: 246px; }
+    .case1-s11 .container .c11-slider-wrap:hover > .c1-s11-up {
+      margin-top: -246px; }
+    .case1-s11 .container .c11-slider-wrap .c1-s11-up,
+    .case1-s11 .container .c11-slider-wrap .c1-s11-down {
+      height: 246px; }
+    .case1-s11 .container .c11-slider-wrap .c1-s11-up {
+      padding-top: 93px; }
+    .case1-s11 .container .c11-slider-wrap .c1-s11-down {
+      padding: 26px 0 0 28px; }
+      .case1-s11 .container .c11-slider-wrap .c1-s11-down p {
+        font-size: 0.929rem;
+        margin-bottom: 48px; }
+      .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn {
+        margin: 0 68px; }
+    .case1-s11 .c1-s11-i4 .c11-slider-wrap .c1-s11-down p {
+      margin-bottom: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

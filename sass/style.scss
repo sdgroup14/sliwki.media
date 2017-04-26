@@ -176,7 +176,9 @@ section {
     bottom: -11px;
   }
 }
-
+.c2-br2-1024 {
+  display:none;
+}
 
 
 @import "content/case-1/header";
@@ -251,6 +253,9 @@ section {
    width: 158px;   
 }
 
+.c2-br1-1024 { display: none; }
+.c2-br2-1024 { display: block; }
+
   // @include media_768_page-1_header;
   // @include media_768_page-1_s1;
   // @include media_768_page-1_s2;
@@ -270,6 +275,7 @@ section {
   @include media_768_case_2_s8;
   @include media_768_case_2_s9;
   @include media_768_case_2_s10;
+  @include media_768_case_2_s11;
 }
 
 @media screen and (max-width: 767px) {
