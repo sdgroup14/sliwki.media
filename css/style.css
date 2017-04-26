@@ -3267,7 +3267,7 @@ ul {
     letter-spacing: 3.8px; }
   .u1:after {
     bottom: -7px; }
-  .btn-768, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn {
+  .btn-768, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .popup .popup-btn {
     line-height: 36px;
     font-size: 0.857rem;
     width: 158px; }
@@ -3609,13 +3609,19 @@ ul {
     letter-spacing: -.8px; }
   .case1-footer .c1-f-btn {
     margin: 0 auto 34px; }
+  .popup p {
+    font-size: 12px; }
+  .popup .popup-btn {
+    margin-top: 30px; }
+  .popup1 {
+    width: 680px; }
   .mobile-menu {
     width: 718px;
     padding: 81px 0 25px; }
     .mobile-menu .mobile-menu-logo {
       top: 22px; }
     .mobile-menu .mobile-menu-closee-wrap {
-      margin-left: -351px;
+      margin-left: -359px;
       top: 22px; }
     .mobile-menu .mob-list-item {
       font-size: 1.143rem;
