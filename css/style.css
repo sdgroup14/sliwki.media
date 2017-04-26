@@ -555,6 +555,9 @@ section {
 .c2-br2-1024 {
   display: none; }
 
+.c2-br2-768 {
+  display: none; }
+
 .header-section {
   height: 707px;
   background-color: #f4f7fc;
@@ -1595,7 +1598,8 @@ footer .wrap a:hover {
   position: absolute;
   left: 50%;
   top: 0;
-  margin-left: -60.05px; }
+  margin-left: -60.05px;
+  width: 121px; }
 
 .header-section-case1 {
   height: 735px;
@@ -3247,7 +3251,7 @@ ul {
   .mobile-menu .mob-s-fb:after {
     height: 19px; }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   section {
     min-width: 768px; }
   .container {
@@ -3626,5 +3630,83 @@ ul {
     .mobile-menu .mob-list-item {
       font-size: 1.143rem;
       line-height: 30px; } }
+
+@media screen and (max-width: 767px) {
+  section {
+    min-width: 480px; }
+  .container {
+    width: 432px; }
+  .btn-480, .header-section-case1 .container .header-content .content-btn {
+    line-height: 66px;
+    font-size: 1.357rem;
+    width: 346px;
+    border-radius: 40px;
+    letter-spacing: -.7px; }
+  .c2-br2-768 {
+    display: block; }
+  .c2-br1-768 {
+    display: none; }
+  .swiper-pagination {
+    display: block; }
+  .swiper-pagination-bullet {
+    background-color: #ffffff;
+    opacity: 0.5; }
+  .swiper-pagination-bullet-active {
+    opacity: 1; }
+  .logo-white, .mobile-menu .mobile-menu-logo {
+    width: 145px;
+    margin-left: -72.5px;
+    top: 106px; }
+  .header-section-case1 {
+    height: 830px; }
+    .header-section-case1 .swiper-pagination {
+      display: block; }
+    .header-section-case1 .swiper-pagination-bullet {
+      background-color: #ffffff;
+      opacity: 0.5; }
+    .header-section-case1 .swiper-pagination-bullet-active {
+      opacity: 1; }
+    .header-section-case1 .video {
+      min-height: 830px; }
+    .header-section-case1 .container {
+      margin-top: 32px; }
+      .header-section-case1 .container .menu-button {
+        height: 30px;
+        width: 55px; }
+        .header-section-case1 .container .menu-button:before, .header-section-case1 .container .menu-button:after,
+        .header-section-case1 .container .menu-button div {
+          width: 54.5px; }
+        .header-section-case1 .container .menu-button div {
+          margin: 7px 0; }
+        .header-section-case1 .container .menu-button:hover div {
+          margin: 9px 0; }
+      .header-section-case1 .container .b-contact {
+        padding-top: 0px;
+        margin-top: -4px; }
+      .header-section-case1 .container .b-contact-item {
+        font-size: 1.024rem; }
+      .header-section-case1 .container .phone {
+        font-size: 1.286rem; }
+      .header-section-case1 .container .phone:nth-child(2) {
+        margin-bottom: 6px; }
+      .header-section-case1 .container .header-content {
+        margin: 206px 0 0 0; }
+        .header-section-case1 .container .header-content h1 {
+          margin-bottom: 48px;
+          font-size: 2.143rem;
+          line-height: 36px; }
+        .header-section-case1 .container .header-content p {
+          margin-bottom: 68px;
+          font-size: 1.429rem;
+          line-height: 30px; }
+    .header-section-case1 .header-footer {
+      height: 96px; }
+      .header-section-case1 .header-footer .footer-wrapper {
+        width: 430px;
+        transform: scale(1.15); }
+      .header-section-case1 .header-footer .swiper-slide:after {
+        transform: scale(1); }
+      .header-section-case1 .header-footer .swiper-wrapper {
+        height: 96px; } }
 
 /*# sourceMappingURL=style.css.map */

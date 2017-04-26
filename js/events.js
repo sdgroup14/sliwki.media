@@ -29,8 +29,8 @@ $(function() {
  function ScreenView() {
     var mvp = document.getElementById('view');
     if( screen.width < 767) {$('#view').attr('content', 'width=480'); } 
-    if ( screen.width >= 768) { $('#view').attr('content', 'width=768'); }
-    if ( screen.width >= 1024) { $('#view').attr('content', ''); }
+    if ( screen.width >= 768) { $('#view').attr('content', 'width=1024'); }
+    if ( screen.width >= 1024) { $('#view').attr('content', 'width=device-width'); }
 }
 
   $().ready(function() {
@@ -103,15 +103,15 @@ var swiper = new Swiper('.swiper-container', {
   pagination: '.swiper-pagination',
   simulateTouch: false,
   slidesPerView: 2,
-  spaceBetween: 0
-  // breakpoints: {
-  //     1024: {
-  //         slidesPerView: 2,
-  //         spaceBetween: 0,
-  //         simulateTouch: true,
-  //         paginationClickable: true
-  //     }
-  // }
+  spaceBetween: 0,
+  breakpoints: {
+      767: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          simulateTouch: true,
+          paginationClickable: true
+      }
+  }
 });
 
   var swiper1 = new Swiper('.swiper-container1', {
@@ -119,7 +119,7 @@ var swiper = new Swiper('.swiper-container', {
         slidesPerView: 5,
         spaceBetween: 25,
         breakpoints: {
-      1024: {
+      1023: {
           spaceBetween: 0
       }
   }
@@ -130,7 +130,7 @@ var swiper = new Swiper('.swiper-container', {
         slidesPerView: 5,
         spaceBetween: 30,
         breakpoints: {
-      1024: {
+      1023: {
           spaceBetween: 0
       }
   }

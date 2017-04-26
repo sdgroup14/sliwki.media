@@ -180,6 +180,10 @@ section {
   display:none;
 }
 
+.c2-br2-768 {
+  display:none;
+}
+
 
 @import "content/case-1/header";
 @import "content/case-1/s1";
@@ -212,7 +216,7 @@ section {
 @import "content/mobile-menu";
 
 
-@media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1024px) and (min-width: 768px) {
   section {
     min-width: 768px;
   }
@@ -237,7 +241,6 @@ section {
 
   .section-h2 {
   font-size: 1.429rem;
-  // line-height: 34px;
   letter-spacing: 3.8px;
 }
 
@@ -279,13 +282,19 @@ section {
   @include media_768_case_2_s12;
   @include media_768_case_2_footer-2;
 
-
-
   @include media_768_page-popups;
   @include media_768_case_2_mobile-menu;
 }
 
 @media screen and (max-width: 767px) {
+    
+     section {
+    min-width: 480px;
+  }
+  .container {
+    width: 432px;
+  }
+
   // section {
   //   min-width: 480px;
   // }
@@ -307,6 +316,26 @@ section {
   //   }
   //   margin-right: -218px;
   // }
+
+  .btn-480 {
+   line-height: 66px;
+   font-size: 1.357rem;
+   width: 346px;  
+   border-radius: 40px;
+       letter-spacing: -.7px; 
+}
+
+  .c2-br2-768 {
+  display:block;
+}
+
+.c2-br1-768 {
+  display:none;
+}
+
+.swiper-pagination { display: block; }
+        .swiper-pagination-bullet { background-color: #ffffff; opacity: 0.5; }
+        .swiper-pagination-bullet-active {  opacity: 1; }
   // @include media_480_page-1_header;
   // @include media_480_page-1_s1;
   // @include media_480_page-1_s2;
@@ -316,4 +345,24 @@ section {
   // @include media_480_social-1;
   //@include media_480_footer-1;
   // @include media_480_popup;
+
+
+  @include media_480_case_2_header;
+  // @include media_480_case_2_s1;
+  // @include media_480_case_2_s2;
+  // @include media_480_case_2_s3;
+  // @include media_480_case_2_s4;
+  // @include media_480_case_2_s5;
+  // @include media_480_case_2_s6;
+  // @include media_480_case_2_s7;
+  // @include media_480_case_2_s8;
+  // @include media_480_case_2_s9;
+  // @include media_480_case_2_s10;
+  // @include media_480_case_2_s11;
+  // @include media_480_case_2_s12;
+  // @include media_480_case_2_footer-2;
+
+  // @include media_480_page-popups;
+  // @include media_480_case_2_mobile-menu;
+
 }
