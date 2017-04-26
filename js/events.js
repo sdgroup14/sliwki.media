@@ -143,6 +143,50 @@ var swiper = new Swiper('.swiper-container', {
     });
 
 
+  var swiper3 = new Swiper('.swiper-container3', {
+  pagination: '.swiper-pagination',
+  simulateTouch: false,
+  slidesPerView: 3,
+  spaceBetween: 0,
+  breakpoints: {
+      767: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          centeredSlides: true,
+          simulateTouch: true,
+          paginationClickable: true
+      }
+  }
+});
+
+var swiper4 = new Swiper('.swiper-container4', {
+  pagination: '.swiper-pagination',
+  simulateTouch: false,
+  slidesPerView: 3,
+  spaceBetween: 0,
+  breakpoints: {
+      767: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          centeredSlides: true,
+          simulateTouch: true,
+          paginationClickable: true
+      }
+  }
+});
+
+
+
+    // var swiper = new Swiper('.swiper-container', {
+    //     pagination: '.swiper-pagination',
+    //     slidesPerView: 4,
+    //     centeredSlides: true,
+    //     paginationClickable: true,
+    //     spaceBetween: 30
+    // });
+    
+
+
 $('.c1-l2-i1, .c1-l2-i2').on('mouseenter',function(){
   $('.c1-l1-center1').css('color', '#00aeef');
 });

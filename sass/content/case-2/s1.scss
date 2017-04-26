@@ -87,7 +87,7 @@
 
 @mixin media_480_case_2_s1 {
   .case1-s1 {
-    height:1648px;
+    height: 1850px;
     h2 {
       margin: 39px auto 81px;
     }
@@ -96,17 +96,17 @@
       float: none;
       &:before {
         margin-bottom: 26px;
-            transform: scale(1.3);
+        transform: scale(1.3);
       }
       h3 {
         font-size: 1.857rem;
         line-height: 54px;
-        letter-spacing:-1px;
+        letter-spacing: -1px;
       }
       p {
         line-height: 28.65px;
         font-size: 1.591rem;
-            letter-spacing: -.6px;
+        letter-spacing: -.6px;
       }
     }
   }

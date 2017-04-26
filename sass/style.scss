@@ -184,6 +184,18 @@ section {
   display:none;
 }
 
+.hide {
+  &:after{
+    display:inline;
+  }
+}
+
+.show {
+  &:after{
+    display:none;
+  }
+}
+
 
 @import "content/case-1/header";
 @import "content/case-1/s1";
@@ -298,11 +310,24 @@ section {
     .section-h2 {
   font-size: 2.143rem;
   letter-spacing: 2.8px;
+  line-height: 39px;
 }
 
 .u1 {
   &:after {
     width: 54px;
+  }
+}
+
+.hide {
+  &:after{
+    display:none;
+  }
+}
+
+.show {
+  &:after{
+    display:inline;
   }
 }
 
@@ -352,6 +377,7 @@ section {
 
   @include media_480_case_2_header;
   @include media_480_case_2_s1;
+  @include media_480_case_2_s2;
   // @include media_480_case_2_s2;
   // @include media_480_case_2_s3;
   // @include media_480_case_2_s4;
