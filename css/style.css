@@ -329,7 +329,8 @@ input, textarea {
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-repeat: no-repeat; }
 
 *:after, *:before {
   box-sizing: border-box; }
@@ -3666,7 +3667,7 @@ ul {
     display: none; }
   .show:after {
     display: inline; }
-  .btn-480, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt {
+  .btn-480, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt {
     line-height: 66px;
     font-size: 1.357rem;
     width: 346px;
@@ -3882,7 +3883,7 @@ ul {
       margin: 26px auto 49px; }
     .case1-s3 .case1-s3-l:after {
       width: 485px;
-      height: 325px;
+      height: 315px;
       right: -31px;
       top: 115px;
       transform: scale(0.9);
@@ -3902,7 +3903,7 @@ ul {
       .case1-s3 .case1-s3-l .case1-s3-inp {
         width: 100%;
         height: 62px;
-        margin-bottom: 31px;
+        margin-bottom: 35px;
         padding-left: 67px;
         font-size: 1.379rem; }
       .case1-s3 .case1-s3-l .case1-s3-sbmt {
@@ -3922,6 +3923,43 @@ ul {
     .case1-s3 :-ms-input-placeholder {
       color: #a9a6b0;
       font-size: 1.379rem;
-      letter-spacing: 1px; } }
+      letter-spacing: 1px; }
+  .case1-s4 {
+    height: 2801px; }
+    .case1-s4 h2 {
+      margin: 46px auto 59px; }
+    .case1-s4 .container {
+      width: 432px; }
+    .case1-s4 .c1-s4-item {
+      width: 100%;
+      float: none;
+      height: 428px;
+      background-size: 432px 428px;
+      background-position: 50% 50%; }
+    .case1-s4 .c1-s4-i6 h3 {
+      padding-top: 30px;
+      font-size: 2.037rem;
+      line-height: 35.65px;
+      margin: 0 auto 7px; }
+    .case1-s4 .c1-s4-i6 .s4-sub-h3 {
+      line-height: 19.14px;
+      font-size: 1.286rem;
+      margin-bottom: 23px;
+      letter-spacing: 0; }
+    .case1-s4 .c1-s4-i6 .s4-sub-promo {
+      font-size: 1.429rem;
+      margin-bottom: 15px; }
+    .case1-s4 .c1-s4-i6 .c1-s4-inp {
+      width: 85%;
+      height: 45px; }
+    .case1-s4 .c1-s4-i6 .c1-s4-sbmt {
+      margin: 25px auto 0; }
+    .case1-s4 .s4-manifestation h3 {
+      padding: 181px 0 121px;
+      font-size: 1.531rem;
+      line-height: 27.55px; }
+    .case1-s4 .s4-manifestation a {
+      font-size: 1.429rem;
+      line-height: 27.55px; } }
 
 /*# sourceMappingURL=style.css.map */

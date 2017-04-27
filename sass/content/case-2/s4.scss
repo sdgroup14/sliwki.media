@@ -212,3 +212,60 @@
     }
   }
 }
+
+@mixin media_480_case_2_s4 {
+  .case1-s4 {
+    height: 2801px;
+    h2 {
+      margin: 46px auto 59px;
+    }
+    .container {
+      width: 432px;
+    }
+    .c1-s4-item {
+      width: 100%;
+      float: none;
+      height: 428px;
+      background-size: 432px 428px;
+      background-position: 50% 50%;
+    }
+    .c1-s4-i6 {
+      h3 {
+        padding-top: 30px;
+        font-size: 2.037rem;
+        line-height: 35.65px;
+        margin: 0 auto 7px;
+      }
+      .s4-sub-h3 {
+        line-height: 19.14px;
+        font-size: 1.286rem;
+        margin-bottom: 23px;
+        letter-spacing: 0;
+      }
+      .s4-sub-promo {
+        font-size: 1.429rem;
+        margin-bottom: 15px;
+      }
+      .c1-s4-inp {
+        width: 85%;
+        height: 45px;
+      }
+      .c1-s4-sbmt {
+        margin: 25px auto 0;
+        @extend .btn-480;
+      }
+    }
+    .s4-manifestation {
+      h3 {
+        padding: 181px 0 121px;
+        font-size: 1.531rem;
+        line-height: 27.55px;
+      }
+      a {
+        font-size: 1.429rem;
+        line-height: 27.55px;
+        &:after {}
+      }
+    }
+  }
+}

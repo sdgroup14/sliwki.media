@@ -156,5 +156,54 @@
       </div>
     </div>
 </section>
+<section class="case1-s4">
+  <div class="container">
+    <h2 class="section-h2"><span class="u1">Ке</span>йсы</h2>
+    <div class="case1-s4-list clearfix">
+      <div class="c1-s4-item c1-s4-i1">
+        <div class="s4-manifestation">
+          <h3>Лендинг пейдж для<br>студии эксклюзивных штор</h3>
+          <a href="">Посмотреть работу</a>
+        </div>
+      </div>
+      <div class="c1-s4-item c1-s4-i2">
+        <div class="s4-manifestation">
+          <h3>Лендинг пейдж для<br>автомобилей Kia</h3>
+          <a href="">Посмотреть работу</a>
+        </div>
+      </div>
+      <div class="c1-s4-item c1-s4-i3">
+        <div class="s4-manifestation">
+          <h3>Лендинг пейдж для натяжных<br>потолков Стрейч Силлинг</h3>
+          <a href="">Посмотреть работу</a>
+        </div>
+      </div>
+      <div class="c1-s4-item c1-s4-i4">
+        <div class="s4-manifestation">
+          <h3>Лендинг пейдж для студии<br>звукозаписи Auditoriarecords</h3>
+          <a href="">Посмотреть работу</a>
+        </div>
+      </div>
+      <div class="c1-s4-item c1-s4-i5">
+        <div class="s4-manifestation">
+          <h3>Лендинг пейдж для дизайн-<br>студии Просторный дом</h3>
+          <a href="">Посмотреть работу</a>
+        </div>
+      </div>
+      <div class="c1-s4-item c1-s4-i6">
+        <h3>Получите 20+&nbsp;<br class="c2-br2-768">бизнес-кейсов</h3>
+        <p class="s4-sub-h3">и узнайте, как компании удвоили продажи.</p>
+        <p class="s4-sub-promo">Получите кейсы на свой е-mail</p>
+        <form action="">
+          <label for="" class="case1-s4-ico case1-s4-ico-name"><input type="text" name="" id="" class="c1-s4-inp" placeholder="Имя"></label>
+          <label for="" class="case1-s4-ico case1-s4-ico-mail"><input type="text" name="" id="" class="c1-s4-inp" placeholder="E-mail"></label>
+          <button class="c1-s4-sbmt">Получить кейсы</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
