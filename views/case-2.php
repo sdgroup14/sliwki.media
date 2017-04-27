@@ -378,7 +378,7 @@
     <h2 class="section-h2"><span class="u1">Бес</span>платная консультация</h2>
     <div class="case1-s7-l">
       <h3>Сомневаетесь<br>нужен ли Вам<br>Лендинг Пейдж?<br></h3>
-      <p>Получите консультацию эксперта по<br>Вашему действующему или будущему<br>проекту.</p>
+      <p>Получите консультацию эксперта по&nbsp;<br class="c2-br1-768">Вашему действующему или будущему&nbsp;<br class="c2-br1-768">проекту.</p>
       <form action="">
         <label for="" class="case1-s7-ico case1-s7-ico-name"><input class="case1-s7-inp case1-s7-name" type="text" name="" id="" placeholder="Ваше имя"></label>
         <input class="case1-s7-inp case1-s7-phone" type="text" name="" id="">
@@ -400,7 +400,7 @@
           <a href="" class="case1-s8-btn">Получить</a>
         </figure>
         <figure class="front">
-          <p>Позвоним прямо сейчас, сделаем<br>все до конца дня</p>
+          <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
             <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="">
@@ -418,7 +418,7 @@
           <a href="" class="case1-s8-btn">Получить</a>
         </figure>
         <figure class="front">
-          <p>Позвоним прямо сейчас, сделаем<br>все до конца дня</p>
+          <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
             <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="">
@@ -436,7 +436,7 @@
           <a href="" class="case1-s8-btn">Получить</a>
         </figure>
         <figure class="front">
-          <p>Позвоним прямо сейчас, сделаем<br>все до конца дня</p>
+          <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
             <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="">
@@ -449,7 +449,7 @@
 </section>
 <section class="case1-s9">
   <div class="container">
-    <h2 class="section-h2"><span class="u1">Час</span>то задаваемые вопросы</h2>
+    <h2 class="section-h2"><span class="u1 hide">Час</span>то задаваемые <span class="u1 show">во</span>просы</h2>
     <div class="c1-s9-list">
       <div class="c1-s9-l-item">
         <h3 class="c1-s9-head c1-s9-head-active">Что такое лендинг пейдж?</h3>
@@ -534,7 +534,7 @@
         <div class="c1-s11-up c1-s11-up1"><h3>Веб-аналитика</h3></div>
         <div class="c1-s11-down">
           <h3>Веб-аналитика</h3>
-          <p>Мы никогда не ориентируемся на свое или чужое&nbsp;<br class="c2-br2-1024">экспертное&nbsp;<br class="c2-br1-1024">мнение, не подкрепив его сначала&nbsp;<br class="c2-br2-1024">аналитическими выводами,&nbsp;<br class="c2-br1-1024">полученными после&nbsp;<br class="c2-br2-1024">исследования вашей ниши и аудитории.</p>
+          <p>Мы никогда не ориентируемся на свое или&nbsp;<br class="c2-br2-768">чужое&nbsp;<br class="c2-br2-1024">экспертное&nbsp;<br class="c2-br1-1024">мнение, не подкрепив&nbsp;<br class="c2-br2-768">его сначала&nbsp;<br class="c2-br2-1024">аналитическими выводами,&nbsp;<br class="c2-br2-768"><br class="c2-br1-1024">полученными после&nbsp;<br class="c2-br2-1024">исследования вашей&nbsp;<br class="c2-br2-768">ниши и аудитории.</p>
           <a href="" class="c1-s11-btn">Подробнее</a>
         </div>
       </div>
@@ -544,7 +544,7 @@
         <div class="c1-s11-up c1-s11-up2"><h3>Брендинг</h3></div>
         <div class="c1-s11-down">
           <h3>Брендинг</h3>
-          <p>Образ, который запомнят и будут ассоциировать&nbsp;<br class="c2-br2-1024">только с вами&nbsp;<br class="c2-br1-1024">для нас это не только айдентика,&nbsp;<br class="c2-br2-1024">это важный визуальный язык&nbsp;<br class="c2-br1-1024">для коммуникации&nbsp;<br class="c2-br2-1024">по всем каналам. Это масштабно, когда одна<br class="c2-br1-1024-both">идеология прослеживается на всех рекламных&nbsp;<br class="c2-br2-1024">носителях.</p>
+          <p>Образ, который запомнят и будут&nbsp;<br class="c2-br2-768">ассоциировать&nbsp;<br class="c2-br2-1024">только с вами&nbsp;<br class="c2-br1-1024">для нас это&nbsp;<br class="c2-br2-768">не только айдентика,&nbsp;<br class="c2-br2-1024">это важный&nbsp;<br class="c2-br2-768">визуальный язык&nbsp;<br class="c2-br1-1024">для коммуникации&nbsp;<br class="c2-br2-768"><br class="c2-br2-1024">по всем каналам. Это масштабно, когда&nbsp;<br class="c2-br2-768">одна<br class="c2-br1-1024-both">идеология прослеживается на всех&nbsp;<br class="c2-br2-768">рекламных&nbsp;<br class="c2-br2-1024">носителях.</p>
           <a href="" class="c1-s11-btn">Подробнее</a>
         </div>
       </div>
@@ -554,7 +554,7 @@
         <div class="c1-s11-up c1-s11-up3"><h3>Рекламная стратегия</h3></div>
         <div class="c1-s11-down">
           <h3>Рекламная стратегия</h3>
-          <p>Ваша уникальность, аналитика конкурентной&nbsp;<br class="c2-br2-1024">среды, а так же&nbsp;<br class="c2-br1-1024">рекламная стратегия позволят&nbsp;<br class="c2-br2-1024">определить наилучшие каналы,&nbsp;<br class="c2-br1-1024">по которым мы&nbsp;<br class="c2-br2-1024">предложим вам рассказать о своем продукте.</p>
+          <p>Ваша уникальность, аналитика&nbsp;<br class="c2-br2-768">конкурентной&nbsp;<br class="c2-br2-1024">среды, а так же&nbsp;<br class="c2-br1-1024">рекламная&nbsp;<br class="c2-br2-768">стратегия позволят&nbsp;<br class="c2-br2-1024">определить наилучшие&nbsp;<br class="c2-br2-768">каналы,&nbsp;<br class="c2-br1-1024">по которым мы&nbsp;<br class="c2-br2-1024">предложим вам&nbsp;<br class="c2-br2-768">рассказать о своем продукте.</p>
           <a href="" class="c1-s11-btn">Подробнее</a>
         </div>
       </div>
@@ -564,7 +564,7 @@
         <div class="c1-s11-up c1-s11-up4"><h3>Лендинг пейдж</h3></div>
         <div class="c1-s11-down">
           <h3>Лендинг пейдж</h3>
-          <p>Продукт за которым будут выстраиваться<br class="c2-br2-1024">клиенты в очередь,<br class="c2-br1-1024">для нас это результат<br class="c2-br2-1024">безупречного маркетинга и раскрытие&nbsp;<br class="c2-br1-1024">скрытых&nbsp;<br class="c2-br2-1024">смыслов вашего продукта на продающей&nbsp;<br class="c2-br2-1024">странице.</p>
+          <p>Продукт за которым будут выстраиваться&nbsp;<br class="c2-br2-768"><br class="c2-br2-1024">клиенты в очередь,<br class="c2-br1-1024">для нас это результат&nbsp;<br class="c2-br2-768"><br class="c2-br2-1024">безупречного маркетинга и раскрытие&nbsp;<br class="c2-br2-768"><br class="c2-br1-1024">скрытых&nbsp;<br class="c2-br2-1024">смыслов вашего продукта&nbsp;<br class="c2-br2-768">на продающей&nbsp;<br class="c2-br2-1024">странице.</p>
           <a href="" class="c1-s11-btn">Подробнее</a>
         </div>
       </div>
