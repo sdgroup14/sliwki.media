@@ -310,6 +310,7 @@
        .menu-button {
         height: 30px;
          width: 55px;
+         margin-top: 4px;
          &:before,
          &:after,
          div {
@@ -324,7 +325,6 @@
        }
        .b-contact{
         padding-top: 0px;
-        margin-top: -4px;
        }
        .b-contact-item {
          font-size: 1.024rem;
@@ -337,11 +337,6 @@
      }
        .header-content {
          margin: 206px 0 0 0;
-         .header-underline {
-           &:after {
-             // width: 28px;
-           }
-         }
          h1 {
            margin-bottom: 48px;
            font-size: 2.143rem;
@@ -351,7 +346,6 @@
            margin-bottom: 68px;
            font-size: 1.429rem;
            line-height: 30px;
-           // letter-spacing: -.6px;
          }
          .content-btn {
            @extend .btn-480;

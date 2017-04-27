@@ -3695,7 +3695,8 @@ ul {
       margin-top: 32px; }
       .header-section-case1 .container .menu-button {
         height: 30px;
-        width: 55px; }
+        width: 55px;
+        margin-top: 4px; }
         .header-section-case1 .container .menu-button:before, .header-section-case1 .container .menu-button:after,
         .header-section-case1 .container .menu-button div {
           width: 54.5px; }
@@ -3704,8 +3705,7 @@ ul {
         .header-section-case1 .container .menu-button:hover div {
           margin: 9px 0; }
       .header-section-case1 .container .b-contact {
-        padding-top: 0px;
-        margin-top: -4px; }
+        padding-top: 0px; }
       .header-section-case1 .container .b-contact-item {
         font-size: 1.024rem; }
       .header-section-case1 .container .phone {
