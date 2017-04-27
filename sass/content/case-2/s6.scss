@@ -11,6 +11,9 @@
   .container {
     padding: 0 28px;
   }
+  .case1-s6-list {
+    position: relative;
+  }
   .c1-s6-item {
     float: left;
     width: 180.5px;
@@ -103,7 +106,6 @@
 @mixin media_768_case_2_s6 {
   .case1-s6 {
     height: 885px;
-    .u1:after {}
     h2 {
       margin: 69px auto 48px;
     }
@@ -111,7 +113,6 @@
       padding: 0;
     }
     .case1-s6-list {
-      position: relative;
       width: 668px;
       margin: 0 auto;
       padding-top: 208px;
@@ -153,4 +154,56 @@
   }
 }
 
-@mixin media_480_page-1_s5 {}
+@mixin media_480_case_2_s6 {
+  .case1-s6 {
+    height: 1260px;
+    h2 {
+      margin: 17px auto 50px;
+    }
+    .container {
+      padding: 0;
+    }
+    .case1-s6-list {
+      padding-top: 208px;
+    }
+    .c1-s6-item {
+      width: 214px;
+      height: 206px;
+      margin-right: 0;
+      background-size: cover;
+      overflow: hidden;
+      background-position: 50% 50%;
+    }
+    .s6-manifestation {
+      .s6-member-name {
+        font-size: 1.143rem;
+        padding: 108px 0 6px;
+        &:after {
+          width: 18px;
+        }
+      }
+      .s6-member-position {
+        font-size: 1rem;
+      }
+      .s6-member-mail {
+        font-size: 1rem;
+      }
+    }
+    .c1-s6-i2,
+    .c1-s6-i4,
+    .c1-s6-i7,
+    .c1-s6-i9 {
+      margin-right: 3px;
+    }
+    .c1-s6-i1 {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .c1-s6-i6 {
+      position: absolute;
+      right: 1px;
+      top: 0;
+    }
+  }
+}

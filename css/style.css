@@ -2376,6 +2376,8 @@ footer .wrap a:hover {
     margin: 58px auto 75px; }
   .case1-s6 .container {
     padding: 0 28px; }
+  .case1-s6 .case1-s6-list {
+    position: relative; }
   .case1-s6 .c1-s6-item {
     float: left;
     width: 180.5px;
@@ -3472,7 +3474,6 @@ ul {
     .case1-s6 .container {
       padding: 0; }
     .case1-s6 .case1-s6-list {
-      position: relative;
       width: 668px;
       margin: 0 auto;
       padding-top: 208px; }
@@ -3960,6 +3961,45 @@ ul {
       line-height: 27.55px; }
     .case1-s4 .s4-manifestation a {
       font-size: 1.429rem;
-      line-height: 27.55px; } }
+      line-height: 27.55px; }
+  .case1-s5 {
+    height: 1200px; }
+  .case1-s6 {
+    height: 1260px; }
+    .case1-s6 h2 {
+      margin: 17px auto 50px; }
+    .case1-s6 .container {
+      padding: 0; }
+    .case1-s6 .case1-s6-list {
+      padding-top: 208px; }
+    .case1-s6 .c1-s6-item {
+      width: 214px;
+      height: 206px;
+      margin-right: 0;
+      background-size: cover;
+      overflow: hidden;
+      background-position: 50% 50%; }
+    .case1-s6 .s6-manifestation .s6-member-name {
+      font-size: 1.143rem;
+      padding: 108px 0 6px; }
+      .case1-s6 .s6-manifestation .s6-member-name:after {
+        width: 18px; }
+    .case1-s6 .s6-manifestation .s6-member-position {
+      font-size: 1rem; }
+    .case1-s6 .s6-manifestation .s6-member-mail {
+      font-size: 1rem; }
+    .case1-s6 .c1-s6-i2,
+    .case1-s6 .c1-s6-i4,
+    .case1-s6 .c1-s6-i7,
+    .case1-s6 .c1-s6-i9 {
+      margin-right: 3px; }
+    .case1-s6 .c1-s6-i1 {
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .case1-s6 .c1-s6-i6 {
+      position: absolute;
+      right: 1px;
+      top: 0; } }
 
 /*# sourceMappingURL=style.css.map */

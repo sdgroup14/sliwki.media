@@ -203,6 +203,177 @@
     </div>
   </div>
 </section>
+<section class="case1-s5">
+  <div class="container">
+    <h2 class="section-h2"><span class="u1">Схе</span>ма работы над проектом</h2>
+    <div class="c1-s5-outline-container">
+      <div class="c1-s5-outline-line1 clearfix">
+        <button class="c1-s5-btn c1-s5-calc-start">Оставить заявку</button>
+        <div class="c1-s5-out-line c1-s5-out-line1"></div>
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">1</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center1 c1-s5-puls-center-active"></div>
+          <p class="c1-s5-puls-text">Определяем Ваши цели<br>и потребности в бизнесе</p>
+        </div>
+        <div class="c1-s5-out-line c1-s5-out-line2"></div>
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">2</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center2"></div>
+          <p class="c1-s5-puls-text">Подписываем юридический<br>договор на разработку проекта</p>
+        </div>
+        <div class="c1-s5-out-line c1-s5-out-line3"></div>
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">3</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center3"></div>
+          <p class="c1-s5-puls-text c1-s5-puls-text1">Проводим комплексное<br>маркетинговое исследование<br>вашего бизнеса</p>
+        </div>
+        <div class="c1-s5-out-line c1-s5-out-line4 c1-s5-out-line-roundr"></div>
+      </div>
+      <div class="c1-s5-outline-line2 clearfix">
+        <div class="c1-s5-out-line c1-s5-out-line5 c1-s5-out-line-roundl"></div>
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">4</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center4"></div>
+          <p class="c1-s5-puls-text">Разрабатываем продающий<br>текст для Лендинг Пейдж</p>
+        </div>
+        <div class="c1-s5-out-line c1-s5-out-line6"></div>
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">5</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center5"></div>
+          <p class="c1-s5-puls-text c1-s5-puls-text1">Разрабатываем структуру<br>Лендинг Пейдж — прототип<br>страницы</p>
+        </div>
+        <div class="c1-s5-out-line c1-s5-out-line7"></div>
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">6</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center6"></div>
+          <p class="c1-s5-puls-text c1-s5-puls-text1">Разрабатываем концепцию<br>Лендинг Пейдж для достижения<br>максимальной конверсии</p>
+        </div>
+        <div class="c1-s5-out-line c1-s5-out-line8"></div>
+      </div>
+      <div class="c1-s5-outline-line3 clearfix">
+        <div class="c1-s5-out-line c1-s5-out-line9"></div>
+        <div class="c1-s5-puls">
+            <span class="c1-s5-puls-number">7</span>
+            <div class="c1-s5-puls-center c1-s5-puls-center7"></div>
+            <p class="c1-s5-puls-text">Рисуем уникальный дизайн<br>макет для Лендинг Пейдж</p>
+          </div>
+          <div class="c1-s5-out-line c1-s5-out-line10"></div>
+          <div class="c1-s5-puls">
+            <span class="c1-s5-puls-number">8</span>
+            <div class="c1-s5-puls-center c1-s5-puls-center8"></div>
+            <p class="c1-s5-puls-text c1-s5-puls-text1">Презентуем Вам готовый<br>макет Лендинг Пейдж и<br>вносим нужные правки</p>
+          </div>
+          <div class="c1-s5-out-line c1-s5-out-line11"></div>
+          <div class="c1-s5-puls">
+            <span class="c1-s5-puls-number">9</span>
+            <div class="c1-s5-puls-center c1-s5-puls-center9"></div>
+            <p class="c1-s5-puls-text c1-s5-puls-text1">Верстка Лендинг Пейдж,<br>настройка всех форм и<br>размещение на хостинге</p>
+          </div>
+          <div class="c1-s5-out-line c1-s5-out-line12 c1-s5-out-line-roundr"></div>
+      </div>
+       <div class="c1-s5-outline-line3 clearfix">
+          <button class="c1-s5-btn c1-s5-calc-end">Рассчитать стоимость</button>
+          <div class="c1-s5-out-line c1-s5-out-line16"></div>
+          <div class="c1-s5-puls">
+            <span class="c1-s5-puls-number">12</span>
+            <div class="c1-s5-puls-center c1-s5-puls-center10"></div>
+            <p class="c1-s5-puls-text c1-s5-puls-text1">Остаемся с Вами после<br>сдачи проекта и оказываем<br>постоянную поддержку</p>
+          </div>
+          <div class="c1-s5-out-line c1-s5-out-line15"></div>
+          <div class="c1-s5-puls">
+            <span class="c1-s5-puls-number">11</span>
+            <div class="c1-s5-puls-center c1-s5-puls-center11"></div>
+            <p class="c1-s5-puls-text c1-s5-puls-text1">Настройка РК и запуск на<br>Лендинг Пейдж целевых<br>посетителей</p>
+          </div>
+          <div class="c1-s5-out-line c1-s5-out-line14"></div>
+          <div class="c1-s5-puls">
+            <span class="c1-s5-puls-number">10</span>
+            <div class="c1-s5-puls-center c1-s5-puls-center12"></div>
+            <p class="c1-s5-puls-text c1-s5-puls-text1">Финальная проверка<br>Лендинг Пейдж и запуск<br>проекта</p>
+          </div>
+          <div class="c1-s5-out-line c1-s5-out-line13"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="case1-s6">
+  <div class="container">
+    <h2 class="section-h2"><span class="u1">Ко</span>манда</h2>
+    <div class="case1-s6-list clearfix">
+      <div class="c1-s6-item c1-s6-i1">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Малик Хан</p>
+          <p class="s6-member-position">Основатель компании</p>
+          <p class="s6-member-mail">founder@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i2">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Виктор</p>
+          <p class="s6-member-position">Исполнительный директор</p>
+          <p class="s6-member-mail">director@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i3">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Алексей</p>
+          <p class="s6-member-position">Project-менеджер</p>
+          <p class="s6-member-mail">project@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i4">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Ирина</p>
+          <p class="s6-member-position">Арт-директор</p>
+          <p class="s6-member-mail">art@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i5">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Максим</p>
+          <p class="s6-member-position">Маркетолог/Аналитик</p>
+          <p class="s6-member-mail">marketer@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i6">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Роман Врублевский</p>
+          <p class="s6-member-position">Управляющий партнер</p>
+          <p class="s6-member-mail">co-founder@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i7">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Ольга</p>
+          <p class="s6-member-position">Копирайтер</p>
+          <p class="s6-member-mail">copywrite@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i8">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Айгерим</p>
+          <p class="s6-member-position">Дизайнер</p>
+          <p class="s6-member-mail">design@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i9">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Сергей</p>
+          <p class="s6-member-position">Программист</p>
+          <p class="s6-member-mail">web@slivkimedia.com</p>
+        </div>
+      </div>
+      <div class="c1-s6-item c1-s6-i10">
+        <div class="s6-manifestation">
+          <p class="s6-member-name">Денис</p>
+          <p class="s6-member-position">Трафик менеджер</p>
+          <p class="s6-member-mail">traffic@slivkimedia.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 

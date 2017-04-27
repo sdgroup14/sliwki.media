@@ -256,4 +256,9 @@
 
 @mixin media_768_case_2_s5 {}
 
-@mixin media_480_page-1_s5 {}
+@mixin media_480_case_2_s5 {
+    .case1-s5 {
+  height: 1200px;
+}
+
+}
