@@ -82,4 +82,69 @@
   }
 }
 
-@mixin media_480_page-1_s5 {}
+@mixin media_480_case_2_s9 {
+
+  .case1-s9 {
+    min-height: 720px;
+    h2 {
+      margin: 67px auto 45px;
+    }
+    .container {
+      width: 480px;
+    }
+    .c1-s9-list {
+      padding-left: 36px;
+    }
+
+    .c1-s9-l-item {
+    // margin-bottom: 42px;
+    .c1-s9-head {
+      // position: relative;
+      font-size: 1.857rem;
+          padding-left: 32px;
+    letter-spacing: -1.4px;
+      // @extend .px16;
+      // font-weight: 400;
+      margin-bottom: 29px;
+      // cursor: pointer;
+      // letter-spacing: -0.9px;
+      &:before {
+        // @extend .sprite;
+        // position: absolute;
+        // left: -26px;
+        // top: 50%;
+        // margin-top: -6.5px;
+        // background-position: -689px -428px;
+        // width: 14px;
+        // height: 13px;
+      }
+    }
+    .c1-s9-head-active {
+      &:before {
+        // background-position: -710px -428px;
+      }
+    }
+    p {
+      // @extend .lig;
+      // line-height: 18px;
+      letter-spacing: -0.6px;
+      // color: #5b636e;
+      font-size: 1.429rem;
+      line-height:26px;
+    }
+    ul {
+      // margin: 10px 0 0 15px;
+    }
+    li {
+      // list-style-type: disc;
+      // @extend .lig;
+      // line-height: 20px;
+      // letter-spacing: -0.4px;
+      // color: #5b636e;
+      font-size: 1.429rem;
+      line-height:26px;
+    }
+  }
+  }
+
+}

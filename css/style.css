@@ -4048,6 +4048,28 @@ ul {
     .case1-s7 :-ms-input-placeholder {
       color: #a9a6b0;
       font-size: 1.379rem;
-      letter-spacing: 1px; } }
+      letter-spacing: 1px; }
+  .case1-s8 {
+    height: 1530px; }
+  .case1-s9 {
+    min-height: 720px; }
+    .case1-s9 h2 {
+      margin: 67px auto 45px; }
+    .case1-s9 .container {
+      width: 480px; }
+    .case1-s9 .c1-s9-list {
+      padding-left: 36px; }
+    .case1-s9 .c1-s9-l-item .c1-s9-head {
+      font-size: 1.857rem;
+      padding-left: 32px;
+      letter-spacing: -1.4px;
+      margin-bottom: 29px; }
+    .case1-s9 .c1-s9-l-item p {
+      letter-spacing: -0.6px;
+      font-size: 1.429rem;
+      line-height: 26px; }
+    .case1-s9 .c1-s9-l-item li {
+      font-size: 1.429rem;
+      line-height: 26px; } }
 
 /*# sourceMappingURL=style.css.map */
