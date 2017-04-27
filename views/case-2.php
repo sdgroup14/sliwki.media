@@ -516,6 +516,108 @@
     </div>
   </div>
 </section>
+<section class="case1-s10">
+  <div class="container">
+    <h2 class="section-h2"><span class="u1">Сам</span>остоятельный аудит</h2>
+    <div class="case1-s10-l">
+      <h3>Увеличьте продажи<br>в своем бизнесе до 40%<br>самостоятельно<br></h3>
+      <p>Скачайте бесплатный PDF аудит<br>и узнайте как увеличить количество<br>заявок в вашем бизнесе без затрат<br>на рекламу</p>
+      <a href="" class="case1-s10-sbmt">Скачать файл</a>
+    </div>
+  </div>
+</section>
+<section class="case1-s11">
+  <h2 class="section-h2"><span class="u1">Наш</span>и другие услуги</h2>
+  <div class="container clearfix">
+    <div class="c1-s11-item c1-s11-i1">
+      <div class="c11-slider-wrap">
+        <div class="c1-s11-up c1-s11-up1"><h3>Веб-аналитика</h3></div>
+        <div class="c1-s11-down">
+          <h3>Веб-аналитика</h3>
+          <p>Мы никогда не ориентируемся на свое или чужое&nbsp;<br class="c2-br2-1024">экспертное&nbsp;<br class="c2-br1-1024">мнение, не подкрепив его сначала&nbsp;<br class="c2-br2-1024">аналитическими выводами,&nbsp;<br class="c2-br1-1024">полученными после&nbsp;<br class="c2-br2-1024">исследования вашей ниши и аудитории.</p>
+          <a href="" class="c1-s11-btn">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <div class="c1-s11-item c1-s11-i2">
+      <div class="c11-slider-wrap">
+        <div class="c1-s11-up c1-s11-up2"><h3>Брендинг</h3></div>
+        <div class="c1-s11-down">
+          <h3>Брендинг</h3>
+          <p>Образ, который запомнят и будут ассоциировать&nbsp;<br class="c2-br2-1024">только с вами&nbsp;<br class="c2-br1-1024">для нас это не только айдентика,&nbsp;<br class="c2-br2-1024">это важный визуальный язык&nbsp;<br class="c2-br1-1024">для коммуникации&nbsp;<br class="c2-br2-1024">по всем каналам. Это масштабно, когда одна<br class="c2-br1-1024-both">идеология прослеживается на всех рекламных&nbsp;<br class="c2-br2-1024">носителях.</p>
+          <a href="" class="c1-s11-btn">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <div class="c1-s11-item c1-s11-i3">
+      <div class="c11-slider-wrap">
+        <div class="c1-s11-up c1-s11-up3"><h3>Рекламная стратегия</h3></div>
+        <div class="c1-s11-down">
+          <h3>Рекламная стратегия</h3>
+          <p>Ваша уникальность, аналитика конкурентной&nbsp;<br class="c2-br2-1024">среды, а так же&nbsp;<br class="c2-br1-1024">рекламная стратегия позволят&nbsp;<br class="c2-br2-1024">определить наилучшие каналы,&nbsp;<br class="c2-br1-1024">по которым мы&nbsp;<br class="c2-br2-1024">предложим вам рассказать о своем продукте.</p>
+          <a href="" class="c1-s11-btn">Подробнее</a>
+        </div>
+      </div>
+    </div>
+    <div class="c1-s11-item c1-s11-i4">
+      <div class="c11-slider-wrap">
+        <div class="c1-s11-up c1-s11-up4"><h3>Лендинг пейдж</h3></div>
+        <div class="c1-s11-down">
+          <h3>Лендинг пейдж</h3>
+          <p>Продукт за которым будут выстраиваться<br class="c2-br2-1024">клиенты в очередь,<br class="c2-br1-1024">для нас это результат<br class="c2-br2-1024">безупречного маркетинга и раскрытие&nbsp;<br class="c2-br1-1024">скрытых&nbsp;<br class="c2-br2-1024">смыслов вашего продукта на продающей&nbsp;<br class="c2-br2-1024">странице.</p>
+          <a href="" class="c1-s11-btn">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="case1-s12">
+  <div class="container clearfix">
+    <div class="c1-s12-contacts">
+      <h2 class="section-h2"><span class="u1">Наш</span>и контакты</h2>
+      <div class="c1-s12-ofice">
+        <p class="c1-s12-head">Наш офис</p>
+        <p class="c1-s12-text c1-s12-place">г. Ивано-Франковск, Украина<br>ул. Грешевского, 22А</p>
+      </div>
+      <div class="c1-s12-contact">
+        <p class="c1-s12-head">Как с нами связаться</p>
+        <p class="c1-s12-text c1-s12-phone">+38 066 631 36 41 (Украина)<br>+7 495 133 92 19 (Россия)</p>
+        <p class="c1-s12-text c1-s12-mail">info@slivkimedia.com</p>
+      </div>
+      <div class="c1-s12-disp">
+        <p class="c1-s12-head">E-mail рассылка</p>
+        <p class="c1-s12-text">Опыт, идеи, новости</p>
+        <a href="" class="c1-s12-btn">Подписаться</a>
+      </div>
+      <div class="c1-s12-join">
+        <p class="c1-s12-head">Присоединяйтесь к нам:</p>
+        <ul>
+          <li class="c1-s12-social-item c1-s12-s-inst"></li>
+          <li class="c1-s12-social-item c1-s12-s-fb"></li>
+          <li class="c1-s12-social-item c1-s12-s-vk"></li>
+          <li class="c1-s12-social-item c1-s12-s-yt"></li>
+          <li class="c1-s12-social-item c1-s12-s-be"></li>
+        </ul>
+      </div>
+    </div>
+    <div  class="c1-s12-map">
+      <div id="map"></div>
+    </div>
+  </div>
+</section>
+<section class="case1-footer">
+  <div class="container">
+    <h2>Остались вопросы?</h2>
+    <p class="c1-f-sub">Задайте их нашему специалисту</p>
+    <a href="" class="c1-f-btn">Заказать звонок</a>
+    <p class="c1-f-copy">Все права защищены. © 2015 — 2017 ООО «Сливки Медиа»<br>Любое копирование материалов разрешено только с согласия правообладателей</p>
+    <ul>
+      <li><a href="" class="c1-f-link c1-f-polit">Политика конфиденциальности</a></li>
+      <li><a href="" class="c1-f-link c1-f-compl">Согласие с рассылкой</a></li>
+      <li><a href="" class="c1-f-link c1-f-renoun">Отказ от ответственности</a></li>
+    </ul>
+  </div>
+</section>
 
 
 
