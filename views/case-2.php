@@ -373,8 +373,17 @@
     </div>
   </div>
 </section>
-
-
-
-
-
+<section class="case1-s7">
+  <div class="container">
+    <h2 class="section-h2"><span class="u1">Бес</span>платная консультация</h2>
+    <div class="case1-s7-l">
+      <h3>Сомневаетесь<br>нужен ли Вам<br>Лендинг Пейдж?<br></h3>
+      <p>Получите консультацию эксперта по<br>Вашему действующему или будущему<br>проекту.</p>
+      <form action="">
+        <label for="" class="case1-s7-ico case1-s7-ico-name"><input class="case1-s7-inp case1-s7-name" type="text" name="" id="" placeholder="Ваше имя"></label>
+        <input class="case1-s7-inp case1-s7-phone" type="text" name="" id="">
+        <button class="case1-s7-sbmt">Оставить заявку</button>
+      </form>
+    </div>
+  </div>
+</section>
