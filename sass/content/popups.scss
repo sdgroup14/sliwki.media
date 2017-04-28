@@ -236,4 +236,157 @@
   }
 }
 
-@mixin media_480_page-1_s5 {}
+@mixin media_480_case_2_popups {
+  .popup {
+    padding: 35px 0;
+    // position: relative;
+    // display: table-cell;
+    // vertical-align: middle;
+    // text-align: center;
+    // color: #7e7b87;
+    h3 {
+      // @extend .bol;
+      // @extend .px16;
+      // line-height: 24px;
+      // margin: 0 auto 25px;
+      // color: #ffffff;
+      font-size: 1.643rem;
+    }
+    p {
+      // @extend .px12;
+      // line-height: 20px;
+      // margin-bottom: 24px;
+      font-size: 1.429rem;
+      line-height: 33px;
+    }
+    .popup-input {
+      // display: block;
+      margin: 0 auto 26px;
+      padding-left: 60px;
+      width: 403px;
+      height: 62px;
+      // background-color: #302c39;
+      // border: 1px solid #7c7883;
+    }
+    .popup-inp-ico {
+      // display: block;
+      // position: relative;
+      // margin: 0 auto;
+      width: 403px;
+      &:after {
+        // position: absolute;
+        // @extend .sprite;
+        // top: 50%;
+      }
+    }
+    .popup-inp-ico-name:after {
+      // left: 13px;
+      // margin-top: -7px;
+      // background-position: -668px -428px;
+      // width: 14px;
+      // height: 14px;
+    }
+    .popup-inp-ico-mail:after {
+      // left: 12px;
+      // margin-top: -5px;
+      // background-position: -668px -449px;
+      // width: 14px;
+      // height: 10px;
+    }
+    .popup-btn {
+      // @extend .btn;
+      // margin: 10px auto 40px;
+      // width: 176px;
+      // color: #fa2247;
+      // border: 1px solid #fa2247;
+      @extend .btn-480;
+      &:hover {
+        // background-color: #fa2247;
+        // color: #ffffff;
+      }
+    }
+    .modal-close-dwn {
+      // color: #96929e;
+      // @extend .px13;
+      // text-decoration: underline;
+      font-size: 1.286rem;
+    }
+    ::-webkit-input-placeholder {
+      color: #a9a6b0;
+      font-size: 1.379rem;
+      letter-spacing: 1px;
+    }
+    ::-moz-placeholder {
+      color: #a9a6b0;
+      font-size: 1.379rem;
+      letter-spacing: 1px;
+    }
+    :-moz-placeholder {
+      color: #a9a6b0;
+      font-size: 1.379rem;
+      letter-spacing: 1px;
+    }
+    :-ms-input-placeholder {
+      color: #a9a6b0;
+      font-size: 1.379rem;
+      letter-spacing: 1px;
+    }
+  }
+  .popup1 {
+    // position: relative;
+    // display: block;
+    // margin: 40px auto;
+    width: 430px;
+    // background-color: #ffffff;
+    padding: 30px 50px 30px 20px;
+    .u1:after {
+      // width: 41px;
+      // bottom: -3px;
+    }
+    h3 {
+      // @extend .bol;
+      // @extend .px20;
+      // line-height: 35px;
+      // color: #000000;
+    }
+    p {
+      // @extend .px16;
+      // line-height: 27px;
+      // color: #000000;
+      // margin: 22px 0;
+    }
+    a {
+      // color: #00baff;
+    }
+    ol {
+      // list-style: none;
+      // counter-reset: point;
+    }
+    li {
+      // position: relative;
+      // padding-left: 25px;
+      // @extend .px16;
+      // line-height: 27px;
+      // margin: 22px 0;
+      // color: #000000;
+      span {
+        // @extend .bol;
+      }
+    }
+    li:before {
+      // content: counter(point);
+      // counter-increment: point 1;
+      // @extend .px16;
+      // line-height: 21px;
+      // position: absolute;
+      // left: 0;
+      // top: 3px;
+      // background: #00baff;
+      // padding: 1px 0;
+      // width: 20px;
+      // color: #fff;
+      // font-weight: bold;
+      // text-align: center;
+    }
+  }
+}

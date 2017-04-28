@@ -1,6 +1,6 @@
 .mobile-menu {
   display: none;
-  padding: 93px 0 25px;
+  padding: 130px 0 25px;
   .mobile-menu-logo {
     @extend .logo-white;
     top: 34px;
@@ -94,5 +94,66 @@
       font-size: 1.143rem;
       line-height: 30px;
     }
+  }
+}
+
+
+@mixin media_480_case_2_mobile-menu {
+  .mobile-menu {
+    // width: 718px;
+    // padding: 81px 0 25px;
+    .mobile-menu-logo {
+      width: 114px;
+      margin-left: -57px;
+      top: 36px;
+    }
+    .mobile-menu-closee-wrap {
+          margin-left: -200px;
+      top: 29px;
+    }
+    
+    .mob-list-item {
+      font-size: 2.357rem;
+      line-height: 64px;
+    }
+
+     .mobile-menu-closee-wrap {
+    // position: absolute;
+    // left: 50%;
+    // margin-left: -512px;
+    // top: 34px;
+    width: 40px;
+    height: 40px;
+    // transform: rotate(135deg);
+    // transition: transform .5s ease;
+    // cursor: pointer;
+    &:hover {
+      // transform: rotate(315deg);
+    }
+    .mobile-menu-close {
+      // position: relative;
+      // width: 100%;
+      // height: 100%;
+      &:before,
+      &:after {
+        // content: '';
+        // display: block;
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // border-radius: 2px;
+        // background-color: #ffffff;
+      }
+      &:before {
+        // margin-top: -1px;
+        margin-left: -16.65px;
+    width: 35px;
+      }
+      &:after {
+        margin-top: -16.75px;
+    height: 34.5px;
+      }
+    }
+  }
   }
 }

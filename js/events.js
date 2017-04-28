@@ -419,7 +419,7 @@ $('.mobile-menu-close').on('click', function(){
 $('.content-btn').on('click', function(){
   $('.modal-tint').addClass('modal-tint-active popup-active');
   $('body').addClass('body-scroll-hide');
-  $('.calc').css('display', 'table-cell');
+  $('.calc1').css('display', 'table-cell');
 });
 
 $('.case1-s10-sbmt').on('click', function(e){
