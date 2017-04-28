@@ -3760,14 +3760,59 @@ ul {
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
-      display: -webkit-flex; }
+      display: -webkit-flex;
+      width: 342px; }
+    .case1-s2 .swiper-slide {
+      transform: scale(0.8) !important;
+      transition: all .2s linear; }
+      .case1-s2 .swiper-slide:before {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        margin: 0 auto;
+        width: 342px;
+        text-align: center;
+        font-family: 'GothamProMedium';
+        font-size: 1.786rem;
+        margin-bottom: 57px; }
+      .case1-s2 .swiper-slide:after {
+        position: absolute;
+        left: 100%;
+        transform: translate(-25%);
+        top: -38px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'GothamProMedium';
+        color: #a3a2a2;
+        font-size: 1.071rem;
+        margin-bottom: 57px; }
+    .case1-s2 .slide-s2-2:before {
+      content: 'Зачем?'; }
+    .case1-s2 .slide-s2-2:after {
+      content: 'Кому?'; }
+    .case1-s2 .slide-s2-1:before {
+      content: 'Кому?'; }
+    .case1-s2 .slide-s2-1:after {
+      content: 'Следствие'; }
+    .case1-s2 .slide-s2-3:before {
+      content: 'Следствие'; }
+    .case1-s2 .slide-s2-3:after {
+      content: 'Зачем?'; }
+    .case1-s2 .swiper-slide-active {
+      transform: scale(1) !important; }
     .case1-s2 .swiper-pagination {
-      bottom: -25px; }
+      bottom: -33px; }
     .case1-s2 .swiper-pagination {
       display: block; }
     .case1-s2 .swiper-pagination-bullet {
       background-color: #bbbaba;
-      opacity: 1; }
+      opacity: 1;
+      width: 10px;
+      height: 10px;
+      margin: 0 8px !important; }
     .case1-s2 .swiper-pagination-bullet-active {
       opacity: 1;
       background-color: #00aeef; }
@@ -4061,7 +4106,8 @@ ul {
       line-height: 36px;
       letter-spacing: 3.5px; }
     .case1-s8 .container {
-      padding: 0; }
+      padding: 0;
+      overflow: visible; }
     .case1-s8 .card-wrap {
       margin: 0 0 47px 0;
       float: none;
@@ -4127,12 +4173,18 @@ ul {
         line-height: 30px;
         margin-bottom: 29px; }
       .case1-s9 .c1-s9-l-item p {
-        letter-spacing: -0.6px;
+        letter-spacing: -0.2px;
         font-size: 1.429rem;
         line-height: 26px; }
+      .case1-s9 .c1-s9-l-item ul {
+        margin: 10px 0 0 0; }
       .case1-s9 .c1-s9-l-item li {
+        list-style: none;
+        letter-spacing: -0.9px;
         font-size: 1.429rem;
         line-height: 26px; }
+        .case1-s9 .c1-s9-l-item li:before {
+          content: '- '; }
   .case1-s10 {
     height: 852px; }
     .case1-s10 .container {

@@ -151,7 +151,9 @@ var swiper = new Swiper('.swiper-container', {
   breakpoints: {
       767: {
           slidesPerView: 1,
-          spaceBetween: 0,
+          spaceBetween: 5,
+          slidesPerView: 'auto',
+          loop: true,
           centeredSlides: true,
           simulateTouch: true,
           paginationClickable: true
@@ -165,9 +167,11 @@ var swiper4 = new Swiper('.swiper-container4', {
   slidesPerView: 3,
   spaceBetween: 0,
   breakpoints: {
-      767: {
+       767: {
           slidesPerView: 1,
-          spaceBetween: 0,
+          spaceBetween: 5,
+          slidesPerView: 'auto',
+          loop: true,
           centeredSlides: true,
           simulateTouch: true,
           paginationClickable: true
@@ -391,6 +395,8 @@ function initMap() {
 
 
 
+
+
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
     var marker = new google.maps.Marker({
@@ -434,6 +440,7 @@ $('.c1-s11-btn').on('click', function(e){
   $('.modal-tint').addClass('modal-tint-active popup-active');
   $('body').addClass('body-scroll-hide');
   $('.details').css('display', 'table-cell');
+  $('.dynamic-header').text($(this).closest('.c1-s11-down').find('h3').text());
 });
 
 $('.c1-s12-btn').on('click', function(e){

@@ -300,9 +300,73 @@
       display: -moz-box;
       display: -ms-flexbox;
       display: -webkit-flex;
+      width: 342px;
     }
+    .swiper-slide {
+      transform: scale(.8)!important;
+      transition: all .2s linear;
+      &:before{
+        position: absolute;
+        top:-50px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        margin: 0 auto;
+        width: 342px;
+        text-align: center;
+        font-family: 'GothamProMedium';
+        font-size: 1.786rem;
+        margin-bottom: 57px;
+      }
+      &:after {
+        position: absolute;
+        left: 100%;
+        transform: translate(-25%);
+        top: -38px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'GothamProMedium';
+        color: #a3a2a2;
+        font-size: 1.071rem;
+        margin-bottom: 57px;
+      }
+    }
+
+    .slide-s2-2{
+       &:before{
+        content: 'Зачем?';
+      }
+       &:after {
+        content: 'Кому?';
+      }
+    }
+
+.slide-s2-1{
+       &:before{
+        content: 'Кому?';
+      }
+       &:after {
+        content: 'Следствие';
+      }
+    }
+
+.slide-s2-3{
+       &:before{
+        content: 'Следствие';
+      }
+       &:after {
+        content: 'Зачем?';
+      }
+    }
+
+
+    .swiper-slide-active {
+      transform: scale(1)!important;
+    }
+
     .swiper-pagination {
-      bottom: -25px;
+      bottom: -33px;
     }
     .swiper-pagination {
       display: block;
@@ -310,6 +374,9 @@
     .swiper-pagination-bullet {
       background-color: #bbbaba;
       opacity: 1;
+      width: 10px;
+    height: 10px;
+    margin: 0 8px!important;
     }
     .swiper-pagination-bullet-active {
       opacity: 1;

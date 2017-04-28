@@ -1,5 +1,5 @@
 <div class="popup details">
-	<h3>Узнать подробнее об услуге<br>Веб-аналитики</h3>
+	<h3>Узнать подробнее об услуге<br><span class="dynamic-header">Веб-аналитики</span></h3>
 	<p>Внесите свои данные и наш менеджер<br>свяжется с вами в течении 5 минут</p>
 	<form action="">
 		<label for="" class="popup-inp-ico popup-inp-ico-name"><input type="text" class="popup-input details-name" placeholder="Ваше имя"></label>

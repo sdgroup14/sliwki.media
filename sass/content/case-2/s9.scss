@@ -127,19 +127,24 @@
     p {
       // @extend .lig;
       // line-height: 18px;
-      letter-spacing: -0.6px;
+      letter-spacing: -0.2px;
       // color: #5b636e;
       font-size: 1.429rem;
       line-height:26px;
     }
     ul {
-      // margin: 10px 0 0 15px;
+      margin: 10px 0 0 0;
     }
     li {
+      &:before {
+        content:'- ';
+      }
       // list-style-type: disc;
+          list-style: none;
       // @extend .lig;
       // line-height: 20px;
-      // letter-spacing: -0.4px;
+      letter-spacing: -0.9px;
+
       // color: #5b636e;
       font-size: 1.429rem;
       line-height:26px;
