@@ -14,7 +14,7 @@
     </header>
     <div class="header-content">
       <h1>Лендинг Пейдж для бизнеса&nbsp;<br class="c2-br2-768">с гарантией&nbsp;<br class="c2-br1-768">потока заявок&nbsp;<br class="c2-br2-768">от 3 до <span class="header-underline">80</span> ежедневно</h1>
-      <p>Узнайте сколько клиентов<br> Вы получите в следующем месяце</p>
+      <p>Узнайте сколько клиентов&nbsp;<br class="c2-br2-768">Вы получите в следующем месяце</p>
       <button class="content-btn">Получить расчет</button>
     </div>
   </div>
