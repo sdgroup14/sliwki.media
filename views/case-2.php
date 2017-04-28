@@ -577,7 +577,7 @@
       <h2 class="section-h2"><span class="u1">Наш</span>и контакты</h2>
       <div class="c1-s12-ofice">
         <p class="c1-s12-head">Наш офис</p>
-        <p class="c1-s12-text c1-s12-place">г. Ивано-Франковск, Украина<br>ул. Грешевского, 22А</p>
+        <p class="c1-s12-text c1-s12-place">г. Ивано-Франковск, Украина<br>ул. Грушевского, 22А</p>
       </div>
       <div class="c1-s12-contact">
         <p class="c1-s12-head">Как с нами связаться</p>

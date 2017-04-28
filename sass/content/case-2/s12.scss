@@ -173,49 +173,105 @@ ul {
 }
 
 @mixin media_768_case_2_s12 {
-
   .case1-s12 {
-  height: 544px;
-  .c1-s12-map {
     height: 544px;
-    width: 62%;
+    .c1-s12-map {
+      height: 544px;
+      width: 62%;
+    }
+    .c1-s12-contacts {
+      padding-left: 14px;
+    }
+    .c1-s12-ofice {
+      margin-bottom: 20px;
+    }
+    .c1-s12-contact {
+      margin-bottom: 22px;
+    }
+    h2 {
+      margin: 39px auto 25px;
+    }
+    .c1-s12-text {
+      padding-left: 26px;
+      letter-spacing: -.7px;
+    }
+    .c1-s12-btn {
+      margin: 10px 0 21px;
+      @extend .btn-768;
+    }
   }
-  .c1-s12-contacts {
-    padding-left: 14px;
+  ul {
+    margin-top: 14px;
   }
-  .c1-s12-ofice {
-    margin-bottom: 20px;
-  }
-  .c1-s12-contact {
-    margin-bottom: 22px;
-  }
-  h2 {
-    margin: 39px auto 25px;
-  }
-  .c1-s12-text {
-    padding-left: 26px;
-    letter-spacing: -.7px;
-  }
-  .c1-s12-btn {
-    margin: 10px 0 21px;
-    @extend .btn-768;
+  .c1-s12-social-item:first-of-type {
+    margin-left: 0;
   }
 }
 
-ul {
-  margin-top: 14px;
-}
-
-.c1-s12-social-item {
-  &:after {
+@mixin media_480_case_2_s12 {
+   .case1-s12 {
+    height: 1446px;
+    .c1-s12-map {
+      top: auto;
+      bottom: 0;
+      height: 545px;
+      width: 100%;
+    }
+    .c1-s12-contacts {
+      float:none;
+      width: 100%;
+          padding-left: 0;
+    }
+    .c1-s12-ofice {
+      margin-bottom: 15px;
+    }
+    .c1-s12-contact {
+      // margin-bottom: 22px;
+    }
+    h2 {
+      margin: 52px auto 49px;
+      text-align:center;
+    }
+    .c1-s12-head {
+    // @extend .med;
+    // @extend .px18;
+    font-size: 1.857rem;
+    line-height:46px;
+    // line-height: 24px;
+    letter-spacing: -1.3px;
+    margin-bottom: 15px;
+    padding-left: 12px;
   }
-}
-.c1-s12-social-item:first-of-type {
-  margin-left: 0;
-}
 
-  
+  .c1-s12-phone {
+    margin-bottom: 34px;
+    &:before {
+      // left: 3px;
+      // background-position: -714px -226px;
+      // width: 15px;
+      // height: 20px;
+    }
+  }
+    .c1-s12-text {
+      padding-left: 67px;
+      letter-spacing: -.9px;
+      font-size: 1.675rem;
+      line-height: 35px;
+    }
+    .c1-s12-btn {
+      // margin: 10px 0 21px;
+      // @extend .btn-768;
+      @extend .btn-480;
+      margin: 17px 0 33px 12px;
+    }
+
+
+  }
+  ul {
+     margin-top: 29px;
+  }
+    .c1-s12-social-item:first-of-type {
+    margin-left: 0;
+  }
 
 }
-
-@mixin media_480_page-1_s5 {}
