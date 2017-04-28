@@ -79,4 +79,38 @@
   }
 }
 
-@mixin media_480_page-1_s5 {}
+@mixin media_480_case_2_footer-2 {
+  .case1-footer {
+    height: 690px;
+    h2 {
+      font-size: 1.947rem;
+      line-height: 36px;
+      margin: 48px auto 10px;
+      letter-spacing: -1.3px;
+    }
+    .c1-f-sub {
+      font-size: 1.514rem;
+      line-height: 36.34px;
+      letter-spacing: -1px;
+      margin-bottom: 33px;
+    }
+    .c1-f-btn {
+      @extend .btn-480;
+      margin: 0 auto 47px;
+    }
+    .c1-f-copy {
+      font-size: 1.286rem;
+      line-height: 24px;
+      &:before {
+        margin: 0 auto 39px;
+      }
+    }
+    li {
+      display: block;
+      .c1-f-link {
+        font-size: 1.571rem;
+        line-height: 48px;
+      }
+    }
+  }
+}
