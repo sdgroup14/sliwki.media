@@ -335,13 +335,20 @@
   width: 30px;
   height: 29px;
   }
+.intl-tel-input .selected-flag {
+    padding: 0 0 0 17px;
+    }
 
+    .intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag {
+      width: 52px;
+    }
 
     .case1-s8-inp {
       width: 407px;
       height: 62px;
       margin-bottom: 30px;
-      padding-left: 51px;
+      padding-left: 60px!important;
+      font-size: 1.379rem;
     }
    ::-webkit-input-placeholder {
       color: #a9a6b0;

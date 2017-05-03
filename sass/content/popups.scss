@@ -106,6 +106,7 @@
     height: 47px;
     background-color: #302c39;
     border: 1px solid #7c7883;
+    color: #ffffff;
   }
   .popup-inp-ico {
     display: block;
@@ -262,11 +263,19 @@
     .popup-input {
       // display: block;
       margin: 0 auto 26px;
-      padding-left: 60px;
+      padding-left: 60px!important;
       width: 403px;
       height: 62px;
+      font-size: 1.379rem;
       // background-color: #302c39;
       // border: 1px solid #7c7883;
+    }
+    .intl-tel-input .selected-flag {
+    padding: 0 0 0 20px;
+    }
+
+    .intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag {
+      width: 57px;
     }
     .popup-inp-ico {
       // display: block;
@@ -296,7 +305,7 @@
     }
     .popup-btn {
       // @extend .btn;
-      // margin: 10px auto 40px;
+      margin: 35px auto 40px;
       // width: 176px;
       // color: #fa2247;
       // border: 1px solid #fa2247;

@@ -395,3 +395,27 @@ $(window).on('keydown', function(e) {
     $('.popup').css('display', 'none');
   }
 });
+
+
+$(".calc1-phone, .case1-s3-phone, .case1-s7-phone, .case1-s8-phone, .details-phone, .call-phone, .calc-phone, .statem-phone").intlTelInput({
+        onlyCountries: ["ru", "ua", "az", "by", "am", "kz", "kg", "md", "tj", "tm", "uz", "us", "gb", "at", "al", "ad", "be", "bg", "va", "hu", "de", "gr", "dk", "ie", "is", "es", "it", "lv", "lt", "li", "lu", "mk", "mt", "mc", "nl", "no", "pl", "pt", "ro", "sm", "rs", "sk", "sl", "fi", "fr", "hr", "me", "cz", "ch", "se", "ee"],
+        initialCountry: "auto",
+        geoIpLookup: function(callback) {
+            $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "";
+                callback(countryCode);
+            });
+        },
+        utilsScript: 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/js/utils.js',
+        defaultCountry: 'auto',
+        preferredCountries: ["ru", "ua"],
+        nationalMode: false
+    });
+
+
+
+
+
+
+
+

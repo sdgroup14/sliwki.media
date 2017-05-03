@@ -196,6 +196,11 @@ section {
   }
 }
 
+.iti-flag {background-image: url(https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/img/flags.png);}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iti-flag {background-image: url(https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/img/flags@2x.png);}
+}
 
 @import "content/case-1/header";
 @import "content/case-1/s1";
@@ -335,6 +340,14 @@ section {
 .sprite-480 {
   background-size: 1484px 1331px;
 }
+
+.intl-tel-input .selected-flag {
+    padding: 0 0 0 23px;
+    }
+
+    .intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag {
+      width: 60px;
+    }
 
   // .slide-up {
   //   margin-left: -218px;

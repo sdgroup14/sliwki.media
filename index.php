@@ -51,13 +51,11 @@
   <span class="slide-up"></span> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/js/intlTelInput.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3va0LSuMHbA2917lZv6-iGw15mRkoKOg" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
 
   <!-- build:remove -->
-  <!-- <script src="js/lib/jquery.min.js"></script> -->
-  <script src="js/lib/modules/intlTelInput.js"></script>
-  <script src="js/lib/modules/jquery.lazyload.js"></script>
   <script src="js/lib/modules/jquery.circliful.min.js"></script>
   <script type="text/javascript" src="js/events.js"></script>
   <!-- /build -->

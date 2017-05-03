@@ -565,6 +565,13 @@ section {
 .show:after {
   display: none; }
 
+.iti-flag {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/img/flags.png); }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iti-flag {
+    background-image: url(https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/img/flags@2x.png); } }
+
 .header-section {
   height: 707px;
   background-color: #f4f7fc;
@@ -3137,7 +3144,8 @@ ul {
     width: 254px;
     height: 47px;
     background-color: #302c39;
-    border: 1px solid #7c7883; }
+    border: 1px solid #7c7883;
+    color: #ffffff; }
   .popup .popup-inp-ico {
     display: block;
     position: relative;
@@ -3671,6 +3679,10 @@ ul {
     display: inline; }
   .sprite-480, .case1-s1 .c1-l-item:before, .case1-s3 .case1-s3-l .case1-s3-ico:after, .case1-s4 .c1-s4-i6 .case1-s4-ico:after, .case1-s7 .case1-s7-l .case1-s7-ico:after, .case1-s8 .back:before, .case1-s8 .case1-s8-ico:after, .case1-s9 .c1-s9-l-item .c1-s9-head:before, .case1-s12 .c1-s12-text:before, .popup .popup-inp-ico:after {
     background-size: 1484px 1331px; }
+  .intl-tel-input .selected-flag {
+    padding: 0 0 0 23px; }
+  .intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag {
+    width: 60px; }
   .btn-480, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .popup .popup-btn {
     line-height: 66px;
     font-size: 1.357rem;
@@ -3991,13 +4003,13 @@ ul {
         width: 30px;
         height: 22px; }
       .case1-s3 .case1-s3-l .case1-s3-inp {
-        width: 100%;
+        width: 412px;
         height: 62px;
         margin-bottom: 35px;
-        padding-left: 67px;
+        padding-left: 67px !important;
         font-size: 1.379rem; }
       .case1-s3 .case1-s3-l .case1-s3-sbmt {
-        margin: 0 auto; }
+        margin: 35px auto 0; }
     .case1-s3 ::-webkit-input-placeholder {
       color: #a9a6b0;
       font-size: 1.379rem;
@@ -4042,7 +4054,8 @@ ul {
     .case1-s4 .c1-s4-i6 .c1-s4-inp {
       width: 85%;
       height: 45px;
-      padding-left: 47px; }
+      padding-left: 47px;
+      font-size: 1.429rem; }
     .case1-s4 .c1-s4-i6 .c1-s4-sbmt {
       margin: 25px auto 0; }
     .case1-s4 .c1-s4-i6 .case1-s4-ico:after {
@@ -4148,13 +4161,13 @@ ul {
         width: 30px;
         height: 29px; }
       .case1-s7 .case1-s7-l .case1-s7-inp {
-        width: 100%;
+        width: 412px;
         height: 62px;
         margin-bottom: 35px;
-        padding-left: 67px;
+        padding-left: 67px !important;
         font-size: 1.379rem; }
       .case1-s7 .case1-s7-l .case1-s7-sbmt {
-        margin: 0 auto; }
+        margin: 35px auto 0; }
     .case1-s7 ::-webkit-input-placeholder {
       color: #a9a6b0;
       font-size: 1.379rem;
@@ -4232,11 +4245,16 @@ ul {
       background-position: -1336px -854px;
       width: 30px;
       height: 29px; }
+    .case1-s8 .intl-tel-input .selected-flag {
+      padding: 0 0 0 17px; }
+    .case1-s8 .intl-tel-input.allow-dropdown .selected-flag, .case1-s8 .intl-tel-input.separate-dial-code .selected-flag {
+      width: 52px; }
     .case1-s8 .case1-s8-inp {
       width: 407px;
       height: 62px;
       margin-bottom: 30px;
-      padding-left: 51px; }
+      padding-left: 60px !important;
+      font-size: 1.379rem; }
     .case1-s8 ::-webkit-input-placeholder {
       color: #a9a6b0;
       font-size: 1.379rem;
@@ -4498,9 +4516,14 @@ ul {
       line-height: 33px; }
     .popup .popup-input {
       margin: 0 auto 26px;
-      padding-left: 60px;
+      padding-left: 60px !important;
       width: 403px;
-      height: 62px; }
+      height: 62px;
+      font-size: 1.379rem; }
+    .popup .intl-tel-input .selected-flag {
+      padding: 0 0 0 20px; }
+    .popup .intl-tel-input.allow-dropdown .selected-flag, .popup .intl-tel-input.separate-dial-code .selected-flag {
+      width: 57px; }
     .popup .popup-inp-ico {
       width: 403px; }
       .popup .popup-inp-ico:after {
@@ -4517,6 +4540,8 @@ ul {
       background-position: -1336px -896px;
       width: 30px;
       height: 22px; }
+    .popup .popup-btn {
+      margin: 35px auto 40px; }
     .popup .modal-close-dwn {
       font-size: 1.286rem; }
     .popup ::-webkit-input-placeholder {
