@@ -3,7 +3,11 @@
   background-color: #f3f0f0;
   h2 {
     text-align: center;
-    margin: 92px auto 82px;
+    margin: 0 auto 82px;
+    padding-top: 92px;
+  }
+  .container {
+    overflow: visible;
   }
   .case1-s7-l {
     width: 50%;
@@ -65,7 +69,7 @@
     }
     .case1-s7-sbmt {
       @extend .btn;
-      margin: 13px auto;
+      margin: 31px auto 0;
       width: 190px;
       color: #fa2247;
       border: 1px solid #fa2247;
@@ -101,7 +105,11 @@
   .case1-s7 {
     height: 607px;
     h2 {
-      margin: 60px auto 83px;
+      margin: 0 auto 83px;
+      padding-top: 60px;
+    }
+    .container {
+      overflow: visible;
     }
     .case1-s7-l {
       &:after {
@@ -130,7 +138,8 @@
   .case1-s7 {
     height: 1109px;
     h2 {
-      margin: 49px auto 38px;
+      margin: 0 auto 38px;
+      padding-top: 49px;
     }
     .case1-s7-l {
       &:after {

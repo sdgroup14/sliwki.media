@@ -3,7 +3,11 @@
   background-color: $header-bg;
   h2 {
     text-align: center;
-    margin: 92px auto 82px;
+    margin: 0 auto 82px;
+    padding-top: 92px;
+  }
+  .container{
+    overflow: visible;
   }
   .case1-s3-l {
     width: 50%;
@@ -68,7 +72,7 @@
     }
     .case1-s3-sbmt {
       @extend .btn;
-      margin: 13px auto;
+      margin: 31px auto 0;
       width: 162px;
       color: #fa2247;
       border: 1px solid #fa2247;
@@ -104,7 +108,11 @@
   .case1-s3 {
     height: 554px;
     h2 {
-      margin: 15px auto 49px;
+      margin: 0 auto 49px;
+      padding-top: 15px;
+    }
+    .container {
+      overflow: visible;
     }
     .case1-s3-l {
       &:after {
@@ -130,7 +138,8 @@
   .case1-s3 {
     height: 1109px;
     h2 {
-      margin: 26px auto 49px;
+      margin: 0 auto 49px;
+      padding-top: 26px;
     }
     .case1-s3-l {
       &:after {

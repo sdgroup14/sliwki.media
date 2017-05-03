@@ -303,7 +303,7 @@
       width: 342px;
     }
     .swiper-slide {
-      transform: scale(.8)!important;
+      position: relative;
       transition: all .2s linear;
       &:before{
         position: absolute;
@@ -361,8 +361,9 @@
     }
 
 
-    .swiper-slide-active {
-      transform: scale(1)!important;
+
+    .swiper-slide-active .c1-l1-item {
+          transform: scale(1)!important;
     }
 
     .swiper-pagination {
@@ -414,6 +415,8 @@
         float: none;
         transition: none !important;
         margin: 0 auto;
+        transform: scale(.8);
+        transition: transform 0.2s ease-in-out!important;
         &:before {
           width: 322px;
           height: 236px;

@@ -299,11 +299,14 @@
    }
    .header-section-case1 {
      height: 830px;
+     background: url('../img/480-header.jpg') no-repeat 50% 50%;
+     background-size: cover;
      .swiper-pagination { display: block; }
         .swiper-pagination-bullet { background-color: #ffffff; opacity: 0.5; }
         .swiper-pagination-bullet-active {  opacity: 1; }
      .video {
        min-height: 830px;
+       display:none;
      }
      .container {
        margin-top: 32px;

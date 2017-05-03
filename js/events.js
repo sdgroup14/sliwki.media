@@ -87,7 +87,7 @@ function AllSwipers() {
     breakpoints: {
       767: {
         slidesPerView: 1,
-        spaceBetween: 5,
+        spaceBetween: 0,
         slidesPerView: 'auto',
         loop: true,
         centeredSlides: true,
@@ -105,7 +105,7 @@ function AllSwipers() {
     breakpoints: {
       767: {
         slidesPerView: 1,
-        spaceBetween: 5,
+        spaceBetween: 0,
         slidesPerView: 'auto',
         loop: true,
         centeredSlides: true,
@@ -413,7 +413,18 @@ $(".calc1-phone, .case1-s3-phone, .case1-s7-phone, .case1-s8-phone, .details-pho
     });
 
 
+$('.case1-s8-btn').on('click', function(e){
+  e.preventDefault();
+  $(this).parents('.card').addClass('card-active');
+});
 
+$('.case1-s8-close').on('click', function(){
+  $(this).parents('.card').removeClass('card-active');
+});
+
+
+
+// $('.card-wrap').off('mouseenter mouseleave');
 
 
 

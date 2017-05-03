@@ -162,14 +162,14 @@
       color: #ffffff;
     }
   }
-  .card-wrap:hover > .card {
-    -webkit-transform: rotateY( 180deg);
-    -moz-transform: rotateY( 180deg);
-    -ms-transform: rotateY( 180deg);
-    -o-transform: rotateY( 180deg);
-    transform: rotateY( 180deg);
-    transition: all .5s;
-  }
+  // .card-wrap:hover > .card {
+  //   -webkit-transform: rotateY( 180deg);
+  //   -moz-transform: rotateY( 180deg);
+  //   -ms-transform: rotateY( 180deg);
+  //   -o-transform: rotateY( 180deg);
+  //   transform: rotateY( 180deg);
+  //   transition: all .5s;
+  // }
 }
 
 @mixin media_768_case_2_s8 {
@@ -266,8 +266,9 @@
       height: 461px;
     }
     .case1-s8-btn {
-      // margin: 0 auto;
+      margin: 43px auto;
       // @extend .btn-768;
+
       @extend .btn-480;
     }
     figure {
@@ -317,7 +318,46 @@
         letter-spacing: -.6px;
         margin: 48px auto 35px;
       }
+
+      .case1-s8-close-wrap {
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        width: 30px;
+        height: 30px;
+        transform: rotate(135deg);
+        
+      }
+
+      .case1-s8-close{
+        width: 100%;
+        height: 100%;
+        &:before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 50%;
+          margin-top: -1px;
+          background-color: #424242;
+          width: 100%;
+          height: 1.85px;
+        }
+        &:after {
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  right: 50%;
+                  margin-right: -1px;
+                  background-color: #424242;
+                  width: 2px;
+                  height: 100%;
+                }
+
+
+      }
     }
+
+
 
       .case1-s8-ico {
     // position: relative;
@@ -372,8 +412,28 @@
     }
     .case1-s8-sbmt {
       @extend .btn-480;
-      margin: 12px auto;
+      margin: 43px auto;
       // @extend .btn-768;
     }
+
+  //    .card-wrap:hover > .card {
+  //   -webkit-transform: none;
+  //   -moz-transform: none;
+  //   -ms-transform: none;
+  //   -o-transform: none;
+  //   transform: none;
+  //   transition: none;
+  // }
+
+  .card-active {
+    -webkit-transform: rotateY( 180deg);
+    -moz-transform: rotateY( 180deg);
+    -ms-transform: rotateY( 180deg);
+    -o-transform: rotateY( 180deg);
+    transform: rotateY( 180deg);
+    transition: all .5s;
+  }
+
+
   }
 }

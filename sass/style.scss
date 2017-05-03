@@ -233,6 +233,17 @@ section {
 @import "content/mobile-menu";
 
 
+ @media screen and (min-width: 768px) {
+   .card-wrap:hover > .card {
+    -webkit-transform: rotateY( 180deg);
+    -moz-transform: rotateY( 180deg);
+    -ms-transform: rotateY( 180deg);
+    -o-transform: rotateY( 180deg);
+    transform: rotateY( 180deg);
+    transition: all .5s;
+  }
+ }
+
  @media screen and (max-width: 1024px) and (min-width: 768px) {
   section {
     min-width: 768px;

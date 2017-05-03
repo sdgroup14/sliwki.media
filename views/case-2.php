@@ -400,6 +400,7 @@
           <a href="" class="case1-s8-btn">Получить</a>
         </figure>
         <figure class="front">
+          <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
@@ -418,6 +419,7 @@
           <a href="" class="case1-s8-btn">Получить</a>
         </figure>
         <figure class="front">
+          <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
@@ -436,6 +438,7 @@
           <a href="" class="case1-s8-btn">Получить</a>
         </figure>
         <figure class="front">
+          <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
