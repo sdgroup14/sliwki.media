@@ -87,16 +87,18 @@
 
 @mixin media_480_case_2_s1 {
   .case1-s1 {
-    height: 1850px;
+    height: 1810px;
     h2 {
-      margin: 39px auto 81px;
+      margin: 39px auto 47px;
     }
     .c1-l-item {
       width: 100%;
       float: none;
+      margin-bottom: 52px;
       &:before {
-        margin-bottom: 26px;
-        transform: scale(1.3);
+        margin-bottom: 3px;
+        transform: scale(.69);
+        @extend .sprite-480;
       }
       h3 {
         font-size: 1.857rem;
@@ -109,5 +111,38 @@
         letter-spacing: -.6px;
       }
     }
+    .c1-i-1:before {
+        background-position: -985px -666px;
+        width: 108px;
+        height: 108px;
+      }
+
+
+    .c1-i-2:before {
+    background-position: -985px -167px;
+  width: 110px;
+  height: 116px;
+  }
+  .c1-i-3:before {
+    background-position: -985px -541px;
+  width: 110px;
+  height: 110px;
+  }
+  .c1-i-4:before {
+    background-position: -985px -1030px;
+  width: 108px;
+  height: 98px;
+  }
+  .c1-i-5:before {
+    background-position: -985px -789px;
+  width: 106px;
+  height: 106px;
+  }
+  .c1-i-6:before {
+    background-position: -1336px -144px;
+  width: 64px;
+  height: 112px;
+  }
+
   }
 }

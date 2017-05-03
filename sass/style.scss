@@ -316,6 +316,7 @@ section {
 .u1 {
   &:after {
     width: 54px;
+    bottom: -6px;
   }
 }
 
@@ -329,6 +330,10 @@ section {
   &:after{
     display:inline;
   }
+}
+
+.sprite-480 {
+  background-size: 1484px 1331px;
 }
 
   // .slide-up {

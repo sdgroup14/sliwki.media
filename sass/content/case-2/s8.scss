@@ -276,8 +276,10 @@
     .back {
       &:before {
         // transform: scale(.85);
+        @extend .sprite-480;
             margin: 65px auto 41px;
-            transform: scale(1.4);
+            // transform: scale(1.4);
+                transform: scale(.725);
       }
       h3 {
         font-size: 1.857rem;
@@ -290,15 +292,24 @@
         font-size: 1.429rem;
       }
     }
-    .back1:before {
-      // margin: 27px auto 15px;
-    }
-    .back2:before {
-      // margin: 25px auto 10px;
-    }
-    .back3:before {
-      // margin: 27px auto 15px;
-    }
+     .back1:before {
+    margin: 41px auto 17px;
+    background-position: -1217px -1px;
+  width: 104px;
+  height: 96px;
+  }
+  .back2:before {
+    margin: 49px auto 13px;
+    background-position: -985px -1142px;
+  width: 94px;
+  height: 112px;
+  }
+  .back3:before {
+    margin: 46px auto 16px;
+    background-position: -1217px -225px;
+  width: 96px;
+  height: 97px;
+  }
     .front {
       p {
         font-size: 1.429rem;
@@ -307,10 +318,30 @@
         margin: 48px auto 35px;
       }
     }
+
+      .case1-s8-ico {
+    // position: relative;
+    &:after {
+      // position: absolute;
+      // top: 50%;
+      @extend .sprite-480;
+      transform: scale(.85);
+    }
+  }
+  .case1-s8-ico-name:after {
+   left: 13px;
+      margin-top: -14.5px;
+      background-position: -1336px -854px;
+  width: 30px;
+  height: 29px;
+  }
+
+
     .case1-s8-inp {
       width: 407px;
       height: 62px;
       margin-bottom: 30px;
+      padding-left: 51px;
     }
    ::-webkit-input-placeholder {
       color: #a9a6b0;

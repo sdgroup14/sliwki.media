@@ -26,14 +26,14 @@
         left: -26px;
         top: 50%;
         margin-top: -6.5px;
-        background-position: -689px -428px;
+        background-position: -689px -427px;
         width: 14px;
-        height: 13px;
+        height: 15px;
       }
     }
     .c1-s9-head-active {
       &:before {
-        background-position: -710px -428px;
+        background-position: -710px -427px;
       }
     }
     p {
@@ -109,19 +109,19 @@
       // cursor: pointer;
       // letter-spacing: -0.9px;
       &:before {
-        // @extend .sprite;
+        @extend .sprite-480;
         // position: absolute;
-        // left: -26px;
-        // top: 50%;
-        // margin-top: -6.5px;
-        // background-position: -689px -428px;
-        // width: 14px;
-        // height: 13px;
+        left: -10px;
+        top: 0;
+        margin-top: 0;
+        background-position: -1378px -854px;
+  width: 28px;
+  height: 28px;
       }
     }
     .c1-s9-head-active {
       &:before {
-        // background-position: -710px -428px;
+        background-position: -1418.5px -854px;
       }
     }
     p {

@@ -157,6 +157,22 @@
         font-size: 1.637rem;
         line-height: 31.31px;
       }
+            .case1-s7-ico {
+      // position: relative;
+      &:after {
+        // position: absolute;
+        @extend .sprite-480;
+        // top: 50%;
+        transform: scale(.85);
+      }
+    }
+    .case1-s7-ico-name:after {
+      left: 19px;
+      margin-top: -14.5px;
+      background-position: -1336px -854px;
+  width: 30px;
+  height: 29px;
+    }
       .case1-s7-inp {
         width: 100%;
         height: 62px;

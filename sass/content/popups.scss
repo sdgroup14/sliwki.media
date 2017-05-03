@@ -275,23 +275,24 @@
       width: 403px;
       &:after {
         // position: absolute;
-        // @extend .sprite;
+        @extend .sprite-480;
+        transform: scale(.85);
         // top: 50%;
       }
     }
     .popup-inp-ico-name:after {
-      // left: 13px;
-      // margin-top: -7px;
-      // background-position: -668px -428px;
-      // width: 14px;
-      // height: 14px;
+        left: 15px;
+      margin-top: -14.5px;
+      background-position: -1336px -854px;
+  width: 30px;
+  height: 29px;
     }
     .popup-inp-ico-mail:after {
-      // left: 12px;
-      // margin-top: -5px;
-      // background-position: -668px -449px;
-      // width: 14px;
-      // height: 10px;
+        left: 15px;
+      margin-top: -11px;
+      background-position: -1336px -896px;
+  width: 30px;
+  height: 22px;
     }
     .popup-btn {
       // @extend .btn;
