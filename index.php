@@ -11,9 +11,8 @@
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
-
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/css/intlTelInput.css">
   <!-- build:remove -->
-  <link rel="stylesheet" type="text/css" href="css/libs/intlTelInput.css">
   <link rel="stylesheet" type="text/css" href="css/libs/jquery.circliful.css">
   <link href="css/style.css" rel="stylesheet">
   <!-- /build -->
