@@ -243,8 +243,8 @@
            width: 24.5px;
          }
        }
-       .b-contact{
-        padding-top: 2px;
+       .b-contact {
+         padding-top: 2px;
        }
        .b-contact-item {
          font-size: 0.714rem;
@@ -289,9 +289,8 @@
      }
    }
  }
-
-
-@mixin media_480_case_2_header {
+ 
+ @mixin media_480_case_2_header {
    .logo-white {
      width: 145px;
      margin-left: -72.5px;
@@ -301,17 +300,25 @@
      height: 830px;
      background: url('../img/480-header.jpg') no-repeat 50% 50%;
      background-size: cover;
-     .swiper-pagination { display: block; }
-        .swiper-pagination-bullet { background-color: #ffffff; opacity: 0.5; }
-        .swiper-pagination-bullet-active {  opacity: 1; }
+     padding-bottom: 96px;
+     .swiper-pagination {
+       display: block;
+     }
+     .swiper-pagination-bullet {
+       background-color: #ffffff;
+       opacity: 0.5;
+     }
+     .swiper-pagination-bullet-active {
+       opacity: 1;
+     }
      .video {
        min-height: 830px;
-       display:none;
+       display: none;
      }
      .container {
        margin-top: 32px;
        .menu-button {
-        height: 30px;
+         height: 30px;
          width: 55px;
          margin-top: 1px;
          &:before,
@@ -320,14 +327,14 @@
            width: 54.5px;
          }
          div {
-         margin: 7px 0;
+           margin: 7px 0;
+         }
+         &:hover div {
+           margin: 9px 0;
+         }
        }
-       &:hover div {
-         margin: 9px 0;
-       }
-       }
-       .b-contact{
-        padding-top: 0px;
+       .b-contact {
+         padding-top: 0px;
        }
        .b-contact-item {
          font-size: 1.024rem;
@@ -336,8 +343,8 @@
          font-size: 1.286rem;
        }
        .phone:nth-child(2) {
-       margin-bottom: 6px;
-     }
+         margin-bottom: 6px;
+       }
        .header-content {
          margin: 206px 0 0 0;
          h1 {
@@ -352,6 +359,7 @@
          }
          .content-btn {
            @extend .btn-480;
+           margin-bottom: 82px;
          }
        }
      }
@@ -359,7 +367,7 @@
        height: 96px;
        .footer-wrapper {
          width: 429px;
-    transform: scale(1.1);
+         transform: scale(1.1);
        }
        .swiper-slide {
          &:after {

@@ -30,9 +30,9 @@
     }
     .c11-slider-wrap {
       height: 200%;
-      &:hover > .c1-s11-up {
-        margin-top: -211px;
-      }
+      // &:hover > .c1-s11-up {
+      //   margin-top: -211px;
+      // }
       .c1-s11-up,
       .c1-s11-down {
         height: 211px;
@@ -156,7 +156,10 @@
 }
 
 @mixin media_480_case_2_s11 {
+  .c11-slider-wrap-active {
+          margin-top: -355px;
 
+        }
 
   .case1-s11 {
     height: 1638px;
@@ -173,9 +176,10 @@
         height:355px;
       }
       .c11-slider-wrap {
-        &:hover > .c1-s11-up {
-          margin-top: -355px;
-        }
+        transition: all 0.3s ease;
+        // &:hover > .c1-s11-up {
+        //   margin-top: -355px;
+        // }
         .c1-s11-up,
         .c1-s11-down {
           height:355px;

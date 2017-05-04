@@ -242,6 +242,14 @@ section {
     transform: rotateY( 180deg);
     transition: all .5s;
   }
+
+  .c11-slider-wrap {
+      height: 200%;
+      &:hover > .c1-s11-up {
+        margin-top: -211px;
+      }
+      }
+
  }
 
  @media screen and (max-width: 1024px) and (min-width: 768px) {

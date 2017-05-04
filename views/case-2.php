@@ -50,7 +50,7 @@
       </div>
   </div>
 </section>
-<section class="case1-s1">
+<section class="case1-s1" id="case1-s1">
   <div class="container">
     <h2 class="section-h2"><span class="u1">О н</span>ас в цифрах</h2>
     <div class="c1-list clearfix">
@@ -141,7 +141,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s3">
+<section class="case1-s3" id="case1-s3">
   <div class="container">
     <h2 class="section-h2"><span class="u1">Хот</span>ите начать?</h2>
       <div class="case1-s3-l">
@@ -156,7 +156,7 @@
       </div>
     </div>
 </section>
-<section class="case1-s4">
+<section class="case1-s4" id="case1-s4">
   <div class="container">
     <h2 class="section-h2"><span class="u1">Ке</span>йсы</h2>
     <div class="case1-s4-list clearfix">
@@ -290,7 +290,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s6">
+<section class="case1-s6" id="case1-s6">
   <div class="container">
     <h2 class="section-h2"><span class="u1">Ко</span>манда</h2>
     <div class="case1-s6-list clearfix">
@@ -395,7 +395,7 @@
         </figure>
         <figure class="front">
           <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
-          <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
+          <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
             <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="">
@@ -414,7 +414,7 @@
         </figure>
         <figure class="front">
           <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
-          <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
+          <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
             <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="">
@@ -433,7 +433,7 @@
         </figure>
         <figure class="front">
           <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
-          <p>Позвоним прямо сейчас, сделаем&nbsp;<br class="c2-br1-768">все&nbsp;<br class="c2-br2-768">до конца дня</p>
+          <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
           <form action="">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="" placeholder="Ваше имя"></label>
             <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="">
@@ -444,7 +444,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s9">
+<section class="case1-s9" id="case1-s9">
   <div class="container">
     <h2 class="section-h2"><span class="u1 hide">Час</span>то задаваемые <span class="u1 show">во</span>просы</h2>
     <div class="c1-s9-list">
@@ -523,7 +523,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s11">
+<section class="case1-s11" id="case1-s11">
   <h2 class="section-h2"><span class="u1">Наш</span>и другие услуги</h2>
   <div class="container clearfix">
     <div class="c1-s11-item c1-s11-i1">
@@ -568,7 +568,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s12">
+<section class="case1-s12" id="case1-s12">
   <div class="container clearfix">
     <div class="c1-s12-contacts">
       <h2 class="section-h2"><span class="u1">Наш</span>и контакты</h2>

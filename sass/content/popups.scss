@@ -107,6 +107,8 @@
     background-color: #302c39;
     border: 1px solid #7c7883;
     color: #ffffff;
+    @extend .lig;
+    
   }
   .popup-inp-ico {
     display: block;

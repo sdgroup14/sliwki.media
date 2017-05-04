@@ -67,6 +67,8 @@
       border: 1px solid #e0e4ec;
       margin-bottom: 18px;
       padding-left: 40px;
+      @extend .lig;
+      color: #424242;
     }
     .case1-s7-sbmt {
       @extend .btn;
