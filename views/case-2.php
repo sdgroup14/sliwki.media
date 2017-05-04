@@ -205,88 +205,115 @@
 </section>
 <section class="case1-s5">
   <div class="container">
-    <h2 class="section-h2"><span class="u1">Схе</span>ма работы над проектом</h2>
+    <h2 class="section-h2"><span class="u1">Схе</span>ма работы<br class="c2-br2-768">над проектом</h2>
     <div class="c1-s5-outline-container clearfix">
       <button class="c1-s5-btn c1-s5-calc-start">Оставить заявку</button>
-      <div class="c1-s5-out-line c1-s5-out-line1"></div>
-      <div class="c1-s5-puls">
-        <span class="c1-s5-puls-number">1</span>
-        <div class="c1-s5-puls-center c1-s5-puls-center1 c1-s5-puls-center-active"></div>
-        <p class="c1-s5-puls-text">Определяем Ваши цели<br>и потребности в бизнесе</p>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap1"><div class="c1-s5-out-line c1-s5-out-line1"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap1">
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">1</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center1"></div>
+          <!-- <div class="c1-s5-puls-center c1-s5-puls-center1 c1-s5-puls-center-active"></div> -->
+          <p class="c1-s5-puls-text">Определяем Ваши цели<br>и потребности в бизнесе</p>
+        </div>
       </div>
-      <div class="c1-s5-out-line c1-s5-out-line2"></div>
-      <div class="c1-s5-puls">
-        <span class="c1-s5-puls-number">2</span>
-        <div class="c1-s5-puls-center c1-s5-puls-center2"></div>
-        <p class="c1-s5-puls-text">Подписываем юридический<br>договор на разработку проекта</p>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap2"><div class="c1-s5-out-line c1-s5-out-line2 c1-s5-out-line-roundr-480"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap2">
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">2</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center2"></div>
+          <p class="c1-s5-puls-text">Подписываем юридический<br>договор на разработку проекта</p>
+        </div>
       </div>
-      <div class="c1-s5-out-line c1-s5-out-line3"></div>
-      <div class="c1-s5-puls">
-        <span class="c1-s5-puls-number">3</span>
-        <div class="c1-s5-puls-center c1-s5-puls-center3"></div>
-        <p class="c1-s5-puls-text c1-s5-puls-text1">Проводим комплексное<br>маркетинговое исследование<br>вашего бизнеса</p>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap3"><div class="c1-s5-out-line c1-s5-out-line3 c1-s5-out-line-roundr-768"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap3">
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">3</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center3"></div>
+          <p class="c1-s5-puls-text c1-s5-puls-text1">Проводим комплексное<br>маркетинговое исследование<br>вашего бизнеса</p>
+        </div>
       </div>
-      <div class="c1-s5-out-line c1-s5-out-line4 c1-s5-out-line-roundr"></div>
-      <div class="c1-s5-out-line c1-s5-out-line5 c1-s5-out-line-roundl"></div>
-      <div class="c1-s5-puls">
-        <span class="c1-s5-puls-number">6</span>
-        <div class="c1-s5-puls-center c1-s5-puls-center4"></div>
-        <p class="c1-s5-puls-text">Разрабатываем продающий<br>текст для Лендинг Пейдж</p>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap4"><div class="c1-s5-out-line c1-s5-out-line4 c1-s5-out-line-roundr c1-s5-out-line-roundl-480"></div></div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap5"><div class="c1-s5-out-line c1-s5-out-line5"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap4">
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">4</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center4"></div>
+          <p class="c1-s5-puls-text c1-s5-puls-text1">Разрабатываем концепцию<br>Лендинг Пейдж для достижения<br>максимальной конверсии</p>
+        </div>
       </div>
-      <div class="c1-s5-out-line c1-s5-out-line6"></div>
-      <div class="c1-s5-puls">
-        <span class="c1-s5-puls-number">5</span>
-        <div class="c1-s5-puls-center c1-s5-puls-center5"></div>
-        <p class="c1-s5-puls-text c1-s5-puls-text1">Разрабатываем структуру<br>Лендинг Пейдж — прототип<br>страницы</p>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap6"><div class="c1-s5-out-line c1-s5-out-line6"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap5">
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">5</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center5"></div>
+          <p class="c1-s5-puls-text c1-s5-puls-text1">Разрабатываем структуру<br>Лендинг Пейдж — прототип<br>страницы</p>
+        </div>
       </div>
-      <div class="c1-s5-out-line c1-s5-out-line7"></div>
-      <div class="c1-s5-puls">
-        <span class="c1-s5-puls-number">4</span>
-        <div class="c1-s5-puls-center c1-s5-puls-center6"></div>
-        <p class="c1-s5-puls-text c1-s5-puls-text1">Разрабатываем концепцию<br>Лендинг Пейдж для достижения<br>максимальной конверсии</p>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap7"><div class="c1-s5-out-line c1-s5-out-line7 c1-s5-out-line-roundl-768 c1-s5-out-line-roundr-480"></div></div>
+      <div class="c1-s5-out-line-wrap-768-helper c1-s5-out-line-wrap-768-helper1"><div class="c1-s5-out-line-768-helper c1-s5-out-line-768-helper1"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap6">
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">6</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center6"></div>
+          <p class="c1-s5-puls-text">Разрабатываем продающий<br>текст для Лендинг Пейдж</p>
+        </div>
       </div>
-      <div class="c1-s5-out-line c1-s5-out-line8"></div>
-      <div class="c1-s5-out-line c1-s5-out-line9"></div>
-      <div class="c1-s5-puls">
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap8"><div class="c1-s5-out-line c1-s5-out-line8 c1-s5-out-line-roundl"></div></div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap9"><div class="c1-s5-out-line c1-s5-out-line9"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap7">
+        <div class="c1-s5-puls">
           <span class="c1-s5-puls-number">7</span>
           <div class="c1-s5-puls-center c1-s5-puls-center7"></div>
-          <p class="c1-s5-puls-text">Рисуем уникальный дизайн<br>макет для Лендинг Пейдж</p>
+          <p class="c1-s5-puls-text">Рисуем уникальный дизайн<br>макет для Лендинг Пейдж</p> 
         </div>
-        <div class="c1-s5-out-line c1-s5-out-line10"></div>
+      </div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap10"><div class="c1-s5-out-line c1-s5-out-line10 c1-s5-out-line-roundl-480"></div></div>
+      <div class="c1-s5-out-line-wrap-480-helper c1-s5-out-line-wrap-480-helper1"><div class="c1-s5-out-line-480-helper c1-s5-out-line-480-helper1"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap8">
         <div class="c1-s5-puls">
           <span class="c1-s5-puls-number">8</span>
           <div class="c1-s5-puls-center c1-s5-puls-center8"></div>
           <p class="c1-s5-puls-text c1-s5-puls-text1">Презентуем Вам готовый<br>макет Лендинг Пейдж и<br>вносим нужные правки</p>
         </div>
-        <div class="c1-s5-out-line c1-s5-out-line11"></div>
+      </div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap11"><div class="c1-s5-out-line c1-s5-out-line11 c1-s5-out-line-roundr-768-1"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap9">
         <div class="c1-s5-puls">
           <span class="c1-s5-puls-number">9</span>
           <div class="c1-s5-puls-center c1-s5-puls-center9"></div>
           <p class="c1-s5-puls-text c1-s5-puls-text1">Верстка Лендинг Пейдж,<br>настройка всех форм и<br>размещение на хостинге</p>
         </div>
-        <div class="c1-s5-out-line c1-s5-out-line12 c1-s5-out-line-roundr"></div>
-       <div class="c1-s5-outline-line3 clearfix">
-          <button class="c1-s5-btn c1-s5-calc-end">Рассчитать стоимость</button>
-          <div class="c1-s5-out-line c1-s5-out-line16"></div>
-          <div class="c1-s5-puls">
-            <span class="c1-s5-puls-number">12</span>
-            <div class="c1-s5-puls-center c1-s5-puls-center10"></div>
-            <p class="c1-s5-puls-text c1-s5-puls-text1">Остаемся с Вами после<br>сдачи проекта и оказываем<br>постоянную поддержку</p>
-          </div>
-          <div class="c1-s5-out-line c1-s5-out-line15"></div>
-          <div class="c1-s5-puls">
-            <span class="c1-s5-puls-number">11</span>
-            <div class="c1-s5-puls-center c1-s5-puls-center11"></div>
-            <p class="c1-s5-puls-text c1-s5-puls-text1">Настройка РК и запуск на<br>Лендинг Пейдж целевых<br>посетителей</p>
-          </div>
-          <div class="c1-s5-out-line c1-s5-out-line14"></div>
-          <div class="c1-s5-puls">
-            <span class="c1-s5-puls-number">10</span>
-            <div class="c1-s5-puls-center c1-s5-puls-center12"></div>
-            <p class="c1-s5-puls-text c1-s5-puls-text1">Финальная проверка<br>Лендинг Пейдж и запуск<br>проекта</p>
-          </div>
-          <div class="c1-s5-out-line c1-s5-out-line13"></div>
       </div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap12"><div class="c1-s5-out-line c1-s5-out-line12 c1-s5-out-line-roundr c1-s5-out-line-roundr-480"></div></div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap13"><div class="c1-s5-out-line c1-s5-out-line13"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap10">
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">10</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center10"></div>
+          <p class="c1-s5-puls-text c1-s5-puls-text1">Финальная проверка<br>Лендинг Пейдж и запуск<br>проекта</p>
+        </div>
+      </div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap14"><div class="c1-s5-out-line c1-s5-out-line14"></div></div>
+       <div class="c1-s5-puls-wrap c1-s5-puls-wrap11">
+        <div class="c1-s5-puls">
+          <span class="c1-s5-puls-number">11</span>
+          <div class="c1-s5-puls-center c1-s5-puls-center11"></div>
+          <p class="c1-s5-puls-text c1-s5-puls-text1">Настройка РК и запуск на<br>Лендинг Пейдж целевых<br>посетителей</p>
+        </div>
+      </div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap15"><div class="c1-s5-out-line c1-s5-out-line15 c1-s5-out-line-roundl-768 c1-s5-out-line-roundl-480"></div></div>
+      <div class="c1-s5-out-line-wrap-768-helper c1-s5-out-line-wrap-768-helper2"><div class="c1-s5-out-line-768-helper c1-s5-out-line-768-helper2"></div></div>
+      <div class="c1-s5-out-line-wrap-480-helper c1-s5-out-line-wrap-480-helper2"><div class="c1-s5-out-line-480-helper c1-s5-out-line-480-helper2"></div></div>
+      <div class="c1-s5-puls-wrap c1-s5-puls-wrap12">
+        <div class="c1-s5-puls">
+         <span class="c1-s5-puls-number">12</span>
+         <div class="c1-s5-puls-center c1-s5-puls-center12"></div>
+         <p class="c1-s5-puls-text c1-s5-puls-text1">Остаемся с Вами после<br>сдачи проекта и оказываем<br>постоянную поддержку</p>
+       </div>
+      </div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap16"><div class="c1-s5-out-line c1-s5-out-line16"></div></div>
+      <button class="c1-s5-btn c1-s5-calc-end">Рассчитать стоимость</button>
     </div>
   </div>
 </section>
