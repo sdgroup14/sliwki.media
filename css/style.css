@@ -34,7 +34,7 @@
 .bol, .case1-s5 .c1-s5-puls .c1-s5-puls-number, .case1-s6 .s6-manifestation .s6-member-position, .popup h3, .popup1 h3, .popup1 li span, .mobile-menu .mob-list-item {
   font-family: "GothamProBold", sans-serif; }
 
-.lig, .case1-s2 p, .case1-s3 .case1-s3-l p, .case1-s3 .case1-s3-l .case1-s3-inp, .case1-s4 .c1-s4-i6, .case1-s4 .c1-s4-i6 .c1-s4-inp, .case1-s4 .c1-s4-i6 ::-webkit-input-placeholder, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s6 .s6-manifestation .s6-member-name, .case1-s6 .s6-manifestation .s6-member-mail, .case1-s7 .case1-s7-l p, .case1-s7 .case1-s7-l .case1-s7-inp, .case1-s8 .c1-s8-sub, .case1-s9 .c1-s9-l-item p, .case1-s9 .c1-s9-l-item li, .case1-s10 .case1-s10-l p, .case1-s11 .container .c11-slider-wrap .c1-s11-down p, .case1-s12 .c1-s12-text, .case1-footer, .popup .popup-input {
+.lig, .case1-s2 p, .case1-s3 .case1-s3-l p, .case1-s3 .case1-s3-l .case1-s3-inp, .case1-s4 .c1-s4-i6, .case1-s4 .c1-s4-i6 .c1-s4-inp, .case1-s4 .c1-s4-i6 ::-webkit-input-placeholder, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s6 .s6-manifestation .s6-member-name, .case1-s6 .s6-manifestation .s6-member-mail, .case1-s7 .case1-s7-l p, .case1-s7 .case1-s7-l .case1-s7-inp, .case1-s8 .c1-s8-sub, .case1-s8 .case1-s8-inp, .case1-s9 .c1-s9-l-item p, .case1-s9 .c1-s9-l-item li, .case1-s10 .case1-s10-l p, .case1-s11 .container .c11-slider-wrap .c1-s11-down p, .case1-s12 .c1-s12-text, .case1-footer, .popup .popup-input {
   font-family: "GothamProLight", sans-serif; }
 
 .px7 {
@@ -52,7 +52,7 @@
 .px11 {
   font-size: .786rem; }
 
-.px12, .btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .popup .popup-btn, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s10 .case1-s10-l p, .case1-s12 .c1-s12-text, .popup p {
+.px12, .btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .popup .popup-btn, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s8 .case1-s8-inp, .case1-s10 .case1-s10-l p, .case1-s12 .c1-s12-text, .popup p {
   font-size: .91rem; }
 
 .px13, .header-section-case1 .container .header-content .content-btn, .popup .modal-close-dwn {
@@ -553,7 +553,7 @@ section {
     left: 0;
     bottom: -11px; }
 
-.c2-br2-1024 {
+.c2-br2-1024, .slide-c1-s2-head {
   display: none; }
 
 .c2-br2-768 {
@@ -2749,7 +2749,8 @@ footer .wrap a:hover {
     border-radius: 5px;
     border: 1px solid #e0e4ec;
     margin-bottom: 18px;
-    padding-left: 40px; }
+    padding-left: 40px;
+    color: #424242; }
   .case1-s8 .case1-s8-sbmt {
     margin: 5px auto;
     width: 190px;
@@ -3410,7 +3411,7 @@ ul {
     line-height: 36px;
     font-size: 0.857rem;
     width: 158px; }
-  .c2-br1-1024 {
+  .c2-br1-1024, .slide-c1-s2-head {
     display: none; }
   .c2-br2-1024 {
     display: block; }
@@ -4071,25 +4072,13 @@ ul {
       display: -ms-flexbox;
       display: -webkit-flex;
       width: 342px; }
-    .case1-s2 .swiper-slide {
+    .case1-s2 .swiper-slide-active {
       position: relative;
       transition: all .2s linear; }
-      .case1-s2 .swiper-slide:before {
+      .case1-s2 .swiper-slide-active:before {
         position: absolute;
-        top: -50px;
-        left: 50%;
-        transform: translateX(-50%);
-        display: block;
-        margin: 0 auto;
-        width: 342px;
-        text-align: center;
-        font-family: 'GothamProMedium';
-        font-size: 1.786rem;
-        margin-bottom: 57px; }
-      .case1-s2 .swiper-slide:after {
-        position: absolute;
-        left: 100%;
-        transform: translate(-25%);
+        right: 100%;
+        transform: translate(50%);
         top: -38px;
         display: block;
         margin: 0 auto;
@@ -4098,18 +4087,34 @@ ul {
         color: #a3a2a2;
         font-size: 1.071rem;
         margin-bottom: 57px; }
-    .case1-s2 .slide-s2-2:before {
-      content: 'Зачем?'; }
-    .case1-s2 .slide-s2-2:after {
-      content: 'Кому?'; }
-    .case1-s2 .slide-s2-1:before {
-      content: 'Кому?'; }
-    .case1-s2 .slide-s2-1:after {
-      content: 'Следствие'; }
-    .case1-s2 .slide-s2-3:before {
-      content: 'Следствие'; }
-    .case1-s2 .slide-s2-3:after {
-      content: 'Зачем?'; }
+      .case1-s2 .swiper-slide-active:after {
+        position: absolute;
+        left: 100%;
+        transform: translate(-50%);
+        top: -38px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'GothamProMedium';
+        color: #a3a2a2;
+        font-size: 1.071rem;
+        margin-bottom: 57px; }
+    .case1-s2 .slide-c1-s2-head {
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      margin: 0 auto;
+      width: 342px;
+      text-align: center;
+      font-family: 'GothamProMedium';
+      font-size: 1.786rem;
+      margin-bottom: 57px; }
+    .case1-s2 .swiper-slide-active:before {
+      content: attr(data-q); }
+    .case1-s2 .swiper-slide-active:after {
+      content: attr(data-aft); }
     .case1-s2 .swiper-slide-active .c1-l1-item {
       transform: scale(1) !important; }
     .case1-s2 .swiper-pagination {
@@ -4314,8 +4319,7 @@ ul {
       padding-top: 30px;
       font-size: 2.037rem;
       line-height: 35.65px;
-      margin: 0 auto 7px;
-      border: 0; }
+      margin: 0 auto 7px; }
     .case1-s4 .c1-s4-i6 .s4-sub-h3 {
       line-height: 19.14px;
       font-size: 1.286rem;
@@ -4328,7 +4332,10 @@ ul {
       width: 85%;
       height: 45px;
       padding-left: 47px;
-      font-size: 1.429rem; }
+      font-size: 1.429rem;
+      border: 0;
+      outline: 0;
+      border-bottom: 1px solid #ffffff; }
     .case1-s4 .c1-s4-i6 .c1-s4-sbmt {
       margin: 25px auto 0; }
     .case1-s4 .c1-s4-i6 .case1-s4-ico:after {
@@ -4736,7 +4743,8 @@ ul {
       height: 29px; }
     .case1-s8 .intl-tel-input .selected-flag {
       padding: 0 0 0 17px; }
-    .case1-s8 .intl-tel-input.allow-dropdown .selected-flag, .case1-s8 .intl-tel-input.separate-dial-code .selected-flag {
+    .case1-s8 .intl-tel-input.allow-dropdown .selected-flag,
+    .case1-s8 .intl-tel-input.separate-dial-code .selected-flag {
       width: 52px; }
     .case1-s8 .case1-s8-inp {
       width: 407px;
@@ -4905,6 +4913,8 @@ ul {
       padding-left: 0; }
     .case1-s12 .c1-s12-ofice {
       margin-bottom: 15px; }
+      .case1-s12 .c1-s12-ofice .c1-s12-place {
+        padding-left: 65px; }
     .case1-s12 h2 {
       margin: 52px auto 49px;
       text-align: center; }
@@ -4913,35 +4923,41 @@ ul {
       line-height: 46px;
       letter-spacing: -1.3px;
       margin-bottom: 15px;
-      padding-left: 12px; }
+      padding-left: 0;
+      text-align: center; }
+    .case1-s12 .c1-s12-contact .c1-s12-phone {
+      text-align: left;
+      padding-left: 86px; }
     .case1-s12 .c1-s12-phone {
-      margin-bottom: 34px; }
+      margin-bottom: 34px;
+      text-align: left; }
     .case1-s12 .c1-s12-text {
-      padding-left: 67px;
       letter-spacing: -.9px;
       font-size: 1.675rem;
-      line-height: 35px; }
+      line-height: 35px;
+      text-align: center;
+      padding-left: 0; }
       .case1-s12 .c1-s12-text:before {
         transform: scale(0.9); }
     .case1-s12 .c1-s12-place:before {
       background-position: -1422px -536px;
       width: 28px;
       height: 34px;
-      left: 23px; }
+      left: 25px; }
     .case1-s12 .c1-s12-phone:before {
       top: 3px;
-      left: 21px;
+      left: 39px;
       background-position: -1428px -451px;
       width: 26px;
       height: 41px; }
     .case1-s12 .c1-s12-mail:before {
       top: 5px;
-      left: 17px;
+      left: 47px;
       background-position: -1422px -583px;
       width: 36px;
       height: 23px; }
     .case1-s12 .c1-s12-btn {
-      margin: 17px 0 33px 12px; }
+      margin: 17px auto 33px; }
   ul {
     margin-top: 29px; }
   .c1-s12-social-item, .mobile-menu .mob-social-item {

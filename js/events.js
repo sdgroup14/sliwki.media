@@ -14,7 +14,6 @@ $('.steps-mob').find('.circlestat').each(function(i, elem) {
 });
 
 
-
 $(function() {
   $('.circlestat').circliful();
 });
@@ -34,95 +33,149 @@ function ScreenView() {
 };
 
 
-function AllSwipers() {
-  var swiper = new Swiper('.swiper-container', {
-    pagination: '.swiper-pagination',
-    simulateTouch: false,
-    slidesPerView: 2,
-    spaceBetween: 0,
-    breakpoints: {
-      767: {
-        slidesPerView: 1,
-        spaceBetween: 0,
-        simulateTouch: true,
-        paginationClickable: true
-      }
+var swiper = new Swiper('.swiper-container', {
+  pagination: '.swiper-pagination',
+  simulateTouch: false,
+  slidesPerView: 2,
+  spaceBetween: 0,
+  breakpoints: {
+    767: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      simulateTouch: true,
+      paginationClickable: true
     }
-  });
+  }
+});
 
-  var swiper1 = new Swiper('.swiper-container1', {
-    simulateTouch: false,
-    slidesPerView: 5,
-    spaceBetween: 25,
-    breakpoints: {
-      1023: {
-        spaceBetween: 0
-      },
-      767: {
-        spaceBetween: 8
-      }
+var swiper1 = new Swiper('.swiper-container1', {
+  simulateTouch: false,
+  slidesPerView: 5,
+  spaceBetween: 25,
+  breakpoints: {
+    1023: {
+      spaceBetween: 0
+    },
+    767: {
+      spaceBetween: 8
     }
-  });
+  }
+});
 
-  var swiper2 = new Swiper('.swiper-container2', {
-    simulateTouch: false,
-    slidesPerView: 5,
-    spaceBetween: 30,
-    breakpoints: {
-      1023: {
-        spaceBetween: 0
-      },
-      767: {
-        spaceBetween: 8
-      }
+var swiper2 = new Swiper('.swiper-container2', {
+  simulateTouch: false,
+  slidesPerView: 5,
+  spaceBetween: 30,
+  breakpoints: {
+    1023: {
+      spaceBetween: 0
+    },
+    767: {
+      spaceBetween: 8
     }
-  });
+  }
+});
 
+var swiper_html = '<div class="c1-list1 clearfix"> <div class="c1-list1-l"> <div class="swiper-container3"> <div class="swiper-wrapper"> <div class="swiper-slide slide-c1-s2  slide-s2-1"  data-q="" data-aft=""> <div class="slide-c1-s2-head">Кому?</div> <div class="c1-l1-item  c1-l2-i1"> <h3>Действующему&nbsp;<br class="c2-br2-768">бизнесу</h3> <p>Предпринимателям и компаниям в<br>сфере розничной и промышленной<br>торговли, услуг, консалтинга, B2B<br>и интернет бизнеса.</p> </div> </div> <div class="swiper-slide slide-c1-s2 slide-s2-2" data-q="" data-aft=""> <div class="slide-c1-s2-head">Зачем?</div> <div class="c1-l1-item c1-l2-i3"> <h3>Увеличение&nbsp;<br class="c2-br2-768">продаж</h3> <p>Для&nbsp;взаимодействия&nbsp;с&nbsp;максимально <br class="c2-br1-768">точной ЦА которая будет покупать&nbsp;<br class="c2-br1-768">Ваши товары/услуги на 30% больше&nbsp;<br class="c2-br1-768">благодаря актуальному предложению.</p> </div> </div> <div class="swiper-slide slide-c1-s2 slide-s2-3" data-q="" data-aft=""> <div class="slide-c1-s2-head">Следствие</div> <div class="c1-l1-item c1-l2-i5"> <h3>Перекрытие&nbsp;<br class="c2-br2-768">утечки денег</h3> <p>Вы сохраните до 58% прибыли которую&nbsp;<br class="c2-br1-768">Вы теряете каждый день недополучая&nbsp;<br class="c2-br1-768">десятки заявок от Ваших потенциальных&nbsp;<br class="c2-br1-768">клиентов готовых заплатить Вам деньги.</p> </div> </div> </div> <div class="swiper-pagination"></div> </div> </div> <div class="c1-list1-r"> <div class="swiper-container4"> <div class="swiper-wrapper"> <div class="swiper-slide slide-c1-s2  slide-s2-1" data-q="" data-aft=""> <div class="slide-c1-s2-head">Кому?</div> <div class="c1-l1-item c1-l2-i2"> <h3>Начинающему бизнесу</h3> <p>Начинающим предпринимателям,<br>которым важно максимально быстро<br>и эффективно запустить свою идею,<br>а так же извлечь первую прибыль.</p> </div> </div> <div class="swiper-slide slide-c1-s2 slide-s2-2" data-q="" data-aft=""> <div class="slide-c1-s2-head">Зачем?</div> <div class="c1-l1-item c1-l2-i4"> <h3>Получение первой прибыли</h3> <p>Для быстрого тестирования и анализа&nbsp;<br class="c2-br1-768">спроса в нише, а так же для бюджетного&nbsp;<br class="c2-br1-768">запуска бизнес идеи которая позволит&nbsp;<br class="c2-br1-768">получить клиентов уже на второй день.</p> </div> </div> <div class="swiper-slide slide-c1-s2 slide-s2-3"  data-q="" data-aft=""> <div class="slide-c1-s2-head">Следствие</div> <div class="c1-l1-item c1-l2-i6"> <h3>Снятие рисков провала</h3> <p>В результате запуска Вашей бизнес идеи&nbsp;<br class="c2-br1-768">Вы отсечете все риски провала, а так же&nbsp;<br class="c2-br1-768">сохраните свои деньги для дальнейшего&nbsp;<br class="c2-br1-768">и эффективного масштабирования.</p> </div> </div> </div> <div class="swiper-pagination"></div> </div> </div> </div>';
 
+$().ready(function() {
+  ScreenView();
+  $('.c1-list1').detach();
+  $('.case1-s2 .container').append(swiper_html);
   var swiper3 = new Swiper('.swiper-container3', {
-    pagination: '.swiper-pagination',
-    simulateTouch: false,
-    slidesPerView: 3,
-    spaceBetween: 0,
     breakpoints: {
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 0,
+        simulateTouch: false,
+        paginationClickable: false
+      },
       767: {
+        pagination: '.swiper-pagination',
         slidesPerView: 1,
         spaceBetween: 0,
-        slidesPerView: 'auto',
         loop: true,
+        slidesPerView: 'auto',
         centeredSlides: true,
         simulateTouch: true,
-        paginationClickable: true
+        paginationClickable: true,
+        onSlideChangeEnd: function() {
+          $('.swiper-container3').find('.swiper-slide-active').attr('data-aft', $('.swiper-container3').find('.swiper-slide-active').next().find('.slide-c1-s2-head').text());
+          $('.swiper-container3').find('.swiper-slide-active').attr('data-q', $('.swiper-container3').find('.swiper-slide-active').prev().find('.slide-c1-s2-head').text());
+        }
       }
     }
   });
 
   var swiper4 = new Swiper('.swiper-container4', {
-    pagination: '.swiper-pagination',
-    simulateTouch: false,
-    slidesPerView: 3,
-    spaceBetween: 0,
+
     breakpoints: {
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 0,
+        simulateTouch: false,
+        paginationClickable: false
+      },
       767: {
+        pagination: '.swiper-pagination',
         slidesPerView: 1,
         spaceBetween: 0,
-        slidesPerView: 'auto',
         loop: true,
+        slidesPerView: 'auto',
         centeredSlides: true,
         simulateTouch: true,
-        paginationClickable: true
+        paginationClickable: true,
+        onSlideChangeEnd: function() {
+          $('.swiper-container4').find('.swiper-slide-active').attr('data-aft', $('.swiper-container4').find('.swiper-slide-active').next().find('.slide-c1-s2-head').text());
+          $('.swiper-container4').find('.swiper-slide-active').attr('data-q', $('.swiper-container4').find('.swiper-slide-active').prev().find('.slide-c1-s2-head').text());
+        }
       }
     }
   });
-};
 
 
-$().ready(function() {
-  ScreenView();
-  AllSwipers();
   $(window).on('resize', function() {
+    var ww = $(window).width()
     ScreenView();
-    AllSwipers();
+
+    if (ww < 767) {
+      $('.c1-list1').detach();
+      $('.case1-s2 .container').append(swiper_html);
+      var swiper3 = new Swiper('.swiper-container3', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        simulateTouch: true,
+        paginationClickable: true,
+        onSlideChangeEnd: function() {
+          $('.swiper-container3').find('.swiper-slide-active').attr('data-aft', $('.swiper-container3').find('.swiper-slide-active').next().find('.slide-c1-s2-head').text());
+          $('.swiper-container3').find('.swiper-slide-active').attr('data-q', $('.swiper-container3').find('.swiper-slide-active').prev().find('.slide-c1-s2-head').text());
+        }
+      });
+
+      var swiper4 = new Swiper('.swiper-container4', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        simulateTouch: true,
+        paginationClickable: true,
+        onSlideChangeEnd: function() {
+          $('.swiper-container4').find('.swiper-slide-active').attr('data-aft', $('.swiper-container4').find('.swiper-slide-active').next().find('.slide-c1-s2-head').text());
+          $('.swiper-container4').find('.swiper-slide-active').attr('data-q', $('.swiper-container4').find('.swiper-slide-active').prev().find('.slide-c1-s2-head').text());
+        }
+      });
+
+
+    } else if (screen.width >= 767) {
+      $('.c1-list1').detach();
+      $('.case1-s2 .container').append(swiper_html);
+    }
   });
 });
 
@@ -173,8 +226,6 @@ $('.c1-s9-head').on('click', function() {
     $(this).addClass('c1-s9-head-active');
   }
 });
-
-
 
 
 function initMap() {
@@ -354,6 +405,20 @@ $('.c1-f-btn').on('click', function(e) {
   $('.call').css('display', 'table-cell');
 });
 
+$('.c1-s5-calc-start').on('click', function(e) {
+  e.preventDefault();
+  $('.modal-tint').addClass('modal-tint-active popup-active');
+  $('body').addClass('body-scroll-hide');
+  $('.statem').css('display', 'table-cell');
+});
+
+$('.c1-s5-calc-end').on('click', function(e) {
+  e.preventDefault();
+  $('.modal-tint').addClass('modal-tint-active popup-active');
+  $('body').addClass('body-scroll-hide');
+  $('.calc').css('display', 'table-cell');
+});
+
 
 
 
@@ -398,58 +463,55 @@ $(window).on('keydown', function(e) {
 
 
 $(".calc1-phone, .case1-s3-phone, .case1-s7-phone, .case1-s8-phone, .details-phone, .call-phone, .calc-phone, .statem-phone").intlTelInput({
-        onlyCountries: ["ru", "ua", "az", "by", "am", "kz", "kg", "md", "tj", "tm", "uz", "us", "gb", "at", "al", "ad", "be", "bg", "va", "hu", "de", "gr", "dk", "ie", "is", "es", "it", "lv", "lt", "li", "lu", "mk", "mt", "mc", "nl", "no", "pl", "pt", "ro", "sm", "rs", "sk", "sl", "fi", "fr", "hr", "me", "cz", "ch", "se", "ee"],
-        initialCountry: "auto",
-        geoIpLookup: function(callback) {
-            $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-                var countryCode = (resp && resp.country) ? resp.country : "";
-                callback(countryCode);
-            });
-        },
-        utilsScript: 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/js/utils.js',
-        defaultCountry: 'auto',
-        preferredCountries: ["ru", "ua"],
-        nationalMode: false
+  onlyCountries: ["ru", "ua", "az", "by", "am", "kz", "kg", "md", "tj", "tm", "uz", "us", "gb", "at", "al", "ad", "be", "bg", "va", "hu", "de", "gr", "dk", "ie", "is", "es", "it", "lv", "lt", "li", "lu", "mk", "mt", "mc", "nl", "no", "pl", "pt", "ro", "sm", "rs", "sk", "sl", "fi", "fr", "hr", "me", "cz", "ch", "se", "ee"],
+  initialCountry: "auto",
+  geoIpLookup: function(callback) {
+    $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "";
+      callback(countryCode);
     });
+  },
+  utilsScript: 'https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/js/utils.js',
+  defaultCountry: 'auto',
+  preferredCountries: ["ru", "ua"],
+  nationalMode: false
+});
 
 
-$('.case1-s8-btn').on('click', function(e){
+$('.case1-s8-btn').on('click', function(e) {
   e.preventDefault();
   $(this).parents('.card').addClass('card-active');
 });
 
-$('.case1-s8-close').on('click', function(){
+$('.case1-s8-close').on('click', function() {
   $(this).parents('.card').removeClass('card-active');
 });
 
 
 
-// $('.card-wrap').off('mouseenter mouseleave');
 
-$('.c11-slider-wrap').on('click', function(){
+
+$('.c11-slider-wrap').on('click', function() {
   $(this).toggleClass('c11-slider-wrap-active');
 });
 
 
 
 
-$('.mob-list-item a[href^="#"]').bind('click.smoothscroll',function (e) {
- e.preventDefault();
+$('.mob-list-item a[href^="#"]').bind('click.smoothscroll', function(e) {
+  e.preventDefault();
 
-$('.modal-tint').removeClass('modal-tint-active popup-active');
+  $('.modal-tint').removeClass('modal-tint-active popup-active');
   $('body').removeClass('body-scroll-hide');
   $('.mobile-menu').css('display', '');
   $($('.menu-button')).css('display', '');
- 
-var target = this.hash,
- $target = $(target);
- 
-$('html, body').stop().animate({
- 'scrollTop': $target.offset().top
- }, 500, 'swing', function () {
- window.location.hash = target;
- });
- });
 
+  var target = this.hash,
+    $target = $(target);
 
-
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 500, 'swing', function() {
+    window.location.hash = target;
+  });
+});

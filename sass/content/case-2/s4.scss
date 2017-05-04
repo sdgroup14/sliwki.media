@@ -235,7 +235,6 @@
         font-size: 2.037rem;
         line-height: 35.65px;
         margin: 0 auto 7px;
-        border: 0;
       }
       .s4-sub-h3 {
         line-height: 19.14px;
@@ -250,61 +249,48 @@
       .c1-s4-inp {
         width: 85%;
         height: 45px;
-        padding-left:47px;
+        padding-left: 47px;
         font-size: 1.429rem;
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid #ffffff;
       }
       .c1-s4-sbmt {
         margin: 25px auto 0;
         @extend .btn-480;
       }
-
-
-       .case1-s4-ico {
-      // position: relative;
-      &:after {
-        // position: absolute;
-        @extend .sprite-480;
-        // top: 50%;
-        transform: scale(.85);
+      .case1-s4-ico {
+        &:after {
+          @extend .sprite-480;
+          transform: scale(.85);
+        }
       }
-    }
-    .case1-s4-ico-name:after {
-      left: 0;
-      margin-top: -14.5px;
-      background-position: -1429px -409px;
-  width: 30px;
-  height: 29px;
-    }
-    .case1-s4-ico-mail:after {
-      left: 0;
-      margin-top: -11px;
-      background-position:  -1421px -783px;
-  width: 30px;
-  height: 22px;
-    }
-
-
+      .case1-s4-ico-name:after {
+        left: 0;
+        margin-top: -14.5px;
+        background-position: -1429px -409px;
+        width: 30px;
+        height: 29px;
+      }
+      .case1-s4-ico-mail:after {
+        left: 0;
+        margin-top: -11px;
+        background-position: -1421px -783px;
+        width: 30px;
+        height: 22px;
+      }
       ::-webkit-input-placeholder {
-      // color: #ffffff;
-      font-size: 1.429rem;
-      // letter-spacing: 1px;
-      // @extend .lig;
-    }
-    ::-moz-placeholder {
-      // color: #ffffff;
-       font-size: 1.429rem;
-      // letter-spacing: 1px;
-    }
-    :-moz-placeholder {
-      // color: #ffffff;
-      font-size: 1.429rem;
-      // letter-spacing: 1px;
-    }
-    :-ms-input-placeholder {
-      // color: #ffffff;
-      font-size: 1.429rem;
-      // letter-spacing: 1px;
-    }
+        font-size: 1.429rem;
+      }
+      ::-moz-placeholder {
+        font-size: 1.429rem;
+      }
+      :-moz-placeholder {
+        font-size: 1.429rem;
+      }
+      :-ms-input-placeholder {
+        font-size: 1.429rem;
+      }
     }
     .s4-manifestation {
       h3 {
@@ -320,6 +306,5 @@
         }
       }
     }
-
   }
 }
