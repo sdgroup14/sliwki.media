@@ -306,7 +306,7 @@
           <p class="c1-s5-puls-text c1-s5-puls-text1">Верстка Лендинг Пейдж,<br>настройка всех форм и<br>размещение на хостинге</p>
         </div>
       </div>
-      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap12"><div class="c1-s5-out-line c1-s5-out-line12 c1-s5-out-line-roundr c1-s5-out-line-roundr-480"></div></div>
+      <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap12"><div class="c1-s5-out-line c1-s5-out-line12 c1-s5-out-line-roundr1 c1-s5-out-line-roundr-480"></div></div>
       <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap13"><div class="c1-s5-out-line c1-s5-out-line13"></div></div>
       <div class="c1-s5-puls-wrap c1-s5-puls-wrap10">
         <div class="c1-s5-puls">
@@ -424,7 +424,7 @@
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
       <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;"> 
         <label for="" class="case1-s7-ico case1-s7-ico-name"><input class="case1-s7-inp case1-s7-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"></label>
-        <input class="case1-s7-inp case1-s7-phone" type="text" name="" id="fields[944881_1]">
+        <input class="case1-s7-inp case1-s7-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890">
         <input type="hidden" name="form_id" id="form_id" value="151957">
         <input type="hidden" name="hash" value="132d0e20957376863f8202e93a9412f4">
         <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:59:03 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}">
@@ -455,24 +455,22 @@
         <figure class="front">
           <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
-
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
-    <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-    <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]">
-    <input type="hidden" name="form_id" id="form_id" value="151960">
-    <input type="hidden" name="hash" value="240584a21301f18da560007995b4d1fa">
-    <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:59:53 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}">
-    <input type="hidden" name="fields[_2]" id="utm_source" value="">
-    <input type="hidden" name="fields[_2]" id="utm_medium" value="">
-    <input type="hidden" name="fields[_2]" id="utm_campaign" value="">
-    <input type="hidden" name="fields[_2]" id="utm_term" value="">
-    <input type="hidden" name="fields[_2]" id="ga" value="{&quot;ga&quot;:{},&quot;utm&quot;:{&quot;source&quot;:&quot;&quot;,&quot;medium&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;campaign&quot;:&quot;&quot;,&quot;term&quot;:&quot;&quot;},&quot;data_source&quot;:&quot;form&quot;}">
-    <button type="submit" id="button_submit" class="case1-s8-btn">Получить</button>
-    <input type="hidden" id="amoform_iframe_lang" value="ru">
-    <input id="visitor_uid" type="hidden" name="visitor_uid" value="54b4972d-e9d2-42f9-b21d-9bd206826c3a">
-</form>
-
+          <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+            <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"></label>
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890">
+            <input type="hidden" name="form_id" id="form_id" value="151960">
+            <input type="hidden" name="hash" value="240584a21301f18da560007995b4d1fa">
+            <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:59:53 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}">
+            <input type="hidden" name="fields[_2]" id="utm_source" value="">
+            <input type="hidden" name="fields[_2]" id="utm_medium" value="">
+            <input type="hidden" name="fields[_2]" id="utm_campaign" value="">
+            <input type="hidden" name="fields[_2]" id="utm_term" value="">
+            <input type="hidden" name="fields[_2]" id="ga" value="{&quot;ga&quot;:{},&quot;utm&quot;:{&quot;source&quot;:&quot;&quot;,&quot;medium&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;campaign&quot;:&quot;&quot;,&quot;term&quot;:&quot;&quot;},&quot;data_source&quot;:&quot;form&quot;}">
+            <button type="submit" id="button_submit" class="case1-s8-btn">Получить</button>
+            <input type="hidden" id="amoform_iframe_lang" value="ru">
+            <input id="visitor_uid" type="hidden" name="visitor_uid" value="54b4972d-e9d2-42f9-b21d-9bd206826c3a">
+          </form>
         </figure>
       </div>
     </div>
@@ -487,33 +485,22 @@
         <figure class="front">
           <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
-
-
-      
-
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
-    <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-            
-
+          <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]">
-              
-      <input type="hidden" name="form_id" id="form_id" value="151963">
-      <input type="hidden" name="hash" value="23e98f476e005694733e1407245b2241">
-      <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:00:45 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}">
-
-                        <input type="hidden" name="fields[_2]" id="utm_source" value="">
-                  <input type="hidden" name="fields[_2]" id="utm_medium" value="">
-                  <input type="hidden" name="fields[_2]" id="utm_campaign" value="">
-                  <input type="hidden" name="fields[_2]" id="utm_term" value="">
-                  <input type="hidden" name="fields[_2]" id="ga" value="{&quot;ga&quot;:{},&quot;utm&quot;:{&quot;source&quot;:&quot;&quot;,&quot;medium&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;campaign&quot;:&quot;&quot;,&quot;term&quot;:&quot;&quot;},&quot;data_source&quot;:&quot;form&quot;}">
-              
-      
-     <button  type="submit" id="button_submit" class="case1-s8-btn">Получить</button>
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890">
+            <input type="hidden" name="form_id" id="form_id" value="151963">
+            <input type="hidden" name="hash" value="23e98f476e005694733e1407245b2241">
+            <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:00:45 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}">
+            <input type="hidden" name="fields[_2]" id="utm_source" value="">
+            <input type="hidden" name="fields[_2]" id="utm_medium" value="">
+            <input type="hidden" name="fields[_2]" id="utm_campaign" value="">
+            <input type="hidden" name="fields[_2]" id="utm_term" value="">
+            <input type="hidden" name="fields[_2]" id="ga" value="{&quot;ga&quot;:{},&quot;utm&quot;:{&quot;source&quot;:&quot;&quot;,&quot;medium&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;campaign&quot;:&quot;&quot;,&quot;term&quot;:&quot;&quot;},&quot;data_source&quot;:&quot;form&quot;}">
+            <button type="submit" id="button_submit" class="case1-s8-btn">Получить</button>
             <input type="hidden" id="amoform_iframe_lang" value="ru">
-    <input id="visitor_uid" type="hidden" name="visitor_uid" value="54b4972d-e9d2-42f9-b21d-9bd206826c3a">
-    </form>
-
+            <input id="visitor_uid" type="hidden" name="visitor_uid" value="54b4972d-e9d2-42f9-b21d-9bd206826c3a">
+          </form>
         </figure>
       </div>
     </div>
@@ -528,29 +515,22 @@
         <figure class="front">
           <div class="case1-s8-close-wrap"><div class="case1-s8-close"></div></div>
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
-
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
-    <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;"> 
-
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
+          <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]">
-
-    <input type="hidden" name="form_id" id="form_id" value="151966">
-    <input type="hidden" name="hash" value="07c2e45cb783c0421936e6d4a5078445">
-    <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:02:22 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}">
-    <input type="hidden" name="fields[_2]" id="utm_source" value="">
-    <input type="hidden" name="fields[_2]" id="utm_medium" value="">
-    <input type="hidden" name="fields[_2]" id="utm_campaign" value="">
-    <input type="hidden" name="fields[_2]" id="utm_term" value="">
-    <input type="hidden" name="fields[_2]" id="ga" value="{&quot;ga&quot;:{},&quot;utm&quot;:{&quot;source&quot;:&quot;&quot;,&quot;medium&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;campaign&quot;:&quot;&quot;,&quot;term&quot;:&quot;&quot;},&quot;data_source&quot;:&quot;form&quot;}">
-    <button type="submit" id="button_submit" class="case1-s8-btn">Получить</button>
-  
- 
-    <input type="hidden" id="amoform_iframe_lang" value="ru">
-    <input id="visitor_uid" type="hidden" name="visitor_uid" value="54b4972d-e9d2-42f9-b21d-9bd206826c3a">
-  </form>
-
-
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890">
+            <input type="hidden" name="form_id" id="form_id" value="151966">
+            <input type="hidden" name="hash" value="07c2e45cb783c0421936e6d4a5078445">
+            <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:02:22 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}">
+            <input type="hidden" name="fields[_2]" id="utm_source" value="">
+            <input type="hidden" name="fields[_2]" id="utm_medium" value="">
+            <input type="hidden" name="fields[_2]" id="utm_campaign" value="">
+            <input type="hidden" name="fields[_2]" id="utm_term" value="">
+            <input type="hidden" name="fields[_2]" id="ga" value="{&quot;ga&quot;:{},&quot;utm&quot;:{&quot;source&quot;:&quot;&quot;,&quot;medium&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;campaign&quot;:&quot;&quot;,&quot;term&quot;:&quot;&quot;},&quot;data_source&quot;:&quot;form&quot;}">
+            <button type="submit" id="button_submit" class="case1-s8-btn">Получить</button>
+            <input type="hidden" id="amoform_iframe_lang" value="ru">
+            <input id="visitor_uid" type="hidden" name="visitor_uid" value="54b4972d-e9d2-42f9-b21d-9bd206826c3a">
+          </form>
         </figure>
       </div>
     </div>
@@ -640,9 +620,9 @@
   <div class="container clearfix">
     <div class="c1-s11-item c1-s11-i1">
       <div class="c11-slider-wrap">
-        <div class="c1-s11-up c1-s11-up1"><h3>Веб-аналитика</h3></div>
+        <div class="c1-s11-up c1-s11-up1" ><h3>Веб-аналитика</h3></div>
         <div class="c1-s11-down">
-          <h3>Веб-аналитика</h3>
+          <h3 data-s11-h3="web-analit">Веб-аналитика</h3>
           <p>Мы никогда не ориентируемся на свое или&nbsp;<br class="c2-br2-768">чужое&nbsp;<br class="c2-br2-1024">экспертное&nbsp;<br class="c2-br1-1024">мнение, не подкрепив&nbsp;<br class="c2-br2-768">его сначала&nbsp;<br class="c2-br2-1024">аналитическими выводами,&nbsp;<br class="c2-br2-768"><br class="c2-br1-1024">полученными после&nbsp;<br class="c2-br2-1024">исследования вашей&nbsp;<br class="c2-br2-768">ниши и аудитории.</p>
           <a href="" class="c1-s11-btn">Подробнее</a>
         </div>
@@ -652,7 +632,7 @@
       <div class="c11-slider-wrap">
         <div class="c1-s11-up c1-s11-up2"><h3>Брендинг</h3></div>
         <div class="c1-s11-down">
-          <h3>Брендинг</h3>
+          <h3 data-s11-h3="brending">Брендинг</h3>
           <p>Образ, который запомнят и будут&nbsp;<br class="c2-br2-768">ассоциировать&nbsp;<br class="c2-br2-1024">только с вами&nbsp;<br class="c2-br1-1024">для нас это&nbsp;<br class="c2-br2-768">не только айдентика,&nbsp;<br class="c2-br2-1024">это важный&nbsp;<br class="c2-br2-768">визуальный язык&nbsp;<br class="c2-br1-1024">для коммуникации&nbsp;<br class="c2-br2-768"><br class="c2-br2-1024">по всем каналам. Это масштабно, когда&nbsp;<br class="c2-br2-768">одна<br class="c2-br1-1024-both">идеология прослеживается на всех&nbsp;<br class="c2-br2-768">рекламных&nbsp;<br class="c2-br2-1024">носителях.</p>
           <a href="" class="c1-s11-btn">Подробнее</a>
         </div>
@@ -662,7 +642,7 @@
       <div class="c11-slider-wrap">
         <div class="c1-s11-up c1-s11-up3"><h3>Рекламная стратегия</h3></div>
         <div class="c1-s11-down">
-          <h3>Рекламная стратегия</h3>
+          <h3 data-s11-h3="r-strateg">Рекламная стратегия</h3>
           <p>Ваша уникальность, аналитика&nbsp;<br class="c2-br2-768">конкурентной&nbsp;<br class="c2-br2-1024">среды, а так же&nbsp;<br class="c2-br1-1024">рекламная&nbsp;<br class="c2-br2-768">стратегия позволят&nbsp;<br class="c2-br2-1024">определить наилучшие&nbsp;<br class="c2-br2-768">каналы,&nbsp;<br class="c2-br1-1024">по которым мы&nbsp;<br class="c2-br2-1024">предложим вам&nbsp;<br class="c2-br2-768">рассказать о своем продукте.</p>
           <a href="" class="c1-s11-btn">Подробнее</a>
         </div>
@@ -672,7 +652,7 @@
       <div class="c11-slider-wrap">
         <div class="c1-s11-up c1-s11-up4"><h3>Лендинг пейдж</h3></div>
         <div class="c1-s11-down">
-          <h3>Лендинг пейдж</h3>
+          <h3 data-s11-h3="landing-p">Лендинг пейдж</h3>
           <p>Продукт за которым будут выстраиваться&nbsp;<br class="c2-br2-768"><br class="c2-br2-1024">клиенты в очередь,<br class="c2-br1-1024">для нас это результат&nbsp;<br class="c2-br2-768"><br class="c2-br2-1024">безупречного маркетинга и раскрытие&nbsp;<br class="c2-br2-768"><br class="c2-br1-1024">скрытых&nbsp;<br class="c2-br2-1024">смыслов вашего продукта&nbsp;<br class="c2-br2-768">на продающей&nbsp;<br class="c2-br2-1024">странице.</p>
           <a href="" class="c1-s11-btn">Подробнее</a>
         </div>
@@ -701,11 +681,11 @@
       <div class="c1-s12-join">
         <p class="c1-s12-head">Присоединяйтесь к нам:</p>
         <ul>
-          <li class="c1-s12-social-item c1-s12-s-inst"></li>
-          <li class="c1-s12-social-item c1-s12-s-fb"></li>
-          <li class="c1-s12-social-item c1-s12-s-vk"></li>
-          <li class="c1-s12-social-item c1-s12-s-yt"></li>
-          <li class="c1-s12-social-item c1-s12-s-be"></li>
+          <li class="c1-s12-social-item c1-s12-s-inst"><a href="https://www.instagram.com/slivkimedia/" target="_blank"></a></li>
+          <li class="c1-s12-social-item c1-s12-s-fb"><a href="https://facebook.com/slivkimedia/" target="_blank"></a></li>
+          <li class="c1-s12-social-item c1-s12-s-vk"><a href="https://vk.com/slivkimedia" target="_blank"></a></li>
+          <li class="c1-s12-social-item c1-s12-s-yt"><a href="https://www.youtube.com/slivkimedia/" target="_blank"></a></li>
+          <li class="c1-s12-social-item c1-s12-s-be"><a href="https://www.behance.net/slivkimedia/" target="_blank"></a></li>
         </ul>
       </div>
     </div>

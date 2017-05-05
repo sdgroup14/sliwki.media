@@ -4,7 +4,7 @@
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
   <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;"> 
     <label for="" class="popup-inp-ico popup-inp-ico-name"><input type="text" id="fields[name_1]" class="popup-input statem-name" placeholder="Ваше имя"></label>
-		<input type="text" id="fields[944881_1]" class="popup-input statem-phone" placeholder="+380 1234567890">
+    <input type="text" id="fields[944881_1]" class="popup-input statem-phone" placeholder="+380 1234567890">
     <input type="hidden" name="form_id" id="form_id" value="151951">
     <input type="hidden" name="hash" value="6c3f231702bfd9fed2d29bc8ee343036">
     <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:57:32 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}">

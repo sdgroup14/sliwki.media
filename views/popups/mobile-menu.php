@@ -11,10 +11,10 @@
 		<li class="mob-list-item"><a href="#case1-s12">Контакты</a></li>
 	</ul>
 	<ul class="mobile-social-list">
-		<li class="mob-social-item mob-s-inst"></li>
-		<li class="mob-social-item mob-s-fb"></li>
-		<li class="mob-social-item mob-s-vk"></li>
-		<li class="mob-social-item mob-s-yt"></li>
-		<li class="mob-social-item mob-s-be"></li>
+		<li class="mob-social-item mob-s-inst"><a href="https://www.instagram.com/slivkimedia/" target="_blank"></a></li>
+		<li class="mob-social-item mob-s-fb"><a href="https://facebook.com/slivkimedia/" target="_blank"></a></li>
+		<li class="mob-social-item mob-s-vk"><a href="https://vk.com/slivkimedia" target="_blank"></a></li>
+		<li class="mob-social-item mob-s-yt"><a href="https://www.youtube.com/slivkimedia/" target="_blank"></a></li>
+		<li class="mob-social-item mob-s-be"><a href="https://www.behance.net/slivkimedia/" target="_blank"></a></li>
 	</ul>
 </div>
