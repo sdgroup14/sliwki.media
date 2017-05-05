@@ -1,0 +1,37 @@
+.thanks-s1 {
+  height: 551px;
+  padding: 70px 0;
+  .container {
+    height: 100%;
+    overflow: visible;
+
+    .thanks-s1-header {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      margin-top: -12.5px;
+      padding: 0 30px;
+      transform: translate(-50%);
+      @extend .px16;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 4.8px;
+      background-color: #ffffff;
+      z-index: 2;
+    }
+
+    .thanks-s1-join-block {
+      width: 716px;
+      height: 100%;
+      margin: 0 auto;
+      padding: 77px 55px 50px;
+      border: 2px solid #d7d7d7;
+
+
+    }
+  }
+}
+
+@mixin media_768_case_2_header {}
+
+@mixin media_480_case_2_header {}

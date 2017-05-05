@@ -26,7 +26,7 @@
 </head>
 <body>
 
-  <?php include __DIR__ . '/views/case-2.php'; ?>
+  <?php include __DIR__ . '/views/thanks.php'; ?>
   
   <div class="modal-tint">
     <div class="modal-tint-wrapeer">
