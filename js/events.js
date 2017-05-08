@@ -83,13 +83,11 @@ $().ready(function() {
   $('.c1-list1').detach();
   $('.case1-s2 .container').append(swiper_html);
   var swiper3 = new Swiper('.swiper-container3', {
-    breakpoints: {
-      1024: {
-        slidesPerView: 3,
+   			slidesPerView: 3,
         spaceBetween: 0,
         simulateTouch: false,
-        paginationClickable: false
-      },
+        paginationClickable: false,
+   breakpoints: {
       767: {
         pagination: '.swiper-pagination',
         slidesPerView: 1,
@@ -108,14 +106,11 @@ $().ready(function() {
   });
 
   var swiper4 = new Swiper('.swiper-container4', {
-
-    breakpoints: {
-      1024: {
-        slidesPerView: 3,
+     slidesPerView: 3,
         spaceBetween: 0,
         simulateTouch: false,
-        paginationClickable: false
-      },
+        paginationClickable: false,
+   breakpoints: {
       767: {
         pagination: '.swiper-pagination',
         slidesPerView: 1,
@@ -523,3 +518,15 @@ $('body').on('mouseenter', '.c1-l2-i5, .c1-l2-i6', function() {
 $('body').on('mouseleave', '.c1-l1-item', function() {
   $('.c1-l1-center').css('color', '');
 });
+
+
+
+$().ready(function() {
+  if(window.matchMedia('(max-width: 767px)').matches) {
+    $('.video').append('<source id="video-src" src="" type="video/mp4">');  
+  } else {
+   $('.video').append('<source id="video-src" src="video/video-slivkimedia.mp4" type="video/mp4">');  
+  }
+});
+
+

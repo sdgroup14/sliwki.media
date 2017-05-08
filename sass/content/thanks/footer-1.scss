@@ -143,6 +143,86 @@
   }
 }
 
-@mixin media_768_case_2_header {}
+@mixin media_480_thanks_footer-1 {
 
-@mixin media_480_case_2_header {}
+  .footer-1 {
+  height: 870px;
+  padding: 34px 0;
+  .footer-1-contacts {
+    width: 100%;
+    height: 481px;
+  }
+  .f1-c-item {
+    width: 100%;
+    height: auto;
+    font-size: 1.675rem;
+    line-height: 35.17px;
+    .f1-c-phone {
+      margin-bottom: 36px;
+      padding-left: 92px;
+      &:before {
+            left: 46px;
+    top: 5px;
+        width: 25px;
+        height: 41px;
+        background-size: 23px 39px;
+      }
+    }
+    .f1-c-mail {
+          margin-bottom: 20px;
+      padding-left: 116px;
+      &:before {
+            left: 63px;
+    top: 5px;
+        width: 35px;
+        height: 23px;
+        background-size: 33px 21px;
+      }
+    }
+  }
+  .f1-c-social {
+    margin-bottom: 15px;
+  }
+  .f1-c-head {
+    font-family: "GothamProMedium";
+    color: #707274;
+    letter-spacing: -1px;
+    font-size: 1.429rem;
+  }
+  .f1-c-social,
+  .f1-c-contact {
+    border-right: 0;
+  }
+  .f1-c-social-item {
+    margin: 0 22px;
+  }
+  .f1-c-social-list {
+    margin-top: 11px;
+  }
+  .f1-c-pdf-ico {
+    margin: 25px auto 0;
+    width: 39px;
+    height: 49px;
+    &:after {
+      background-size: 37px 47px;
+    }
+    &:hover:after {
+      background-size: 37px 47px;
+    }
+  }
+  .f1-copy {
+    margin: 25px 0 44px;
+    font-size: 1.286rem;
+    line-height: 24px;
+  }
+  li {
+    display: block;
+    margin: 0 auto;
+    .f1-link {
+      font-size: 1.571rem;
+      line-height:48px;
+    }
+  }
+}
+}
+

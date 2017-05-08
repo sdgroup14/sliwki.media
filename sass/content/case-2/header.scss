@@ -10,6 +10,8 @@
    height: 735px;
    background-color: $header-bg;
    overflow: hidden;
+   background: url(../img/head-bg-case1.jpg) 50% 50%;
+   background-size: cover;
    .video {
      display: block;
      height: auto;
