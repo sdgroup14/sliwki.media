@@ -1,0 +1,82 @@
+.s1-oto-h2 {
+        @extend .lig;
+        @extend .px20;
+        line-height: 25px;
+        font-weight: 400;
+        color: #252525;
+        margin-bottom: 12px;
+        text-align: left;
+      }
+.oto-s1 {
+  height: 432px;
+  padding: 36px 0 89px;
+  .container {
+    height: 100%;
+    overflow: visible;
+    width: 960px;
+    .s1-oto-left {
+      float: left;
+      width: 538px;
+      height: 100%;
+      background-color: red;
+    }
+    .s1-oto-right {
+      float: right;
+      width: 422px;
+      height: 100%;
+      text-align: center;
+      padding-left: 39px;
+      
+      .s1-oto-sub {
+        @extend .lig;
+        @extend .px14;
+        line-height: 18px;
+        font-weight: 400;
+        color: #252525;
+        margin-bottom: 52px;
+        text-align: left;
+        &:after {
+          @extend .underline;
+          margin-top: 19px;
+        }
+      }
+      .s1-oto-promo {
+        @extend .lig;
+        @extend .px14;
+        line-height: 18px;
+        font-weight: 400;
+        color: #707377;
+        margin-bottom: 33px;
+      }
+      .s1-oto-btn {
+        @extend .btn;
+        line-height: 40px;
+        width: 206px;
+        color: #fa2247;
+        border: 1px solid #fa2247;
+        &:hover {
+          background-color: #fa2247;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+// @mixin media_480_thanks_s1 {
+//   .thanks-s1 {
+//     height: 965px;
+//     padding: 63px 0;
+//     .container {
+//       .thanks-s1-header {
+//         top: -3px;
+//         padding: 0 17px;
+//         letter-spacing: 3.5px;
+//         font-size: 1.429rem;
+//       }
+//       .thanks-s1-join-block {
+//         width: 440px;
+//       }
+//     }
+//   }
+// }

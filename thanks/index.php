@@ -25,6 +25,7 @@
 <body>
 
   <?php include __DIR__ . '/../views/thanks.php'; ?>
+  <?php include __DIR__ . '/../views/permanents/footer-1.php'; ?>
   
   <div class="modal-tint">
     <div class="modal-tint-wrapeer">

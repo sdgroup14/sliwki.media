@@ -1,0 +1,78 @@
+.header-section-oto {
+  @extend .header-section-thanks;
+  height: 311px;
+  .header-logo-section-oto {
+    @extend .header-logo-section;
+    margin: 0 auto 37px;
+    .header-section-thanks-img-oto {
+      @extend .header-section-thanks-img;
+    }
+    img {
+      display: block;
+      width: 70px;
+      height: 34px;
+      margin: 0 auto;
+      background-color: #f0f0f0;
+    }
+  }
+  .container {
+    text-align: center;
+    .header-section-oto-h1 {
+      @extend .header-section-thanks-h1;
+      margin-bottom: 14px;
+    }
+    .header-section-oto-sub {
+      @extend .header-section-thanks-sub;
+      margin-bottom: 31px;
+    }
+    .oto-look-dwn {
+      @extend .lig;
+      @extend .px14;
+      color: #252525;
+      font-weight: 400;
+      &:after {
+        display: block;
+        content: '';
+        width: 11px;
+        height: 6px;
+        margin: 22px auto 0;
+        background: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAGCAQAAAC/O6xzAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAALiMAAC4jAXilP3YAAAAHdElNRQfhBQgUKDR7XpSrAAAAYElEQVQI102JMQoCMQAEJ/7qCvULBiWv2VR5yxUiHhhIaSv4ICHdWlwObqea2aAvvZzZLX/4HZg55ecuVibuGCVZ1RijJiuaYCDfePAm0jhyKS/WPA6Aa1kA8EBJXXGzP3ZWKlNzWPo5AAAAAElFTkSuQmCC) no-repeat 50% 50%;
+        background-size: 11px 6px;
+      }
+    }
+  }
+}
+
+// @mixin media_480_thanks_header {
+//   .header-section-thanks {
+//     height: 638px;
+//     padding-top: 39px;
+//     .header-logo-section {
+//       height: 72px;
+//       margin: 0 auto 94px;
+//       .header-section-thanks-img {
+//         margin-left: -89.5px;
+//         width: 179px;
+//         height: 72px;
+//       }
+//       &:before {
+//         top: 42px;
+//       }
+//       img {
+//         width: 145px;
+//         height: 72px;
+//       }
+//     }
+//     .container {
+//       .header-section-thanks-h1 {
+//         margin-bottom: 47px;
+//         line-height: 31.33px;
+//         font-size: 1.790rem;
+//       }
+//       .header-section-thanks-sub {
+//         line-height: 30px;
+//         font-size: 1.429rem;
+//       }
+//     }
+//   }
+// }
