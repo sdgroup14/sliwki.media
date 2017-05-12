@@ -481,21 +481,18 @@ $(".calc1-phone, .case1-s3-phone, .case1-s7-phone, .case1-s8-phone, .details-pho
 $('.case1-s8-btn').on('click', function(e) {
   e.preventDefault();
   $(this).parents('.card').addClass('card-active');
+  $(this).parents('.card').find('.back').hide();
 });
 
 $('.case1-s8-close').on('click', function() {
   $(this).parents('.card').removeClass('card-active');
+  $(this).parents('.card').find('.back').show();
 });
-
-
-
 
 
 $('.c11-slider-wrap').on('click', function() {
   $(this).toggleClass('c11-slider-wrap-active');
 });
-
-
 
 
 $('.mob-list-item a[href^="#"]').bind('click.smoothscroll', function(e) {
@@ -545,15 +542,6 @@ $().ready(function() {
   }
 });
 
-
-$('.c1-s5-puls-text').on('mouseenter', function() {
-  $(this).prev().addClass('c1-s5-puls-center-active');
-}).on('mouseleave', function() {
-  $(this).prev().removeClass('c1-s5-puls-center-active');
-});
-
-
-
 $('document').ready(function() {
   $('form').submit(function(e) {
 
@@ -571,3 +559,43 @@ $('document').ready(function() {
     return true;
   });
 });
+
+
+
+function pulseRound(){
+  $.each($('.c1-s5-puls-center'), function(i, el) {
+    var timeOutId = setTimeout(function() {
+      $('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active')
+      $(el).addClass('c1-s5-puls-center-active');
+
+    }, 500 + (i * 1500));
+    $('.c1-s5-puls-wrap').on('mouseenter', function() {
+      clearTimeout(timeOutId);
+      $('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active');
+      $(this).find('.c1-s5-puls-center').addClass('c1-s5-puls-center-active');
+    }).on('mouseleave', function() {
+      $(this).find('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active');
+      timeOutId = setTimeout(function() {
+        $('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active')
+        $(el).addClass('c1-s5-puls-center-active');
+      }, 500 + (i * 1500));
+    });
+  });
+}
+
+$(function() {
+pulseRound();
+
+  var intervalId = setInterval(function() {
+    pulseRound();
+  }, 18000);
+
+ $('.c1-s5-puls-wrap').on('mouseenter', function() {
+      clearInterval(intervalId);
+    }).on('mouseleave', function() {
+      intervalId = setInterval(function() {
+        pulseRound();
+      }, 18000);
+    });
+});
+

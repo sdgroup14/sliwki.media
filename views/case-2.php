@@ -226,7 +226,7 @@
 </section>
 <section class="case1-s5">
   <div class="container">
-    <h2 class="section-h2"><span class="u1">Схе</span>ма работы<br class="c2-br2-768"/>над проектом</h2>
+    <h2 class="section-h2"><span class="u1">Схе</span>ма работы&nbsp;<br class="c2-br2-768"/>над проектом</h2>
     <div class="c1-s5-outline-container clearfix">
       <button class="c1-s5-btn c1-s5-calc-start">Оставить заявку</button>
       <div class="c1-s5-out-line-wrap c1-s5-out-line-wrap1"><div class="c1-s5-out-line c1-s5-out-line1"></div></div>

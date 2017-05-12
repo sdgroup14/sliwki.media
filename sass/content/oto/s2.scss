@@ -154,6 +154,9 @@
       height: auto;
       margin: 0 auto 115px;
       padding: 33px 0 0 37px;
+      .s2-oto-item {
+      padding-left: 25px;
+    }
       .s2-oto-h2 {
         margin-bottom: 43px;
         text-align: left;
@@ -221,27 +224,29 @@
       .s2-oto-head {
         line-height: 30px;
         font-size: 1.714rem;
+        padding-left: 31px;
         &:before {
           transform: scale(1.5);
+          left: 3px;
         }
       }
       .s2-oto-item {
         margin-bottom: 33px;
+        padding-left: 12px;
         p {
           margin-top: 23px;
+          margin-bottom: 8px;
         }
         p,
         li {
           font-size: 1.286rem;
         }
         li {
-          padding-left: 22px;
+          padding-left: 16px;
           list-style: none;
           &:before {
-            display: none;
-          }
-          .oto-show-marker {
-            display: inline;
+            left: 2px;
+            top:10px;
           }
         }
       }
