@@ -1,7 +1,7 @@
 <section class="header-section">
     <div class="container">
       <div class="logo"><img src="img/logo.png" alt=""></div>
-      <h1>Лендинг пейдж для студии<br class="br-h">эксклюзивных&nbsp;штор&nbsp;«RUANA»</h1>
+      <h1>Лендинг пейдж для студии<br class="br-h"/>эксклюзивных&nbsp;штор&nbsp;«RUANA»</h1>
       <span class="line"></span>
       <div class="price-block">
         <p class="header-price">Цена перехода:<span>18.36 руб.</span></p>
@@ -25,7 +25,7 @@
       <div class="s1-list-item">
         <p><span>03</span></p>
         <p>Стоимость заявки
-          <br class="br_s1_it">&nbsp;потенциального клиента из&nbsp;поисковой&nbsp;системы&nbsp;не должна&nbsp;превышать&nbsp;700&nbsp;руб.</p>
+          <br class="br_s1_it"/>&nbsp;потенциального клиента из&nbsp;поисковой&nbsp;системы&nbsp;не должна&nbsp;превышать&nbsp;700&nbsp;руб.</p>
       </div>
     </div>
   </section>
@@ -56,13 +56,13 @@
         <div class="plpr-block plpr-1">
           <h3>Провести аналитику<br class="s2-br2"/>&nbsp;рынка&nbsp;и <br class="s2-br1"/>конкурентов</h3></div>
         <div class="plpr-block plpr-2">
-          <h3>Создать продающий<br class="s2-br3">&nbsp;лендинг пейдж</h3></div>
+          <h3>Создать продающий<br class="s2-br3"/>&nbsp;лендинг пейдж</h3></div>
         <div class="plpr-block plpr-3">
-          <h3>Настройка аналитики<br class="s2-br3">&nbsp;от Яндекс и Google</h3></div>
+          <h3>Настройка аналитики<br class="s2-br3"/>&nbsp;от Яндекс и Google</h3></div>
         <div class="plpr-block plpr-4">
-          <h3>Подключение&nbsp;сервисов&nbsp;<br class="s2-br5">повышения&nbsp;<br class="s2-br4">конверсии</h3></div>
+          <h3>Подключение&nbsp;сервисов&nbsp;<br class="s2-br5"/>повышения&nbsp;<br class="s2-br4"/>конверсии</h3></div>
         <div class="plpr-block plpr-5">
-          <h3>Настроить рекламу в<br class="s2-br3">&nbsp;Google Adwords</h3></div>
+          <h3>Настроить рекламу в<br class="s2-br3"/>&nbsp;Google Adwords</h3></div>
         <div class="plpr-block plpr-6">
           <h3>Провести А/В тестинг</h3></div>
       </div>
@@ -107,8 +107,8 @@
           <div class="plpr-block plpr-2">
             <h3>Разработка лендинг пейдж</h3>
             <p>После анализа рынка и изучения сильных и слабых сторон конкурентов
-              <br class="br1">мы приступили к созданию вне конкурентного
-              <br class="br2">предложения:</p>
+              <br class="br1"/>мы приступили к созданию вне конкурентного
+              <br class="br2"/>предложения:</p>
             <ul class="plpr-list">
               <li class="plpr-list-item">Разработали концепцию лендинг пейдж.</li>
               <li class="plpr-list-item">Спроектировали продающую структуру страницы.</li>
@@ -122,7 +122,7 @@
           <div class="plpr-block plpr-3">
             <h3>Подключение аналитики</h3>
             <p>Затем мы подключили такие системы аналитики как Яндекс.Метрика и
-              <br class="br3">Google Analytics и настроили все необходимые конверсионные&nbsp;цели:</p>
+              <br class="br3"/>Google Analytics и настроили все необходимые конверсионные&nbsp;цели:</p>
             <ul class="plpr-list">
               <li class="plpr-list-item">Настроили цели на всех кнопках и кликабельных элементах.</li>
               <li class="plpr-list-item">Настроили конверсионные цели на 4 страницах благодарности.</li>
@@ -169,7 +169,7 @@
     <div class="container">
       <h2><span class="u1">Пос</span>тавленная цель</h2>
       <p class="sub-s3">*Данные по рекламному источнику —
-        <br class="s2-br4">&nbsp;Google Adwords</p>
+        <br class="s2-br4"/>&nbsp;Google Adwords</p>
       <div class="table clearfix">
         <div class="table-item">
           <p>Бюджет на 2 месяца:</p>

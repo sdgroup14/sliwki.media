@@ -17,7 +17,7 @@
       </div>
       <div class="f1-c-item f1-c-pdf">
         <p class="f1-c-head">Презентация компании</p>
-        <div class="f1-c-pdf-ico"></div>
+        <div class="f1-c-pdf-ico"><a href="http://slivki.media/presentation.pdf" target="_blank"></a></div>
       </div>
     </div>
     <p class="f1-copy">Все права защищены. © 2015 — 2017 ООО «Сливки Медиа»<br>Любое копирование материалов разрешено только с согласия правообладателей</p>

@@ -155,9 +155,9 @@
         <p>Получите точные сроки и стоимость<br>Вашего проекта после совместного<br>заполнения брифа.</p>
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
           <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-          <label for="" class="case1-s3-ico case1-s3-ico-name"><input class="case1-s3-inp case1-s3-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"/></label>
-          <label for="" class="case1-s3-ico case1-s3-ico-mail"><input class="case1-s3-inp case1-s3-mail" type="text" name="" id="fields[944883_1]" placeholder="Ваш e-mail"/></label>
-          <input class="case1-s3-inp case1-s3-phone" type="text" name="" id="fields[944881_1]"/>
+          <label for="" class="case1-s3-ico case1-s3-ico-name"><input class="case1-s3-inp case1-s3-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
+          <label for="" class="case1-s3-ico case1-s3-ico-mail"><input class="case1-s3-inp case1-s3-mail" type="text" name="" id="fields[944883_1]" placeholder="Ваш e-mail" required/></label>
+          <input class="case1-s3-inp case1-s3-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
           <input type="hidden" name="form_id" id="form_id" value="151453"/>
           <input type="hidden" name="hash" value="fdd75b69a2d3eaba224f7f2a8b1cea22"/>
           <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:56:29 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -213,8 +213,8 @@
         <p class="s4-sub-promo">Получите кейсы на свой е-mail</p>
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
         <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-          <label for="" class="case1-s4-ico case1-s4-ico-name"><input type="text" name="name" id="" class="c1-s4-inp" placeholder="Имя"/></label>
-          <label for="" class="case1-s4-ico case1-s4-ico-mail"><input type="text" name="email" id="" class="c1-s4-inp" placeholder="E-mail"/></label>
+          <label for="" class="case1-s4-ico case1-s4-ico-name"><input type="text" name="name" id="" class="c1-s4-inp" placeholder="Имя" required/></label>
+          <label for="" class="case1-s4-ico case1-s4-ico-mail"><input type="text" name="email" id="" class="c1-s4-inp" placeholder="E-mail" required/></label>
           <input type="hidden" name="campaign_token" value="Tqc5n" />
           <input type="hidden" name="thankyou_url" value="http://slivki.media/lp/oto/"/>
           <input type="hidden" name="forward_data" value="" />
@@ -423,8 +423,8 @@
       <p>Получите консультацию эксперта по&nbsp;<br class="c2-br1-768"/>Вашему действующему или будущему&nbsp;<br class="c2-br1-768"/>проекту.</p>
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
       <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;"> 
-        <label for="" class="case1-s7-ico case1-s7-ico-name"><input class="case1-s7-inp case1-s7-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"/></label>
-        <input class="case1-s7-inp case1-s7-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890"/>
+        <label for="" class="case1-s7-ico case1-s7-ico-name"><input class="case1-s7-inp case1-s7-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
+        <input class="case1-s7-inp case1-s7-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
         <input type="hidden" name="form_id" id="form_id" value="151957"/>
         <input type="hidden" name="hash" value="132d0e20957376863f8202e93a9412f4"/>
         <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:59:03 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -457,8 +457,8 @@
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
           <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-            <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"/></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890"/>
+            <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
             <input type="hidden" name="form_id" id="form_id" value="151960"/>
             <input type="hidden" name="hash" value="240584a21301f18da560007995b4d1fa"/>
             <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:59:53 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -487,8 +487,8 @@
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
           <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-            <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"/></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890"/>
+            <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
             <input type="hidden" name="form_id" id="form_id" value="151963"/>
             <input type="hidden" name="hash" value="23e98f476e005694733e1407245b2241"/>
             <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:00:45 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -517,8 +517,8 @@
           <p>Позвоним прямо сейчас, сделаем&nbsp;<br>все до конца дня</p>
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
           <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-            <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя"/></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890"/>
+            <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
             <input type="hidden" name="form_id" id="form_id" value="151966"/>
             <input type="hidden" name="hash" value="07c2e45cb783c0421936e6d4a5078445"/>
             <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:02:22 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -543,19 +543,19 @@
       <div class="c1-s9-l-item">
         <h3 class="c1-s9-head c1-s9-head-active">Что такое лендинг пейдж?</h3>
         <div class="c1-s9-item-hide c1-s9-item-active">
-          <p>Landing Page — это отдельная страница, разработанная под конкретное торговое предложение.&nbsp;<br class="c2-br1-768"/>Эта страница содержит всю необходимую информацию для того, чтобы пользователь смог&nbsp;<br class="c2-br1-768"/>принять решение в пользу именно вашего товара или услуги.</p>
+          <p>Landing Page — это отдельная страница, разработанная под конкретное торговое предложение.&nbsp;<br class="c2-br1-768"/>Эта страница содержит всю необходимую информацию для того,&nbsp;<br class="c2-br2-768"/>чтобы пользователь смог&nbsp;<br class="c2-br1-768"/>принять&nbsp;<br class="c2-br2-768"/>решение в пользу именно вашего товара&nbsp;<br class="c2-br2-768"/>или услуги.</p>
         </div>
       </div>
       <div class="c1-s9-l-item">
         <h3 class="c1-s9-head">Что я получу, заказав лендинг?</h3>
         <div class="c1-s9-item-hide">
-          <p>Заказав лендинг, вы получите действенный современный инструмент с отличными скриптами&nbsp;<br class="c2-br1-768"/>продаж, целым арсеналом инструментов для мотивации покупателей, который 24 часа в сутки&nbsp;<br class="c2-br1-768"/>каждый день будет рассказывать историю вашего бренда/продукта и приводить вам новых&nbsp;<br class="c2-br1-768"/>клиентов пока вы занимаетесь другими делами. Попав на ваш лендинг с рекламного объявления,&nbsp;<br class="c2-br1-768"/>пользователь увидит именно то, что искал.</p>
+          <p>Заказав лендинг, вы получите&nbsp;<br class="c2-br2-768"/>действенный современный инструмент с&nbsp;<br class="c2-br2-768"/>отличными скриптами&nbsp;<br class="c2-br1-768"/>продаж, целым&nbsp;<br class="c2-br2-768"/>арсеналом инструментов для мотивации&nbsp;<br class="c2-br2-768"/>покупателей, который 24 часа в сутки&nbsp;<br class="c2-br2-768"/><br class="c2-br1-768"/>каждый день будет рассказывать историю&nbsp;<br class="c2-br2-768"/>вашего бренда/продукта и приводить вам&nbsp;<br class="c2-br2-768"/>новых&nbsp;<br class="c2-br1-768"/>клиентов пока вы занимаетесь&nbsp;<br class="c2-br2-768"/>другими делами. Попав на ваш лендинг с&nbsp;<br class="c2-br2-768"/>рекламного объявления,&nbsp;<br class="c2-br1-768"/>пользователь&nbsp;<br class="c2-br2-768"/>увидит именно то, что искал.</p>
         </div>
       </div>
       <div class="c1-s9-l-item">
         <h3 class="c1-s9-head">Каким образом&nbsp;<br class="c2-br2-768"/>осуществляются продажи&nbsp;<br class="c2-br2-768"/>через одностраничник?</h3>
         <div class="c1-s9-item-hide">
-          <p>Основная задача заказа landing page состоит в конвертации посетителя в клиента. Вся страница&nbsp;<br class="c2-br1-768"/>направлена на то, чтобы пользователь оформил подписку, оставил заявку или заказал звонок.&nbsp;<br class="c2-br1-768"/>Конверсия – показатель, который подсчитывается на основе действий пользователей на сайте,&nbsp;<br class="c2-br1-768"/>и именно этот процент позволяет маркетологам выявить насколько успешной была реклама.</p>
+          <p>Основная задача заказа landing page состоит в конвертации посетителя в клиента. Вся страница&nbsp;<br class="c2-br1-768"/>направлена на то, чтобы пользователь оформил подписку, оставил заявку или заказал звонок.&nbsp;<br class="c2-br2-768"/><br class="c2-br1-768"/>Конверсия – показатель, который&nbsp;<br class="c2-br2-768"/>подсчитывается на основе действий&nbsp;<br class="c2-br2-768"/>пользователей на сайте,&nbsp;<br class="c2-br2-768"/><br class="c2-br1-768"/>и именно этот процент позволяет&nbsp;<br class="c2-br2-768"/>маркетологам выявить насколько&nbsp;<br class="c2-br2-768"/>успешной была реклама.</p>
         </div>
       </div>
       <div class="c1-s9-l-item">
@@ -563,10 +563,10 @@
         <div class="c1-s9-item-hide">
           <p>Создание landing page — выгодная услуга для предпринимателей. Создавая landing page вы&nbsp;<br class="c2-br1-768"/>получаете следующие преимущества:</p>
           <ul>
-            <li>Нацеленность на конкретную аудиторию.</li>
-            <li>Высокая конверсия. Использование landing page в рекламных целях повышает конверсию до 10-15 %.</li>
-            <li>Landing Page содержит в себе всю необходимую информацию о товаре или услуге, которая способна&nbsp;<br class="c2-br1-768"/>заинтересовать пользователя в рамках одной страницы, без дополнительных ссылок и переходов.</li>
-            <li>Landing Page осуществляет сбор контактов посетителей, пополняя вашу базу потенциальных клиентов,&nbsp;<br class="c2-br1-768"/>с которыми в последствии могут связаться ваши менеджеры, предложить дополнительные услуги&nbsp;<br class="c2-br1-768"/>и произвести рассылку с информацией о предстоящей акции.</li>
+            <li>Нацеленность на конкретную&nbsp;<br class="c2-br2-768"/>аудиторию.</li>
+            <li>Высокая конверсия. Использование&nbsp;<br class="c2-br2-768"/>landing page в рекламных целях&nbsp;<br class="c2-br2-768"/>повышает конверсию&nbsp;<br class="c2-br2-1024"/>до 10-15 %.</li>
+            <li>Landing Page содержит в себе всю&nbsp;<br class="c2-br2-768"/>необходимую информацию о товаре&nbsp;<br class="c2-br2-768"/>или услуге,&nbsp;<br class="c2-br2-1024"/>которая способна&nbsp;<br class="c2-br2-768"/><br class="c2-br1-768 c2-br1-768-h"/>заинтересовать пользователя в рамках&nbsp;<br class="c2-br2-768"/>одной страницы, без&nbsp;<br class="c2-br2-1024"/>дополнительных&nbsp;<br class="c2-br2-768"/>ссылок и переходов.</li>
+            <li>Landing Page осуществляет сбор&nbsp;<br class="c2-br2-768"/>контактов посетителей, пополняя вашу&nbsp;<br class="c2-br2-768"/>базу&nbsp;<br class="c2-br2-1024"/>потенциальных клиентов,&nbsp;<br class="c2-br1-768 c2-br1-768-h"/>с&nbsp;<br class="c2-br2-768"/>которыми в последствии могут&nbsp;<br class="c2-br2-768"/>связаться ваши менеджеры,&nbsp;<br class="c2-br2-1024"/>предложить&nbsp;<br class="c2-br2-768"/>дополнительные услуги&nbsp;<br class="c2-br1-768 c2-br1-768-h"/>и произвести&nbsp;<br class="c2-br2-768"/>рассылку с информацией о&nbsp;<br class="c2-br2-768"/>предстоящей акции.</li>
             <li>Работа 24 часа в сутки.</li>
           </ul>
         </div>
@@ -576,18 +576,18 @@
         <div class="c1-s9-item-hide">
           <p>Разработка посадочных страниц даёт вам:</p>
           <ul>
-            <li>Возможность собрать контактные данные пользователей для дальнейшего взаимодействия.</li>
-            <li>Возможность оптимизировать рекламную кампанию и увеличить узнаваемость бренда.</li>
-            <li>Посадочные страницы воспринимаются лучше, благодаря минимуму текста и максимуму&nbsp;<br class="c2-br1-768"/>графического наполнения.</li>
-            <li>В сравнении с сайтами прошлого поколения, качественная посадочная страница даёт&nbsp;<br class="c2-br1-768"/>увеличение продаж на 15-30 %.</li>
-            <li>С помощью А/В тестирования можно шлифовать и совершенствовать страницу,&nbsp;<br class="c2-br1-768"/>увеличивая показатели эффективности на 5-17 %.</li>
+            <li>Возможность собрать контактные&nbsp;<br class="c2-br2-768"/>данные пользователей для дальнейшего&nbsp;<br class="c2-br2-768"/><br class="c2-br2-1024"/>взаимодействия.</li>
+            <li>Возможность оптимизировать&nbsp;<br class="c2-br2-768"/>рекламную кампанию и увеличить&nbsp;<br class="c2-br2-768"/>узнаваемость бренда.</li>
+            <li>Посадочные страницы воспринимаются&nbsp;<br class="c2-br2-768"/>лучше, благодаря минимуму текста и&nbsp;<br class="c2-br2-768"/>максимуму&nbsp;<br class="c2-br1-768"/>графического наполнения.</li>
+            <li>В сравнении с сайтами прошлого&nbsp;<br class="c2-br2-768"/>поколения, качественная посадочная&nbsp;<br class="c2-br2-768"/>страница даёт&nbsp;<br class="c2-br1-768"/>увеличение продаж на 15-&nbsp;<br class="c2-br2-768"/>30 %.</li>
+            <li>С помощью А/В тестирования можно&nbsp;<br class="c2-br2-768"/>шлифовать и совершенствовать&nbsp;<br class="c2-br2-768"/>страницу,&nbsp;<br class="c2-br1-768"/>увеличивая показатели&nbsp;<br class="c2-br2-768"/>эффективности на 5-17 %.</li>
           </ul>
         </div>
       </div>
       <div class="c1-s9-l-item">
         <h3 class="c1-s9-head">Для чего необходимо создание&nbsp;<br class="c2-br2-768"/>продающей страницы?</h3>
         <div class="c1-s9-item-hide ">
-          <p>Многие интересуются, зачем им необходимо создавать продающую страницу, если уже есть&nbsp;<br class="c2-br1-768"/>готовый сайт. Создание продающей страницы – это не очередное веяние моды, а must have&nbsp;<br class="c2-br1-768"/>для тех, кому нужен мощный рабочий инструмент для увеличения продаж.&nbsp;<br class="c2-br1-768"/>Ни один инструмент-маркетинга не сравнится с этой задачей.</p>
+          <p>Многие интересуются, зачем им необходимо создавать продающую страницу, если уже есть&nbsp;<br class="c2-br1-768"/>готовый сайт. Создание продающей страницы – это не очередное веяние моды, а must have&nbsp;<br class="c2-br2-768"/><br class="c2-br1-768"/>для тех, кому нужен мощный рабочий&nbsp;<br class="c2-br2-768"/>инструмент для увеличения продаж.&nbsp;<br class="c2-br2-768"/><br class="c2-br1-768"/>Ни один инструмент-маркетинга не&nbsp;<br class="c2-br2-768"/>сравнится с этой задачей.</p>
         </div>
       </div>
       <div class="c1-s9-l-item">
@@ -599,7 +599,7 @@
       <div class="c1-s9-l-item">
         <h3 class="c1-s9-head">Каковы условия&nbsp;<br class="c2-br2-768"/>сотрудничества?</h3>
         <div class="c1-s9-item-hide">
-          <p>Мы работаем по договору с соблюдением регламентированных объемов работ&nbsp;<br class="c2-br1-768"/>и сроков реализации.</p>
+          <p>Мы работаем по договору с соблюдением&nbsp;<br class="c2-br2-768"/>регламентированных объемов работ&nbsp;<br class="c2-br2-768"/><br class="c2-br1-768"/>и сроков реализации.</p>
         </div>
       </div>
     </div>

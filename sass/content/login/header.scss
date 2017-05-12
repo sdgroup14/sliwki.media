@@ -1,0 +1,126 @@
+.header-section-login {
+  height: 525px;
+  background-color: #f0f0f0;
+  padding-top: 45px;
+  .header-logo-section {
+    position: relative;
+    height: 34px;
+    margin: 0 auto 90px;
+    .header-section-thanks-img {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      margin: 0 auto;
+      margin-left: -53.5px;
+      width: 107px;
+      height: 34px;
+      background-color: #f0f0f0;
+      z-index: 1;
+    }
+    img {
+      display: block;
+      width: 70px;
+      height: 34px;
+      margin: 0 auto;
+      background-color: #f0f0f0;
+    }
+  }
+  .container {
+    text-align: center;
+    width: 350px;
+    height: 212px;
+    background-color: #ffffff;
+    padding: 38px 59px 34px;
+    p {
+      @extend .lig;
+      color: #343434;
+      margin-bottom: 22px;
+    }
+    label {
+      position: relative;
+      width: 100%;
+      &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 15px;
+        height: 20px;
+        top: 50%;
+        margin-top: -10px;
+        left: 9px;
+        background: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFkAAABxCAQAAAAU/cd/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfhBQsPEi6hU1DXAAAD1klEQVR42u2cwXXbOBCGP3FzX3YQpYJQFZg65hSqAlMNwFYFjiuwhQbEnPYo+ZRjqArCDqztAB3sHkRbdiIQIASK1Hv4L34mCOrTCBiAmAFGeJSMSUiIgSsAtgCU7MTO36eMPKFmXJEy1t6iKHliI9QAkGXGNZn17RueRNEjssy5a7CsTjuW4rEHZJmycsA9YN+7WtsJWcasWjQGnUrmLt3SAVmmrIlPBgZQzMWmbaWoNXDOT0/AELOWD20rtbSyXJF7wj2oEPPOkDsBBqiY2nvsFg2jM2BIaNE8rJHlbWfAALlc2d76lyVwyj8dAgMkX/79UdncaNWWZcyzpZeoKNmiqIQCmQIpV6RWdRVTYQFth7y2GDgUS4rjQ4OMybmxGCsrMfGCLDPWFriPpj4vcx6Mv9XCPPuwQX422KdiZjfwWgz0ik+mr270GDI3ABdiYjtTEErMWDTeEnNreorRygYbtxy5aiM0OTSjnQ1WlplvYBAFTbVik/83NYzrhrLSBbiGLhqKb05AlnFDZ1E4AgOwYKctG8vEGbmxdy9PeWsWzV+46bc1IH/VluzEN3dgAFFSagtTd2R91eVpwIZnJDJ2QpbjhrGqOJ1YbFB6aCfkhmqljyUUYKMtSX0jb70Aw5O25KMbsl6lJ+RKWzJ2Q77Sluz8ELu5SScre1zHVGdC9qjq8pAdFJADckAOyAF5WArIATkg96Y/1uTqEPrYchm7S5WoY6H6d8gy5pYbb1E9XypYvMV+gywT1idEpbvUuyjsa1uWOb8GCryPwuYv/9RWlik/++Yyar7PLRhBq4hTv5qI6qVhmMMuw9ADwAjkmOe+Waw1FWWEcdV8ULreN4y0b44WyvYN47++OVppEjXHJQaoOLoQX/FGFziTC8gBOSAH5IDcUop7pmLEtDEfwFkj7+8jG+ZvXy695zBOP3g2QSVm7y+IucQvtO+GMTtybeES3TsXcnksiClUQ3i9d+Rty+sDQNZpN1xkXUpCOlzkTJNg87XdY86JfDT9UWZNaTd9I8PdYe2sBk6wzv+2k++hBFby80sOnYy55c73B3ThMQ5Z+x0Ah5lcQA7IATkgD00Budbfl4ec1n8/nvIQnfxPiwASuWZJ2s0OwW6QIfOw6Vmj0P0CckAOyAF5WIq6WGfvGNnnWTdnkYrwt33oLMCiimjaXDU8bfbdr+ibo4W+QwRCcd83iaVKUb44uceL8Bv1Ft0IQChmfqNGnag+MqgeSkTFdODQr4mqr6OfqJgM1t3tmBzOkvot5drxVK1ucb+/P3vjyMkNMiHj8yAyu7ZUf54e9T8gUPX2UJdioAAAAABJRU5ErkJggg==) no-repeat 50% 50%;
+        background-size: 11px;
+      }
+    }
+    input {
+      border: 1px solid #ebebeb;
+      border-radius: 4px;
+      padding-left: 35px;
+      @extend .lig;
+      height: 36px;
+      line-height: 36px;
+      width: 100%;
+      margin-bottom: 22px;
+    }
+    .login-btn {
+      @extend .btn;
+      line-height: 40px;
+      width: 186px;
+      color: #fa2247;
+      border: 1px solid #fa2247;
+      margin-bottom: 21px;
+      &:hover {
+        background-color: #fa2247;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@mixin media_480_login_header {
+  .header-section-login {
+    height: 663px;
+    padding-top: 39px;
+    .header-logo-section {
+      height: 72px;
+      margin: 0 auto 75px;
+      .header-section-thanks-img {
+        margin-left: -89.5px;
+        width: 179px;
+        height: 72px;
+      }
+      img {
+        width: 145px;
+        height: 72px;
+      }
+    }
+    .container {
+      width: 440px;
+      height: 386px;
+      padding: 80px 42px 92px;
+      p {
+        font-size: 1.429rem;
+        margin-bottom: 40px;
+      }
+      label {
+        &:before {
+          width: 22px;
+          height: 32px;
+          margin-top: -16px;
+          left: 25px;
+          background-size: 22px;
+        }
+      }
+      input {
+        padding-left: 65px;
+        font-size: 1.429rem;
+        height: 61px;
+        line-height: 61px;
+        margin-bottom: 30px;
+      }
+      .login-btn {
+        @extend .btn-480;
+      }
+    }
+  }
+}

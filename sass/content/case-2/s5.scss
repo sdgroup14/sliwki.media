@@ -354,18 +354,22 @@
     @keyframes rotation {
       0% {
         opacity: 0;
-        transform: scale(.7);
+        transform: scale(.5);
       }
-      100% {
+      50% {
         opacity: 1;
         transform: scale(1);
       }
+      100% {
+        opacity: 0;
+        transform: scale(.5);
+      }
     }
     .c1-s5-puls-center-active,
-    .c1-s5-puls-center:hover, 
-    .c1-s5-puls-number:hover +  .c1-s5-puls-center,
+    .c1-s5-puls-center:hover,
+    .c1-s5-puls-number:hover + .c1-s5-puls-center,
     .c1-s5-puls-text:hover ~ .c1-s5-puls-center,
-    .c1-s5-puls >  div.c1-s5-puls-center  {
+    .c1-s5-puls > div.c1-s5-puls-center {
       margin-top: -5px;
       margin-left: -4.5px;
       width: 9px;

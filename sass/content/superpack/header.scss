@@ -1,0 +1,53 @@
+.header-section-spuck {
+  height: 215px;
+  background: url(../img/spak-head.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  .logo-white {
+    width: 72px;
+    height: 35px;
+    margin-left: -36px;
+    top: 33px;
+  }
+  .container {
+    padding: 102px 0 0;
+    fieldset {
+      height: 78px;
+      width: 565px;
+      margin: 0 auto;
+      text-align: center;
+      color: #fff7f8;
+      border: 2px solid #fff7f8;
+      legend {
+        padding: 0 13px;
+        @extend .px32;
+      }
+      p {
+        font-size: 1.057rem;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+@mixin media_480_spuck_header {
+  .header-section-spuck {
+    height: 267px;
+    .logo-white {
+      width: 112px;
+      height: 55px;
+      margin-left: -56px;
+    }
+    .container {
+      width: 440px;
+      padding: 124px 0 0;
+      fieldset {
+        height: 104px;
+        width: 440px;
+        p {
+          font-size: 1.286rem;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 .thanks-s1 {
-  height: 551px;
+  height: 485px;
   padding: 70px 0;
   .container {
     height: 100%;
@@ -19,18 +19,38 @@
       z-index: 2;
     }
     .thanks-s1-join-block {
+      position: relative;
       width: 716px;
-      height: 100%;
       margin: 0 auto;
       padding: 77px 55px 50px;
       border: 2px solid #d7d7d7;
+      &:before {
+        position: absolute;
+        display: block;
+        content: '';
+        width:18px;
+        height: 18px;
+        left: 50%;
+        margin-left: -9px;
+        top: 25px;
+        background: url(data:img/png;base64,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) no-repeat 50% 50%;
+        background-size: 18px 18px;
+      }
+      .thanks-s1-wiget-vk {
+        width: 280px;
+        float: left;
+      }
+      .thanks-s1-wiget-fb {
+        width: 280px;
+        float: right;
+      }
     }
   }
 }
 
 @mixin media_480_thanks_s1 {
   .thanks-s1 {
-    height: 965px;
+    height: 766px;
     padding: 63px 0;
     .container {
       .thanks-s1-header {
@@ -41,6 +61,17 @@
       }
       .thanks-s1-join-block {
         width: 440px;
+        padding: 77px 55px;
+        .thanks-s1-wiget-vk {
+        width: 280px;
+        float: none;
+        margin: 0 auto 60px;
+      }
+      .thanks-s1-wiget-fb {
+        width: 280px;
+        float: none;
+        margin: 0 auto;
+      }
       }
     }
   }

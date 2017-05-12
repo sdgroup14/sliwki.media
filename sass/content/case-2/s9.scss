@@ -6,7 +6,7 @@
     margin: 67px auto 64px;
   }
   .container {
-    width: 670px;
+    width: 800px;
     overflow: visible;
     margin-bottom: 60px;
   }
@@ -79,6 +79,9 @@
     .c1-s9-list {
       padding-left: 61px;
     }
+    .c2-br1-768-h {
+      display: none;
+    }
   }
 }
 
@@ -94,62 +97,46 @@
     .c1-s9-list {
       padding-left: 36px;
     }
-
     .c1-s9-l-item {
-    margin-bottom: 24px;
-    .c1-s9-head {
-      // position: relative;
-      font-size: 1.857rem;
-          padding-left: 32px;
-    letter-spacing: -1.4px;
-      // @extend .px16;
-      // font-weight: 400;
-      line-height: 30px;
-      margin-bottom: 29px;
-      // cursor: pointer;
-      // letter-spacing: -0.9px;
-      &:before {
-        @extend .sprite-480;
-        // position: absolute;
-        left: -10px;
-        top: 0;
-        margin-top: 0;
-        background-position: -1378px -854px;
-  width: 28px;
-  height: 28px;
+      margin-bottom: 24px;
+      .c1-s9-head {
+        font-size: 1.857rem;
+        padding-left: 32px;
+        letter-spacing: -1.4px;
+        line-height: 30px;
+        margin-bottom: 29px;
+        &:before {
+          @extend .sprite-480;
+          left: -10px;
+          top: 0;
+          margin-top: 0;
+          background-position: -1378px -854px;
+          width: 28px;
+          height: 28px;
+        }
       }
-    }
-    .c1-s9-head-active {
-      &:before {
-        background-position: -1418.5px -854px;
+      .c1-s9-head-active {
+        &:before {
+          background-position: -1418.5px -854px;
+        }
       }
-    }
-    p {
-      // @extend .lig;
-      // line-height: 18px;
-      letter-spacing: -0.2px;
-      // color: #5b636e;
-      font-size: 1.429rem;
-      line-height:26px;
-    }
-    ul {
-      margin: 10px 0 0 0;
-    }
-    li {
-      &:before {
-        content:'- ';
+      p {
+        letter-spacing: -0.2px;
+        font-size: 1.429rem;
+        line-height: 26px;
       }
-      // list-style-type: disc;
-          list-style: none;
-      // @extend .lig;
-      // line-height: 20px;
-      letter-spacing: -0.9px;
-
-      // color: #5b636e;
-      font-size: 1.429rem;
-      line-height:26px;
+      ul {
+        margin: 10px 0 0 0;
+      }
+      li {
+        &:before {
+          content: '- ';
+        }
+        list-style: none;
+        letter-spacing: -0.9px;
+        font-size: 1.429rem;
+        line-height:26px;
+      }
     }
   }
-  }
-
 }

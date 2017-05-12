@@ -1,5 +1,6 @@
 .oto-s2 {
-  height: 851px;
+  min-height: 851px;
+  height: auto;
   background-color: #f0f0f0;
   padding: 77px 0 53px;
   .container {
@@ -11,7 +12,7 @@
     float: left;
     width: 537px;
     min-height: 721px;
-    height: 100%;
+    height: auto;
     padding: 33px 0 33px 37px;
     border: 1px solid #6f7176;
     .s2-oto-h2 {
@@ -21,6 +22,9 @@
         @extend .underline;
         margin-top: 25px;
       }
+    }
+    .s2-oto-list{
+      padding-right: 18px;
     }
     .s2-oto-item {
       padding-left: 43px;
@@ -49,6 +53,9 @@
           background-color: #06aceb;
           border-radius: 50%;
         }
+        .oto-show-marker {
+          display: none;
+        }
       }
     }
     .s2-oto-head {
@@ -57,6 +64,7 @@
       line-height: 30px;
       font-weight: 400;
       position: relative;
+      cursor: pointer;
       &:before {
         @extend .sprite;
         position: absolute;
@@ -86,67 +94,185 @@
       transition: all .15s linear;
     }
   }
-
   .s2-oto-right {
-
-     float: right;
-      width: 422px;
-      text-align: center;
-      padding-left: 39px;
-          margin-top: 168px;
-
-      .s2-oto-h2 {
-        @extend .s1-oto-h2;
+    float: right;
+    width: 422px;
+    text-align: center;
+    padding-left: 30px;
+    margin-top: 168px;
+    .s2-oto-h2 {
+      @extend .s1-oto-h2;
+    }
+    .s2-oto-sub {
+      @extend .lig;
+      @extend .px14;
+      line-height: 18px;
+      font-weight: 400;
+      color: #252525;
+      margin-bottom: 52px;
+      text-align: left;
+      &:after {
+        @extend .underline;
+        margin-top: 19px;
       }
-      .s2-oto-sub {
-        @extend .lig;
-        @extend .px14;
-        line-height: 18px;
-        font-weight: 400;
-        color: #252525;
-        margin-bottom: 52px;
-        text-align: left;
-        &:after {
-          @extend .underline;
-          margin-top: 19px;
-        }
+    }
+    .s2-oto-promo {
+      @extend .lig;
+      @extend .px14;
+      line-height: 18px;
+      font-weight: 400;
+      color: #707377;
+      margin-bottom: 33px;
+    }
+    .s2-oto-btn {
+      @extend .btn;
+      line-height: 40px;
+      width: 206px;
+      color: #fa2247;
+      border: 1px solid #fa2247;
+      margin-bottom: 21px;
+      &:hover {
+        background-color: #fa2247;
+        color: #ffffff;
       }
-      .s2-oto-promo {
-        @extend .lig;
-        @extend .px14;
-        line-height: 18px;
-        font-weight: 400;
-        color: #707377;
-        margin-bottom: 33px;
-      }
-      .s2-oto-btn {
-        @extend .btn;
-        line-height: 40px;
-        width: 206px;
-        color: #fa2247;
-        border: 1px solid #fa2247;
-        &:hover {
-          background-color: #fa2247;
-          color: #ffffff;
-        }
-      }
+    }
   }
 }
 
-// @mixin media_480_thanks_s1 {
-//   .thanks-s1 {
-//     height: 965px;
-//     padding: 63px 0;
-//     .container {
-//       .thanks-s1-header {
-//         top: -3px;
-//         padding: 0 17px;
-//         letter-spacing: 3.5px;
-//         font-size: 1.429rem;
-//       }
-//       .thanks-s1-join-block {
-//         width: 440px;
-//       }
-//     }
-//   }
-// }
+@mixin media_768_oto_s2 {
+  .oto-s2 {
+    min-height: 1213px;
+    height: auto;
+    padding: 46px 0 53px;
+    .container {
+      width: auto;
+    }
+    .s2-oto-left {
+      float: none;
+      width: 662px;
+      min-height: 637px;
+      height: auto;
+      margin: 0 auto 115px;
+      padding: 33px 0 0 37px;
+      .s2-oto-h2 {
+        margin-bottom: 43px;
+        text-align: left;
+        font-size: 1.429rem;
+        line-height: 30px;
+        &:after {
+          margin-top: 21px;
+        }
+      }
+    }
+    .s2-oto-right {
+      float: none;
+      width: 100%;
+      margin: 0 auto;
+      height: auto;
+      text-align: center;
+      padding-left: 0;
+      .s2-oto-sub {
+        line-height: 22.91px;
+        margin-bottom: 46px;
+        font-size: 1.273rem;
+        text-align: center;
+        &:after {
+          left: 142px;
+        }
+      }
+      .s2-oto-promo {
+        line-height: 22.91px;
+        font-size: 1.273rem;
+        ;
+      }
+      .s2-oto-btn {
+        @extend .btn-768;
+        width: 204px;
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
+
+@mixin media_480_oto_s2 {
+  .oto-s2 {
+    min-height: 1671px;
+    height: auto;
+    padding: 34px 0 53px;
+    .container {
+      width: auto;
+    }
+    .s2-oto-left {
+      float: none;
+      width: 431px;
+      min-height: 637px;
+      height: auto;
+      margin: 0 auto 79px;
+      padding: 36px 0 0 7px;
+      .s2-oto-h2 {
+        margin-bottom: 46px;
+        font-size: 1.786rem;
+        line-height: 30px;
+        &:after {
+          margin-left: -25.5px;
+          left: 50%;
+        }
+      }
+      .s2-oto-head {
+        line-height: 30px;
+        font-size: 1.714rem;
+        &:before {
+          transform: scale(1.5);
+        }
+      }
+      .s2-oto-item {
+        margin-bottom: 33px;
+        p {
+          margin-top: 23px;
+        }
+        p,
+        li {
+          font-size: 1.286rem;
+        }
+        li {
+          padding-left: 22px;
+          list-style: none;
+          &:before {
+            display: none;
+          }
+          .oto-show-marker {
+            display: inline;
+          }
+        }
+      }
+    }
+    .s2-oto-right {
+      float: none;
+      width: 100%;
+      margin: 0 auto;
+      height: auto;
+      text-align: center;
+      padding-left: 0;
+      .s2-oto-sub {
+        line-height: 24px;
+        margin-bottom: 55px;
+        font-size: 1.429rem;
+        text-align: center;
+        &:after {
+          margin-top: 26px;
+          margin-left: -25.5px;
+          left: 50%;
+        }
+      }
+      .s2-oto-promo {
+        line-height: 30px;
+        font-size: 1.429rem;
+        margin-bottom: 50px;
+      }
+      .s2-oto-btn {
+        @extend .btn-480;
+        margin-bottom: 52px;
+      }
+    }
+  }
+}

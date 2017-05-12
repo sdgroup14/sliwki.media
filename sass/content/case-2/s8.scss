@@ -159,6 +159,10 @@
     color: #424242;
     @extend .px12;
   }
+
+  .case1-s8-phone {
+    margin-bottom: 0;
+  }
   .case1-s8-sbmt {
     @extend .btn;
     margin: 5px auto;
@@ -236,6 +240,9 @@
       width: 189px;
       height: 31px;
     }
+    .case1-s8-phone {
+    margin-bottom: 0;
+  }
     .case1-s8-sbmt {
       @extend .btn-768;
     }
@@ -377,6 +384,9 @@
       padding-left: 60px!important;
       font-size: 1.379rem;
     }
+    .case1-s8-phone {
+    margin-bottom: 0;
+  }
     ::-webkit-input-placeholder {
       color: #a9a6b0;
       font-size: 1.379rem;

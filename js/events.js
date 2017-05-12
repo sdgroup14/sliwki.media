@@ -83,11 +83,11 @@ $().ready(function() {
   $('.c1-list1').detach();
   $('.case1-s2 .container').append(swiper_html);
   var swiper3 = new Swiper('.swiper-container3', {
-   			slidesPerView: 3,
-        spaceBetween: 0,
-        simulateTouch: false,
-        paginationClickable: false,
-   breakpoints: {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    simulateTouch: false,
+    paginationClickable: false,
+    breakpoints: {
       767: {
         pagination: '.swiper-pagination',
         slidesPerView: 1,
@@ -97,6 +97,9 @@ $().ready(function() {
         centeredSlides: true,
         simulateTouch: true,
         paginationClickable: true,
+        onInit: function() {
+          $('.swiper-container3').find('.swiper-pagination-bullet').first().next().click();
+        },
         onSlideChangeEnd: function() {
           $('.swiper-container3').find('.swiper-slide-active').attr('data-aft', $('.swiper-container3').find('.swiper-slide-active').next().find('.slide-c1-s2-head').text());
           $('.swiper-container3').find('.swiper-slide-active').attr('data-q', $('.swiper-container3').find('.swiper-slide-active').prev().find('.slide-c1-s2-head').text());
@@ -106,11 +109,11 @@ $().ready(function() {
   });
 
   var swiper4 = new Swiper('.swiper-container4', {
-     slidesPerView: 3,
-        spaceBetween: 0,
-        simulateTouch: false,
-        paginationClickable: false,
-   breakpoints: {
+    slidesPerView: 3,
+    spaceBetween: 0,
+    simulateTouch: false,
+    paginationClickable: false,
+    breakpoints: {
       767: {
         pagination: '.swiper-pagination',
         slidesPerView: 1,
@@ -120,6 +123,9 @@ $().ready(function() {
         centeredSlides: true,
         simulateTouch: true,
         paginationClickable: true,
+        onInit: function() {
+          $('.swiper-container4').find('.swiper-pagination-bullet').first().next().click();
+        },
         onSlideChangeEnd: function() {
           $('.swiper-container4').find('.swiper-slide-active').attr('data-aft', $('.swiper-container4').find('.swiper-slide-active').next().find('.slide-c1-s2-head').text());
           $('.swiper-container4').find('.swiper-slide-active').attr('data-q', $('.swiper-container4').find('.swiper-slide-active').prev().find('.slide-c1-s2-head').text());
@@ -145,6 +151,9 @@ $().ready(function() {
         centeredSlides: true,
         simulateTouch: true,
         paginationClickable: true,
+        onInit: function() {
+          $('.swiper-container3').find('.swiper-pagination-bullet').first().next().click();
+        },
         onSlideChangeEnd: function() {
           $('.swiper-container3').find('.swiper-slide-active').attr('data-aft', $('.swiper-container3').find('.swiper-slide-active').next().find('.slide-c1-s2-head').text());
           $('.swiper-container3').find('.swiper-slide-active').attr('data-q', $('.swiper-container3').find('.swiper-slide-active').prev().find('.slide-c1-s2-head').text());
@@ -160,6 +169,9 @@ $().ready(function() {
         centeredSlides: true,
         simulateTouch: true,
         paginationClickable: true,
+        onInit: function() {
+          $('.swiper-container4').find('.swiper-pagination-bullet').first().next().click();
+        },
         onSlideChangeEnd: function() {
           $('.swiper-container4').find('.swiper-slide-active').attr('data-aft', $('.swiper-container4').find('.swiper-slide-active').next().find('.slide-c1-s2-head').text());
           $('.swiper-container4').find('.swiper-slide-active').attr('data-q', $('.swiper-container4').find('.swiper-slide-active').prev().find('.slide-c1-s2-head').text());
@@ -172,22 +184,6 @@ $().ready(function() {
       $('.case1-s2 .container').append(swiper_html);
     }
   });
-});
-
-
-$("#phone1, #phone2, #phone3, #phone4, #phone5, #phone6, #phone7, #phone8, #phone9, #phone10").intlTelInput({
-  onlyCountries: ["ru", "ua", "az", "by", "am", "kz", "kg", "md", "tj", "tm", "uz", "us", "gb", "at", "al", "ad", "be", "bg", "va", "hu", "de", "gr", "dk", "ie", "is", "es", "it", "lv", "lt", "li", "lu", "mk", "mt", "mc", "nl", "no", "pl", "pt", "ro", "sm", "rs", "sk", "sl", "fi", "fr", "hr", "me", "cz", "ch", "se", "ee"],
-  initialCountry: "auto",
-  geoIpLookup: function(callback) {
-    $.get('http://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-      var countryCode = (resp && resp.country) ? resp.country : "";
-      callback(countryCode);
-    });
-  },
-  utilsScript: '',
-  defaultCountry: 'auto',
-  preferredCountries: ["ru", "ua"],
-  nationalMode: false
 });
 
 
@@ -383,7 +379,7 @@ $('.c1-s11-btn').on('click', function(e) {
   $('.dynamic-header').text($(this).closest('.c1-s11-down').find('h3').text());
 
   $('.details-popup-show').css('display', 'none');
-  $('.details-popup-show[data-details="'+$(this).closest('.c1-s11-down').find('h3').attr('data-s11-h3')+'"]').css('display', 'block');
+  $('.details-popup-show[data-details="' + $(this).closest('.c1-s11-down').find('h3').attr('data-s11-h3') + '"]').css('display', 'block');
   console.log($(this).closest('.c1-s11-down').find('h3').attr('data-s11-h3'));
 
 });
@@ -414,6 +410,13 @@ $('.c1-s5-calc-end').on('click', function(e) {
   $('.modal-tint').addClass('modal-tint-active popup-active');
   $('body').addClass('body-scroll-hide');
   $('.calc').css('display', 'table-cell');
+});
+
+$('.s1-oto-btn, .s2-oto-btn').on('click', function(e) {
+  e.preventDefault();
+  $('.modal-tint').addClass('modal-tint-active popup-active');
+  $('body').addClass('body-scroll-hide');
+  $('.payment').css('display', 'table-cell');
 });
 
 
@@ -459,7 +462,7 @@ $(window).on('keydown', function(e) {
 });
 
 
-$(".calc1-phone, .case1-s3-phone, .case1-s7-phone, .case1-s8-phone, .details-phone, .call-phone, .calc-phone, .statem-phone").intlTelInput({
+$(".calc1-phone, .case1-s3-phone, .case1-s7-phone, .case1-s8-phone, .details-phone, .call-phone, .calc-phone, .statem-phone, .payment-phone").intlTelInput({
   onlyCountries: ["ru", "ua", "az", "by", "am", "kz", "kg", "md", "tj", "tm", "uz", "us", "gb", "at", "al", "ad", "be", "bg", "va", "hu", "de", "gr", "dk", "ie", "is", "es", "it", "lv", "lt", "li", "lu", "mk", "mt", "mc", "nl", "no", "pl", "pt", "ro", "sm", "rs", "sk", "sl", "fi", "fr", "hr", "me", "cz", "ch", "se", "ee"],
   initialCountry: "auto",
   geoIpLookup: function(callback) {
@@ -535,16 +538,36 @@ $('body').on('mouseleave', '.c1-l1-item', function() {
 
 
 $().ready(function() {
-  if(window.matchMedia('(max-width: 767px)').matches) {
-    $('.video').append('<source id="video-src" src="" type="video/mp4">');  
+  if (window.matchMedia('(max-width: 767px)').matches) {
+    $('.video').append('<source id="video-src" src="" type="video/mp4">');
   } else {
-   $('.video').append('<source id="video-src" src="video/video-slivkimedia.mp4" type="video/mp4">');  
+    $('.video').append('<source id="video-src" src="video/video-slivkimedia.mp4" type="video/mp4">');
   }
 });
 
 
-$('.c1-s5-puls-text').on('mouseenter', function(){
- $(this).prev().addClass('c1-s5-puls-center-active');
-}).on('mouseleave', function(){
- $(this).prev().removeClass('c1-s5-puls-center-active');
-})
+$('.c1-s5-puls-text').on('mouseenter', function() {
+  $(this).prev().addClass('c1-s5-puls-center-active');
+}).on('mouseleave', function() {
+  $(this).prev().removeClass('c1-s5-puls-center-active');
+});
+
+
+
+$('document').ready(function() {
+  $('form').submit(function(e) {
+
+    var ref = $(this).find("[required]");
+
+    $(ref).each(function() {
+      if ($(this).val() == '') {
+
+        $(this).focus();
+
+        e.preventDefault();
+        return false;
+      }
+    });
+    return true;
+  });
+});

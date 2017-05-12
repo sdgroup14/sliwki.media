@@ -100,10 +100,19 @@
     @extend .c1-s12-s-be:after;
   }
   .f1-c-pdf-ico {
+    position: relative;
     margin: 10px auto 0;
     width: 26px;
     height: 32px;
     cursor: pointer;
+    a {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
     &:after {
       content: '';
       display: block;

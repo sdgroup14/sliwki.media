@@ -1,12 +1,13 @@
 .s1-oto-h2 {
-        @extend .lig;
-        @extend .px20;
-        line-height: 25px;
-        font-weight: 400;
-        color: #252525;
-        margin-bottom: 12px;
-        text-align: left;
-      }
+  @extend .lig;
+  @extend .px20;
+  line-height: 25px;
+  font-weight: 400;
+  color: #252525;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
 .oto-s1 {
   height: 432px;
   padding: 36px 0 89px;
@@ -15,19 +16,28 @@
     overflow: visible;
     width: 960px;
     .s1-oto-left {
+      position: relative;
       float: left;
       width: 538px;
-      height: 100%;
-      background-color: red;
+      height: 302px;
+      iframe,
+      object,
+      embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
     }
     .s1-oto-right {
       float: right;
       width: 422px;
       height: 100%;
       text-align: center;
-      padding-left: 39px;
-      
+      padding-left: 30px;
       .s1-oto-sub {
+        position: relative;
         @extend .lig;
         @extend .px14;
         line-height: 18px;
@@ -54,6 +64,7 @@
         width: 206px;
         color: #fa2247;
         border: 1px solid #fa2247;
+        margin-bottom: 21px;
         &:hover {
           background-color: #fa2247;
           color: #ffffff;
@@ -63,20 +74,146 @@
   }
 }
 
-// @mixin media_480_thanks_s1 {
-//   .thanks-s1 {
-//     height: 965px;
-//     padding: 63px 0;
-//     .container {
-//       .thanks-s1-header {
-//         top: -3px;
-//         padding: 0 17px;
-//         letter-spacing: 3.5px;
-//         font-size: 1.429rem;
-//       }
-//       .thanks-s1-join-block {
-//         width: 440px;
-//       }
-//     }
-//   }
-// }
+.countbox{
+  color: #111;
+  width:216px;
+  height: 40px;
+  font-size: 29px;
+  overflow:hidden;
+  position: relative;
+  margin:0 auto;
+  @extend .lig;
+}
+.countbox-days,.countbox-hours,.countbox-mins,.countbox-secs{
+  position: relative;
+  z-index:1;
+  color:#222;
+  float: left;
+  width: 40px;
+  height: 29px;
+  margin: 0 7px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.countbox-days:after,
+.countbox-hours:after,
+.countbox-mins:after {
+  position: absolute;
+  top: 0;
+  right: -12px;
+  content: ':';
+  font-size: 29px;
+  color: #111;
+  @extend .lig;
+}
+
+.countbox-days-text,.countbox-hours-text,.countbox-mins-text,.countbox-secs-text{
+  top: 20px;
+  color:#707377;
+  width: 36px;
+  height: 10px;
+  padding-left: 2px;
+  font-size:10.5px;
+  position: absolute;
+}
+
+@mixin media_768_oto_s1 {
+  .s1-oto-h2 {
+    line-height: 31.82px;
+    margin-bottom: 29px;
+    font-size: 1.818rem;
+    text-align: center;
+  }
+  .oto-s1 {
+    height: 788px;
+    padding: 56px 0 89px;
+    .container {
+      width: auto;
+      .s1-oto-left {
+        float: none;
+        margin: 0 auto 34px;
+      }
+      .s1-oto-right {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        text-align: center;
+        padding-left: 0;
+        .s1-oto-sub {
+          line-height: 22.91px;
+          margin-bottom: 46px;
+          font-size: 1.273rem;
+          text-align: center;
+          &:after {
+            left: 142px;
+          }
+        }
+        .s1-oto-promo {
+          line-height: 22.91px;
+          font-size: 1.273rem;
+        }
+        .s1-oto-btn {
+          @extend .btn-768;
+          width: 204px;
+              margin-bottom: 32px;
+        }
+      }
+    }
+  }
+}
+
+@mixin media_480_oto_s1 {
+  .countbox{
+  transform: scale(1.7);
+}
+
+  .s1-oto-h2 {
+    line-height: 30px;
+    margin-bottom: 29px;
+    font-size: 1.714rem;
+    text-align: center;
+  }
+  .oto-s1 {
+    height: 907px;
+    padding: 28px 0 89px;
+    .container {
+      width: auto;
+      .s1-oto-left {
+        float: none;
+        width: 440px;
+        height: 247px;
+        margin: 0 auto 31px;
+      }
+      .s1-oto-right {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        text-align: center;
+        padding-left: 0;
+        .s1-oto-sub {
+          line-height: 24px;
+          margin-bottom: 55px;
+          font-size: 1.429rem;
+          text-align: center;
+          &:after {
+            margin-top: 26px;
+            margin-left: -25.5px;
+            left: 50%;
+          }
+        }
+        .s1-oto-promo {
+          line-height: 30px;
+          font-size: 1.429rem;
+          margin-bottom: 50px;
+        }
+        .s1-oto-btn {
+          @extend .btn-480;
+                  margin-bottom: 52px;
+        }
+      }
+    }
+  }
+}
