@@ -2490,31 +2490,19 @@ footer .wrap a:hover {
   100% {
     opacity: 0;
     transform: scale(0.5); } }
-    .case1-s5 .c1-s5-puls .c1-s5-puls-center-active,
-    .case1-s5 .c1-s5-puls .c1-s5-puls-center:hover,
-    .case1-s5 .c1-s5-puls .c1-s5-puls-number:hover + .c1-s5-puls-center,
-    .case1-s5 .c1-s5-puls .c1-s5-puls-text:hover ~ .c1-s5-puls-center,
-    .case1-s5 .c1-s5-puls .c1-s5-puls > div.c1-s5-puls-center {
+    .case1-s5 .c1-s5-puls .c1-s5-puls-center-active {
       margin-top: -5px;
       margin-left: -4.5px;
       width: 9px;
       height: 9px;
       background-color: #fa2247; }
-      .case1-s5 .c1-s5-puls .c1-s5-puls-center-active:before,
-      .case1-s5 .c1-s5-puls .c1-s5-puls-center:hover:before,
-      .case1-s5 .c1-s5-puls .c1-s5-puls-number:hover + .c1-s5-puls-center:before,
-      .case1-s5 .c1-s5-puls .c1-s5-puls-text:hover ~ .c1-s5-puls-center:before,
-      .case1-s5 .c1-s5-puls .c1-s5-puls > div.c1-s5-puls-center:before {
+      .case1-s5 .c1-s5-puls .c1-s5-puls-center-active:before {
         width: 25px;
         height: 25px;
         margin-left: -12.5px;
         margin-top: -12.5px;
         border: 3px solid #fa2247; }
-      .case1-s5 .c1-s5-puls .c1-s5-puls-center-active:after,
-      .case1-s5 .c1-s5-puls .c1-s5-puls-center:hover:after,
-      .case1-s5 .c1-s5-puls .c1-s5-puls-number:hover + .c1-s5-puls-center:after,
-      .case1-s5 .c1-s5-puls .c1-s5-puls-text:hover ~ .c1-s5-puls-center:after,
-      .case1-s5 .c1-s5-puls .c1-s5-puls > div.c1-s5-puls-center:after {
+      .case1-s5 .c1-s5-puls .c1-s5-puls-center-active:after {
         opacity: 1;
         visibility: visible;
         transition: all .15s infinite ease; }

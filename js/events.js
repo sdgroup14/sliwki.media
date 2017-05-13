@@ -548,7 +548,7 @@ function pulseRound(){
     var timeOutId = setTimeout(function() {
       $('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active')
       $(el).addClass('c1-s5-puls-center-active');
-    }, 500 + (i * 1500));
+    }, 500 + (i * 3000));
   });
 }
 
@@ -556,6 +556,6 @@ $(function() {
 pulseRound();
   var intervalId = setInterval(function() {
     pulseRound();
-  }, 18000);
+  }, 36000);
 });
 
