@@ -25,14 +25,6 @@ $(function() {
 });
 
 
-function ScreenView() {
-  var mvp = document.getElementById('view');
-  if (screen.width < 767) { $('#view').attr('content', 'width=480'); }
-  if (screen.width >= 768) { $('#view').attr('content', 'width=1024'); }
-  if (screen.width >= 1024) { $('#view').attr('content', 'width=device-width'); }
-};
-
-
 var swiper = new Swiper('.swiper-container', {
   pagination: '.swiper-pagination',
   simulateTouch: false,
@@ -79,7 +71,6 @@ var swiper2 = new Swiper('.swiper-container2', {
 var swiper_html = '<div class="c1-list1 clearfix"> <div class="c1-list1-l"> <div class="swiper-container3"> <div class="swiper-wrapper"> <div class="swiper-slide slide-c1-s2  slide-s2-1"  data-q="" data-aft=""> <div class="slide-c1-s2-head">Кому?</div> <div class="c1-l1-item  c1-l2-i1"> <h3>Действующему&nbsp;<br class="c2-br2-768">бизнесу</h3> <p>Предпринимателям и компаниям в<br>сфере розничной и промышленной<br>торговли, услуг, консалтинга, B2B<br>и интернет бизнеса.</p> </div> </div> <div class="swiper-slide slide-c1-s2 slide-s2-2" data-q="" data-aft=""> <div class="slide-c1-s2-head">Зачем?</div> <div class="c1-l1-item c1-l2-i3"> <h3>Увеличение&nbsp;<br class="c2-br2-768">продаж</h3> <p>Для&nbsp;взаимодействия&nbsp;с&nbsp;максимально <br class="c2-br1-768">точной ЦА которая будет покупать&nbsp;<br class="c2-br1-768">Ваши товары/услуги на 30% больше&nbsp;<br class="c2-br1-768">благодаря актуальному предложению.</p> </div> </div> <div class="swiper-slide slide-c1-s2 slide-s2-3" data-q="" data-aft=""> <div class="slide-c1-s2-head">Следствие</div> <div class="c1-l1-item c1-l2-i5"> <h3>Перекрытие&nbsp;<br class="c2-br2-768">утечки денег</h3> <p>Вы сохраните до 58% прибыли которую&nbsp;<br class="c2-br1-768">Вы теряете каждый день недополучая&nbsp;<br class="c2-br1-768">десятки заявок от Ваших потенциальных&nbsp;<br class="c2-br1-768">клиентов готовых заплатить Вам деньги.</p> </div> </div> </div> <div class="swiper-pagination"></div> </div> </div> <div class="c1-list1-r"> <div class="swiper-container4"> <div class="swiper-wrapper"> <div class="swiper-slide slide-c1-s2  slide-s2-1" data-q="" data-aft=""> <div class="slide-c1-s2-head">Кому?</div> <div class="c1-l1-item c1-l2-i2"> <h3>Начинающему бизнесу</h3> <p>Начинающим предпринимателям,<br>которым важно максимально быстро<br>и эффективно запустить свою идею,<br>а так же извлечь первую прибыль.</p> </div> </div> <div class="swiper-slide slide-c1-s2 slide-s2-2" data-q="" data-aft=""> <div class="slide-c1-s2-head">Зачем?</div> <div class="c1-l1-item c1-l2-i4"> <h3>Получение первой прибыли</h3> <p>Для быстрого тестирования и анализа&nbsp;<br class="c2-br1-768">спроса в нише, а так же для бюджетного&nbsp;<br class="c2-br1-768">запуска бизнес идеи которая позволит&nbsp;<br class="c2-br1-768">получить клиентов уже на второй день.</p> </div> </div> <div class="swiper-slide slide-c1-s2 slide-s2-3"  data-q="" data-aft=""> <div class="slide-c1-s2-head">Следствие</div> <div class="c1-l1-item c1-l2-i6"> <h3>Снятие рисков провала</h3> <p>В результате запуска Вашей бизнес идеи&nbsp;<br class="c2-br1-768">Вы отсечете все риски провала, а так же&nbsp;<br class="c2-br1-768">сохраните свои деньги для дальнейшего&nbsp;<br class="c2-br1-768">и эффективного масштабирования.</p> </div> </div> </div> <div class="swiper-pagination"></div> </div> </div> </div>';
 
 $().ready(function() {
-  ScreenView();
   $('.c1-list1').detach();
   $('.case1-s2 .container').append(swiper_html);
   var swiper3 = new Swiper('.swiper-container3', {
@@ -137,8 +128,6 @@ $().ready(function() {
 
   $(window).on('resize', function() {
     var ww = $(window).width()
-    ScreenView();
-
     if (ww < 767) {
       $('.c1-list1').detach();
       $('.case1-s2 .container').append(swiper_html);
@@ -328,9 +317,6 @@ function initMap() {
     }]
 
   };
-
-
-
 
 
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -544,14 +530,10 @@ $().ready(function() {
 
 $('document').ready(function() {
   $('form').submit(function(e) {
-
     var ref = $(this).find("[required]");
-
     $(ref).each(function() {
       if ($(this).val() == '') {
-
         $(this).focus();
-
         e.preventDefault();
         return false;
       }
@@ -561,41 +543,19 @@ $('document').ready(function() {
 });
 
 
-
 function pulseRound(){
   $.each($('.c1-s5-puls-center'), function(i, el) {
     var timeOutId = setTimeout(function() {
       $('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active')
       $(el).addClass('c1-s5-puls-center-active');
-
     }, 500 + (i * 1500));
-    $('.c1-s5-puls-wrap').on('mouseenter', function() {
-      clearTimeout(timeOutId);
-      $('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active');
-      $(this).find('.c1-s5-puls-center').addClass('c1-s5-puls-center-active');
-    }).on('mouseleave', function() {
-      $(this).find('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active');
-      timeOutId = setTimeout(function() {
-        $('.c1-s5-puls-center').removeClass('c1-s5-puls-center-active')
-        $(el).addClass('c1-s5-puls-center-active');
-      }, 500 + (i * 1500));
-    });
   });
 }
 
 $(function() {
 pulseRound();
-
   var intervalId = setInterval(function() {
     pulseRound();
   }, 18000);
-
- $('.c1-s5-puls-wrap').on('mouseenter', function() {
-      clearInterval(intervalId);
-    }).on('mouseleave', function() {
-      intervalId = setInterval(function() {
-        pulseRound();
-      }, 18000);
-    });
 });
 
