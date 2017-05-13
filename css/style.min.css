@@ -37,7 +37,7 @@
   background-size: 742px 666px;
   background-repeat: no-repeat; }
 
-.btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .oto-s1 .container .s1-oto-right .s1-oto-btn, .oto-s2 .s2-oto-right .s2-oto-btn, .header-section-login .container .login-btn, .popup .popup-btn {
+.btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .oto-s1 .container .s1-oto-right .s1-oto-btn, .oto-s2 .s2-oto-right .s2-oto-btn, .header-section-cases .container .h-cases-btn, .header-section-login .container .login-btn, .popup .popup-btn {
   display: block;
   margin: 0 auto;
   line-height: 41px;
@@ -48,7 +48,7 @@
   -o-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear; }
-  .btn:hover, .header-section-case1 .container .header-content .content-btn:hover, .case1-s3 .case1-s3-l .case1-s3-sbmt:hover, .case1-s4 .c1-s4-i6 .c1-s4-sbmt:hover, .case1-s5 .c1-s5-btn:hover, .case1-s7 .case1-s7-l .case1-s7-sbmt:hover, .case1-s8 .case1-s8-btn:hover, .case1-s8 .case1-s8-sbmt:hover, .case1-s10 .case1-s10-l .case1-s10-sbmt:hover, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn:hover, .case1-s12 .c1-s12-btn:hover, .case1-footer .c1-f-btn:hover, .oto-s1 .container .s1-oto-right .s1-oto-btn:hover, .oto-s2 .s2-oto-right .s2-oto-btn:hover, .header-section-login .container .login-btn:hover, .popup .popup-btn:hover {
+  .btn:hover, .header-section-case1 .container .header-content .content-btn:hover, .case1-s3 .case1-s3-l .case1-s3-sbmt:hover, .case1-s4 .c1-s4-i6 .c1-s4-sbmt:hover, .case1-s5 .c1-s5-btn:hover, .case1-s7 .case1-s7-l .case1-s7-sbmt:hover, .case1-s8 .case1-s8-btn:hover, .case1-s8 .case1-s8-sbmt:hover, .case1-s10 .case1-s10-l .case1-s10-sbmt:hover, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn:hover, .case1-s12 .c1-s12-btn:hover, .case1-footer .c1-f-btn:hover, .oto-s1 .container .s1-oto-right .s1-oto-btn:hover, .oto-s2 .s2-oto-right .s2-oto-btn:hover, .header-section-cases .container .h-cases-btn:hover, .header-section-login .container .login-btn:hover, .popup .popup-btn:hover {
     -webkit-transform: scale(1.03);
     -moz-transform: scale(1.03);
     -ms-transform: scale(1.03);
@@ -61,7 +61,7 @@
 .reg {
   font-family: "GothamProRegular", sans-serif; }
 
-.bol, .case1-s5 .c1-s5-puls .c1-s5-puls-number, .case1-s6 .s6-manifestation .s6-member-position, .popup h3, .popup1 h3, .popup1 li span, .mobile-menu .mob-list-item {
+.bol, .case1-s5 .c1-s5-puls .c1-s5-puls-number, .case1-s6 .s6-manifestation .s6-member-position, .header-section-cases .container h1, .popup h3, .popup1 h3, .popup1 li span, .mobile-menu .mob-list-item {
   font-family: "GothamProBold", sans-serif; }
 
 .lig, .case1-s2 p, .case1-s3 .case1-s3-l p, .case1-s3 .case1-s3-l .case1-s3-inp, .case1-s4 .c1-s4-i6, .case1-s4 .c1-s4-i6 .c1-s4-inp, .case1-s4 .c1-s4-i6 ::-webkit-input-placeholder, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s6 .s6-manifestation .s6-member-name, .case1-s6 .s6-manifestation .s6-member-mail, .case1-s7 .case1-s7-l p, .case1-s7 .case1-s7-l .case1-s7-inp, .case1-s8 .c1-s8-sub, .case1-s8 .case1-s8-inp, .case1-s9 .c1-s9-l-item p, .case1-s9 .c1-s9-l-item li, .case1-s10 .case1-s10-l p, .case1-s11 .container .c11-slider-wrap .c1-s11-down p, .case1-s12 .c1-s12-text, .case1-footer, .header-section-thanks .container .header-section-thanks-h1, .header-section-oto .container .header-section-thanks-h1, .header-section-oto .container .header-section-oto-h1, .header-section-thanks .container .header-section-thanks-sub, .header-section-oto .container .header-section-thanks-sub, .header-section-oto .container .header-section-oto-sub, .footer-1 .f1-c-item, .header-section-oto .container .oto-look-dwn, .s1-oto-h2, .oto-s2 .s2-oto-left .s2-oto-h2, .oto-s2 .s2-oto-right .s2-oto-h2, .oto-s1 .container .s1-oto-right .s1-oto-sub, .oto-s1 .container .s1-oto-right .s1-oto-promo, .countbox, .countbox-days:after,
@@ -85,10 +85,10 @@
 .px11 {
   font-size: .786rem; }
 
-.px12, .btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .oto-s1 .container .s1-oto-right .s1-oto-btn, .oto-s2 .s2-oto-right .s2-oto-btn, .header-section-login .container .login-btn, .popup .popup-btn, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s8 .case1-s8-inp, .case1-s10 .case1-s10-l p, .case1-s12 .c1-s12-text, .footer-1 .f1-c-item, .popup p {
+.px12, .btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .oto-s1 .container .s1-oto-right .s1-oto-btn, .oto-s2 .s2-oto-right .s2-oto-btn, .header-section-cases .container .h-cases-btn, .header-section-login .container .login-btn, .popup .popup-btn, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s8 .case1-s8-inp, .case1-s10 .case1-s10-l p, .case1-s12 .c1-s12-text, .footer-1 .f1-c-item, .popup p {
   font-size: .91rem; }
 
-.px13, .header-section-case1 .container .header-content .content-btn, .popup .modal-close-dwn {
+.px13, .header-section-case1 .container .header-content .content-btn, .header-section-cases .container .cases-look-dwn, .popup .modal-close-dwn {
   font-size: .929rem; }
 
 .px14, .header-section-thanks .container .header-section-thanks-sub, .header-section-oto .container .header-section-thanks-sub, .header-section-oto .container .header-section-oto-sub, .header-section-oto .container .oto-look-dwn, .oto-s1 .container .s1-oto-right .s1-oto-sub, .oto-s1 .container .s1-oto-right .s1-oto-promo, .oto-s2 .s2-oto-left .s2-oto-item p,
@@ -140,7 +140,7 @@
 .px29 {
   font-size: 2.071rem; }
 
-.px30 {
+.px30, .header-section-cases .container h1 {
   font-size: 2.143rem; }
 
 .px31 {
@@ -3993,6 +3993,76 @@ ul {
     height: 59px;
     margin-left: -60.5px;
     top: 48px; }
+  .header-section-cases .container {
+    text-align: center;
+    padding-top: 269px; }
+    .header-section-cases .container h1 {
+      color: #ffffff;
+      line-height: 40px;
+      letter-spacing: -1.85px;
+      margin-bottom: 82px; }
+    .header-section-cases .container .h-cases-btn {
+      margin: 10px 0 25px;
+      width: 199px;
+      color: #fa2247;
+      border: 1px solid #fa2247; }
+      .header-section-cases .container .h-cases-btn:hover {
+        background-color: #fa2247;
+        color: #ffffff; }
+    .header-section-cases .container .h-cases-btns {
+      width: 452px;
+      margin: 0 auto 120px; }
+    .header-section-cases .container .cases-btn-dwnl {
+      float: left; }
+    .header-section-cases .container .cases-btn-count {
+      float: right; }
+    .header-section-cases .container .cases-look-dwn {
+      color: #8d94a0;
+      margin-bottom: 44px;
+      letter-spacing: -.8px; }
+    .header-section-cases .container .cases-l-dwn-ico {
+      margin: 0 auto;
+      width: 26px;
+      height: 26px;
+      background: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABVlBMVEWNlKD///+NlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKAAAAD6lTdeAAAAcHRSTlMAACVvtu7zvXYsNbLb2fu+PYnJYSMBH1mZs+tKPN3IB57EuJ+lJNo7wD8c0zFxVwkKj7oXhvhGTfpwBd5OQOJQVDfWQkdL/PcuEwPkeE86lsY+p84d5UihiJuH2ATF0C3BDqwPC6CxCMzhw9yK1ZFEtkqE2wAAAAFiS0dEca8HXOIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhBQwREx2M97ZDAAABUklEQVQoz2XS6zsCQRQG8DOUFKkQVisJJXJXIlKE3HIJucv9zvv/fzKzO9tWOx925jm/2Z05Zw+RHE3NNjvQ4mh1MjkkuNrAR7u7gz893lryAZ1d3X6+6ul1AH0mKegPGB9mTB1A0CAFyiCZxFgIQzr5ECaqIzaMEUGjsFMjsQiinMYQs5ITEUbjmCArMRviNIkpEZk2aUaQF7M0h3keWEgkDVpMLXFaRpoSKRFYAaTx1ap4LQOCW4uowJqYs0BOO8zDaV3fvQHkiTYBWUEHaGtbHpIECnFAlVdMg6e1I00Vxc9J2cUe7ePAuHcMKBp5uXDI63RUTfdYraZ8wndRCQVrNU5xxmtYQMZKJZyLnxJCuZEuENZ/ZRCX9XSF6xud/Le4K5p0X0Hkodo2ZeAx/yRWz7EX4PWtptkC7zzdj8/KF5/c2bo+JIp+/2it+PtntOg/WhRGhMGqiMAAAAAASUVORK5CYII=) no-repeat 50% 50%;
+      -webkit-background-size: 26px 26px;
+      background-size: 26px 26px;
+      -webkit-animation-name: ball;
+      -moz-animation-name: ball;
+      animation-name: ball;
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes ball {
+  0% {
+    margin-top: 0; }
+  50% {
+    margin-top: -20px; }
+  100% {
+    margin-top: 0; } }
+
+@-moz-keyframes ball {
+  0% {
+    margin-top: 0; }
+  50% {
+    margin-top: -20px; }
+  100% {
+    margin-top: 0; } }
+
+@keyframes ball {
+  0% {
+    margin-top: 0; }
+  50% {
+    margin-top: -20px; }
+  100% {
+    margin-top: 0; } }
 
 .header-section-login {
   height: 525px;
