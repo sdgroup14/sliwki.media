@@ -5,20 +5,14 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="format-detection" content="telephone=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-  <meta id="view" name="viewport" content="">
+  <meta name="viewport" content="width=device-width">
   <meta http-equiv="cleartype" content="on">
-
-
- 
   <!-- build:remove -->
   <link href="../css/style.css" rel="stylesheet">
   <!-- /build -->
 
   <!-- build:include ../templates/css-link.html -->
   <!-- /build -->
-
-
   <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
   <title>Case</title>
 
@@ -44,8 +38,6 @@
       <?php include __DIR__ . '/../views/popups/respon.php'; ?>
     </div>
   </div>
-
-  
 <!--   <div class="prev-project"><a class="" href=""></a></div>
   <div class="next-project"><a class="" href=""></a></div>
   <span class="slide-up"></span> -->

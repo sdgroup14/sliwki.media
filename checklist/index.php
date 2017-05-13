@@ -5,12 +5,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="format-detection" content="telephone=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-  <meta id="view" name="viewport" content="">
+  <meta name="viewport" content="width=device-width>
   <meta http-equiv="cleartype" content="on">
-
-
- 
   <!-- build:remove -->
   <link href="../css/style.css" rel="stylesheet">
   <!-- /build -->
@@ -49,7 +45,6 @@
 <!--   <div class="prev-project"><a class="" href=""></a></div>
   <div class="next-project"><a class="" href=""></a></div>
   <span class="slide-up"></span> -->
-
   <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/js/intlTelInput.min.js"></script>
   <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3va0LSuMHbA2917lZv6-iGw15mRkoKOg" type="text/javascript"></script>

@@ -3544,7 +3544,7 @@ ul {
   position: absolute; }
 
 .oto-s2 {
-  min-height: 851px;
+  min-height: 618px;
   height: auto;
   background-color: #f0f0f0;
   padding: 77px 0 53px; }
@@ -3555,7 +3555,7 @@ ul {
   .oto-s2 .s2-oto-left {
     float: left;
     width: 537px;
-    min-height: 721px;
+    min-height: 488px;
     height: auto;
     padding: 33px 0 33px 37px;
     border: 1px solid #6f7176; }
@@ -3589,6 +3589,8 @@ ul {
           border-radius: 50%; }
         .oto-s2 .s2-oto-left .s2-oto-item li .oto-show-marker {
           display: none; }
+    .oto-s2 .s2-oto-left .s2-oto-item:last-of-type {
+      margin-bottom: 0; }
     .oto-s2 .s2-oto-left .s2-oto-head {
       line-height: 30px;
       font-weight: 400;
@@ -4673,10 +4675,10 @@ ul {
     .oto-s2 .s2-oto-left {
       float: none;
       width: 662px;
-      min-height: 637px;
+      min-height: 486px;
       height: auto;
       margin: 0 auto 115px;
-      padding: 33px 0 0 37px; }
+      padding: 33px 0 33px 37px; }
       .oto-s2 .s2-oto-left .s2-oto-item {
         padding-left: 25px; }
       .oto-s2 .s2-oto-left .s2-oto-h2 {
@@ -6068,18 +6070,18 @@ ul {
         .oto-s1 .container .s1-oto-right .s1-oto-btn {
           margin-bottom: 52px; }
   .oto-s2 {
-    min-height: 1671px;
+    min-height: 1270px;
     height: auto;
-    padding: 34px 0 53px; }
+    padding: 34px 0 63px; }
     .oto-s2 .container {
       width: auto; }
     .oto-s2 .s2-oto-left {
       float: none;
       width: 431px;
-      min-height: 637px;
+      min-height: 585px;
       height: auto;
       margin: 0 auto 79px;
-      padding: 36px 0 0 7px; }
+      padding: 36px 0 36px 7px; }
       .oto-s2 .s2-oto-left .s2-oto-h2 {
         margin-bottom: 46px;
         font-size: 1.786rem;

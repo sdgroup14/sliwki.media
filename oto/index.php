@@ -5,11 +5,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="format-detection" content="telephone=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-  <meta id="view" name="viewport" content="">
+  <meta name="viewport" content="width=device-width">
   <meta http-equiv="cleartype" content="on">
-
-
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/css/intlTelInput.css">
   <!-- build:remove -->
   <link href="../css/style.css" rel="stylesheet">
@@ -43,22 +40,19 @@
 
 
    
-  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/js/intlTelInput.min.js"></script>
-  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3va0LSuMHbA2917lZv6-iGw15mRkoKOg" type="text/javascript"></script>
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/js/intlTelInput.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3va0LSuMHbA2917lZv6-iGw15mRkoKOg" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
   <!-- build:remove -->
-  <script async src="../js/lib/modules/jquery.circliful.min.js"></script>
-  <script async type="text/javascript" src="../js/events.js"></script>
+  <script src="../js/lib/modules/jquery.circliful.min.js"></script>
+  <script type="text/javascript" src="../js/events.js"></script>
   <!-- /build -->
   <!-- build:include ../templates/js-script.html -->
   <!-- /build -->
 
 
   <script>
-
-
-
           day = 0; hour= 0; minute= 29; sec= 59;
       function CountBox() {
           dateNow = new Date;
@@ -96,8 +90,6 @@
       window.onload = function () {
           CountBox();
       }
-
-
   </script>
 </body>
 
