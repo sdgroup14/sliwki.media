@@ -37,7 +37,7 @@
   background-size: 742px 666px;
   background-repeat: no-repeat; }
 
-.btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .oto-s1 .container .s1-oto-right .s1-oto-btn, .oto-s2 .s2-oto-right .s2-oto-btn, .header-section-cases .container .h-cases-btn, .header-section-login .container .login-btn, .popup .popup-btn {
+.btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .oto-s1 .container .s1-oto-right .s1-oto-btn, .oto-s2 .s2-oto-right .s2-oto-btn, .header-section-cases .container .h-cases-btn, .cases-s1 .container .cases-s1-btn, .header-section-login .container .login-btn, .popup .popup-btn {
   display: block;
   margin: 0 auto;
   line-height: 41px;
@@ -48,14 +48,14 @@
   -o-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear; }
-  .btn:hover, .header-section-case1 .container .header-content .content-btn:hover, .case1-s3 .case1-s3-l .case1-s3-sbmt:hover, .case1-s4 .c1-s4-i6 .c1-s4-sbmt:hover, .case1-s5 .c1-s5-btn:hover, .case1-s7 .case1-s7-l .case1-s7-sbmt:hover, .case1-s8 .case1-s8-btn:hover, .case1-s8 .case1-s8-sbmt:hover, .case1-s10 .case1-s10-l .case1-s10-sbmt:hover, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn:hover, .case1-s12 .c1-s12-btn:hover, .case1-footer .c1-f-btn:hover, .oto-s1 .container .s1-oto-right .s1-oto-btn:hover, .oto-s2 .s2-oto-right .s2-oto-btn:hover, .header-section-cases .container .h-cases-btn:hover, .header-section-login .container .login-btn:hover, .popup .popup-btn:hover {
+  .btn:hover, .header-section-case1 .container .header-content .content-btn:hover, .case1-s3 .case1-s3-l .case1-s3-sbmt:hover, .case1-s4 .c1-s4-i6 .c1-s4-sbmt:hover, .case1-s5 .c1-s5-btn:hover, .case1-s7 .case1-s7-l .case1-s7-sbmt:hover, .case1-s8 .case1-s8-btn:hover, .case1-s8 .case1-s8-sbmt:hover, .case1-s10 .case1-s10-l .case1-s10-sbmt:hover, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn:hover, .case1-s12 .c1-s12-btn:hover, .case1-footer .c1-f-btn:hover, .oto-s1 .container .s1-oto-right .s1-oto-btn:hover, .oto-s2 .s2-oto-right .s2-oto-btn:hover, .header-section-cases .container .h-cases-btn:hover, .cases-s1 .container .cases-s1-btn:hover, .header-section-login .container .login-btn:hover, .popup .popup-btn:hover {
     -webkit-transform: scale(1.03);
     -moz-transform: scale(1.03);
     -ms-transform: scale(1.03);
     -o-transform: scale(1.03);
     transform: scale(1.03); }
 
-.med, .case1-s2 .c1-l1-center, .case1-s2 h3, .case1-s3 .case1-s3-l h3, .case1-s4 .s4-manifestation h3, .case1-s7 .case1-s7-l h3, .case1-s8 .back h3, .case1-s9 .c1-s9-l-item .c1-s9-head, .case1-s10 .case1-s10-l h3, .case1-s11 .container .c11-slider-wrap .c1-s11-up h3, .case1-s11 .container .c11-slider-wrap .c1-s11-down h3, .case1-s12 .c1-s12-head, .case1-footer h2, .checklist-open-link, .oto-s2 .s2-oto-left .s2-oto-head, .spuck-s1 h2, .spuck-s1 .container a {
+.med, .case1-s2 .c1-l1-center, .case1-s2 h3, .case1-s3 .case1-s3-l h3, .case1-s4 .s4-manifestation h3, .case1-s7 .case1-s7-l h3, .case1-s8 .back h3, .case1-s9 .c1-s9-l-item .c1-s9-head, .case1-s10 .case1-s10-l h3, .case1-s11 .container .c11-slider-wrap .c1-s11-up h3, .case1-s11 .container .c11-slider-wrap .c1-s11-down h3, .case1-s12 .c1-s12-head, .case1-footer h2, .checklist-open-link, .oto-s2 .s2-oto-left .s2-oto-head, .spuck-s1 h2, .spuck-s1 .container a, .cases-s1 .container .cases-s1-count-works {
   font-family: "GothamProMedium", sans-serif; }
 
 .reg {
@@ -85,7 +85,7 @@
 .px11 {
   font-size: .786rem; }
 
-.px12, .btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .oto-s1 .container .s1-oto-right .s1-oto-btn, .oto-s2 .s2-oto-right .s2-oto-btn, .header-section-cases .container .h-cases-btn, .header-section-login .container .login-btn, .popup .popup-btn, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s8 .case1-s8-inp, .case1-s10 .case1-s10-l p, .case1-s12 .c1-s12-text, .footer-1 .f1-c-item, .popup p {
+.px12, .btn, .header-section-case1 .container .header-content .content-btn, .case1-s3 .case1-s3-l .case1-s3-sbmt, .case1-s4 .c1-s4-i6 .c1-s4-sbmt, .case1-s5 .c1-s5-btn, .case1-s7 .case1-s7-l .case1-s7-sbmt, .case1-s8 .case1-s8-btn, .case1-s8 .case1-s8-sbmt, .case1-s10 .case1-s10-l .case1-s10-sbmt, .case1-s11 .container .c11-slider-wrap .c1-s11-down .c1-s11-btn, .case1-s12 .c1-s12-btn, .case1-footer .c1-f-btn, .oto-s1 .container .s1-oto-right .s1-oto-btn, .oto-s2 .s2-oto-right .s2-oto-btn, .header-section-cases .container .h-cases-btn, .cases-s1 .container .cases-s1-btn, .header-section-login .container .login-btn, .popup .popup-btn, .case1-s5 .c1-s5-puls .c1-s5-puls-text, .case1-s8 .case1-s8-inp, .case1-s10 .case1-s10-l p, .case1-s12 .c1-s12-text, .footer-1 .f1-c-item, .popup p {
   font-size: .91rem; }
 
 .px13, .header-section-case1 .container .header-content .content-btn, .header-section-cases .container .cases-look-dwn, .popup .modal-close-dwn {
@@ -104,7 +104,7 @@
 .px17 {
   font-size: 1.214rem; }
 
-.px18, .case1-s12 .c1-s12-head, .header-section-thanks .container .header-section-thanks-h1, .header-section-oto .container .header-section-thanks-h1, .header-section-oto .container .header-section-oto-h1 {
+.px18, .case1-s12 .c1-s12-head, .header-section-thanks .container .header-section-thanks-h1, .header-section-oto .container .header-section-thanks-h1, .header-section-oto .container .header-section-oto-h1, .cases-s1 .container .cases-s1-count-works {
   font-size: 1.286rem; }
 
 .px19 {
@@ -4053,6 +4053,132 @@ ul {
     margin-top: -20px; }
   100% {
     margin-top: 0; } }
+
+.cases-s1 {
+  height: 1104px; }
+  .cases-s1 .container {
+    text-align: center; }
+    .cases-s1 .container .cases-s1-count-works {
+      font-weight: 400;
+      margin: 79px auto 31px;
+      letter-spacing: -1px; }
+    .cases-s1 .container .cases-s1-show-all {
+      margin: 0 auto 29px;
+      width: 33px;
+      height: 33px;
+      background: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAQAAAD97QrkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhBQ4PJyDTBE9UAAABq0lEQVRIx6XWu04CQRSA4Z+JYijEQgstpBLFF/BSakHiJRF9BE20UG4WPoSNIdCowVeAShIaCk0UfABBpMECCyjAgqCFFptd2Jssu6eaMznzZWZnMjuuGIaxwjYrLDHNFG1aVChxT8mo1KUjPBwSxW8Iv5MgTVfdKTRFe5RJmQCwQJIyIXNigmuy+Pg/fGS4ZsKI8JLjGGtxTA6vlnCTYcMiALBBBreaSLI5AgCwSXKQCFlegno5IZnwkLABACTwSMTh0F0wCx9H0tF6056DK6V1SYM5LpQ8rkWqLApWTQ+SlfCzKgg6AACCgjWHxLpg2SERcMXa/aMqx7zS+uSHcWaV/ENPfI3pAW3hj9HAfkyO0XE+i5aeOFdalzSYGcjjeqIpeHX4OcuCZ4fEkyDvkMgLilQdAFWKrhickrJNhEkJ4I66TaBOWrovukRtElG68sWX5dYGcEsW+tfvGQ8jAo+EpYZMfLNLYQSgwA49NQEdtrixCNywRUdOBn+IPU7YH7o7dQ44kWegJQCyBIhQMxleI0KAjLpT/ziQQn5fzOClQ5MKL+Qo8qsv/QP2iWJrzIqYIwAAAABJRU5ErkJggg==) no-repeat 50% 50%;
+      -webkit-background-size: 33px 33px;
+      background-size: 33px 33px;
+      cursor: pointer; }
+    .cases-s1 .container .cases-s1-show-all-active {
+      background: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAMAAABgOjJdAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAe1BMVEUHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodwHodz///8zsuI5tOMQpN0AAAAJjKxXAAAAI3RSTlMANoC23fAJa9rbbE/hUAeZDr4GvTd9td7x8prCw1Ft3IE4AaacctgAAAABYktHRCi9sLWyAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4QUODysNOm5cLQAAAMtJREFUOMuNlO0WgiAMQKf4lan4mWal1TLf/w0LC8kU5/2DZ9zjGWMDQGGYzLLRtphpwAKO66Fi5zv/wj7AKUE42Y84zuGREuIEl0hiKaQZLpOlX4OjDv4RQtQzpOsEK0YgDu3iGv7bGAv1EHTYDasMegA5rhqYQ0EYBRwIg0FJGCVU4/dT0GM/rGP0CEix4R90HvRZ6HrQNaXvZcPd0v1B9xhArRVq2esnjXCONs/LhpkT6c7m9jKb/ab92W+b2ezL96PCymLX211FXw6Jc/UKj9GLAAAAAElFTkSuQmCC) no-repeat 50% 50%; }
+    .cases-s1 .container .cases-s1-list {
+      margin-bottom: 54px; }
+    .cases-s1 .container .cases-s1-list-item-wrap {
+      width: 335px;
+      height: 339px;
+      float: left;
+      margin: 0 9px 9px 0; }
+    .cases-s1 .container .cases-s1-list-item-wrap:nth-child(3n) {
+      margin: 0 0 9px 0; }
+    .cases-s1 .container .cases-s1-item {
+      -webkit-background-size: cover;
+      background-size: cover;
+      cursor: pointer; }
+    .cases-s1 .container .cases-s1-manifestation {
+      visibility: hidden;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 174, 239, 0);
+      opacity: 0;
+      -webkit-transition: all 0.25s ease;
+      -o-transition: all 0.25s ease;
+      -moz-transition: all 0.25s ease;
+      transition: all 0.25s ease;
+      color: #ffffff;
+      text-align: bottom; }
+    .cases-s1 .container .cases-s1-item:hover > .cases-s1-manifestation {
+      background-color: #00aeef;
+      visibility: visible;
+      opacity: 1; }
+    .cases-s1 .container .cases-s1-i1 {
+      background-image: url(../img/cases-s1/1.jpg); }
+    .cases-s1 .container .cases-s1-i2 {
+      height: 165px;
+      background-image: url(../img/cases-s1/2.jpg);
+      margin-bottom: 8px; }
+    .cases-s1 .container .cases-s1-i-left {
+      float: left; }
+    .cases-s1 .container .cases-s1-i-right {
+      float: right; }
+    .cases-s1 .container .cases-s1-i3 {
+      width: 163px;
+      height: 165px;
+      background-image: url(../img/cases-s1/3.jpg);
+      margin-bottom: 0; }
+    .cases-s1 .container .cases-s1-i4 {
+      width: 163px;
+      height: 165px;
+      background-image: url(../img/cases-s1/4.jpg);
+      margin: 0; }
+    .cases-s1 .container .cases-s1-i5 {
+      width: 163px;
+      height: 339px;
+      background-image: url(../img/cases-s1/5.jpg);
+      margin-bottom: 0; }
+    .cases-s1 .container .cases-s1-l-i-sub-wrap-right {
+      height: 100%;
+      width: 164px; }
+    .cases-s1 .container .cases-s1-i6 {
+      width: 163px;
+      height: 165px;
+      background-image: url(../img/cases-s1/6.jpg);
+      margin-right: 0; }
+    .cases-s1 .container .cases-s1-i7 {
+      width: 163px;
+      height: 165px;
+      background-image: url(../img/cases-s1/7.jpg);
+      margin: 0; }
+    .cases-s1 .container .cases-s1-i8 {
+      background-image: url(../img/cases-s1/8.jpg); }
+    .cases-s1 .container .cases-s1-i9 {
+      height: 165px;
+      background-image: url(../img/cases-s1/9.jpg);
+      margin-bottom: 8px; }
+    .cases-s1 .container .cases-s1-i10 {
+      width: 163px;
+      height: 165px;
+      background-image: url(../img/cases-s1/10.jpg);
+      margin-bottom: 0; }
+    .cases-s1 .container .cases-s1-i11 {
+      width: 163px;
+      height: 165px;
+      background-image: url(../img/cases-s1/11.jpg);
+      margin: 0; }
+    .cases-s1 .container .cases-s1-i12 {
+      width: 163px;
+      height: 339px;
+      background-image: url(../img/cases-s1/12.jpg);
+      margin-bottom: 0; }
+    .cases-s1 .container .cases-s1-i13 {
+      width: 163px;
+      height: 165px;
+      background-image: url(../img/cases-s1/13.jpg);
+      margin-right: 0; }
+    .cases-s1 .container .cases-s1-i14 {
+      width: 163px;
+      height: 165px;
+      background-image: url(../img/cases-s1/14.jpg);
+      margin: 0; }
+    .cases-s1 .container .cases-s1-btn {
+      margin: 0 auto;
+      width: 199px;
+      color: #fa2247;
+      border: 1px solid #fa2247; }
+      .cases-s1 .container .cases-s1-btn:hover {
+        background-color: #fa2247;
+        color: #ffffff; }
 
 .header-section-login {
   height: 525px;
