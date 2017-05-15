@@ -286,6 +286,12 @@ section {
       }
       }
 
+  .cases-s1-item:hover > .cases-s1-manifestation {
+      background-color: rgba(0, 174, 239, 1);
+      visibility: visible;
+      opacity: 1;
+    }
+
  }
 
  @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -358,8 +364,16 @@ section {
   @include media_768_oto_s1;
   @include media_768_oto_s2;
 
+
+  @include media_768_cases_header;
+  @include media_768_cases_s1;
+
   @include media_768_page-popups;
   @include media_768_case_2_mobile-menu;
+
+
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -508,6 +522,10 @@ section {
    @include media_480_spuck_s1;
    
    @include media_480_login_header;
+
+   
+   @include media_480_cases_header;
+   @include media_480_cases_s1;
  
 
 

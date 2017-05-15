@@ -45,6 +45,17 @@
   <!-- build:remove -->
   <script src="../js/lib/modules/jquery.circliful.min.js"></script>
   <script type="text/javascript" src="../js/events.js"></script>
+
+  <script>
+    $('.cases-s1-show-all').on('click', function(){
+      $(this).toggleClass('cases-s1-show-all-active');
+      $('.cases-s1-manifestation').toggleClass('cases-s1-manifestation-active');
+    });
+
+    $('.cases-s1-item').on('click', function(){
+      $(this).find('.cases-s1-manifestation').toggleClass('cases-s1-manifestation-active');
+    });
+  </script>
   <!-- /build -->
   <!-- build:include ../templates/js-script.html -->
   <!-- /build -->

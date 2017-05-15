@@ -1,7 +1,7 @@
 <section class="header-section-cases">
   	<img class="logo-white" src="../img/logo-white.png" alt="logo-slivkimedia">
   <div class="container">
-    <h1>Узнайте сколько клиентов мы гарантировано<br>привлечем Вам в следующем месяце</h1>
+    <h1>Узнайте сколько клиентов&nbsp;<br class="c2-br2-768"/>мы гарантировано&nbsp;<br class="c2-br1-768"/>привлечем&nbsp;<br class="c2-br2-768"/>Вам в следующем месяце</h1>
     <div class="h-cases-btns clearfix">
       <button class="h-cases-btn cases-btn-dwnl">Скачать бриф</button>
       <button class="h-cases-btn cases-btn-count">Рассчитать стоимость</button>
@@ -13,7 +13,7 @@
 <section class="cases-s1">
   <div class="container">
     <p class="cases-s1-count-works">Количество работ: 68</p>
-    <div class="cases-s1-show-all cases-s1-show-all-active"></div>
+    <div class="cases-s1-show-all"></div>
     <div class="cases-s1-list clearfix">
       <div class="cases-s1-list-item-wrap cases-s1-item cases-s1-i1">
         <div class="cases-s1-manifestation cases-s1-man-big">
@@ -28,7 +28,7 @@
             <a href="" class="cases-s1-l-link">Посмотреть работу</a>
           </div>
         </div>
-        <div class="cases-s1-l-i-sub-wrap">
+        <div class="cases-s1-l-i-sub-wrap clearfix">
           <div class="cases-s1-list-item-wrap cases-s1-item cases-s1-i-left cases-s1-i3">
             <div class="cases-s1-manifestation cases-s1-man-small">
               <p class="cases-s1-l-head">Business<br><span class="u1">Drive</span> #2</p>
@@ -43,7 +43,7 @@
           </div>
         </div>
       </div>
-      <div class="cases-s1-list-item-wrap">
+      <div class="cases-s1-list-item-wrap clearfix">
         <div class="cases-s1-l-i-sub-wrap cases-s1-i-left cases-s1-item cases-s1-i5">
           <div class="cases-s1-manifestation cases-s1-man-heig">
             <p class="cases-s1-l-head">Auditoria<br><span class="u1">Reco</span>rds</p>
@@ -78,7 +78,7 @@
             <a href="" class="cases-s1-l-link">Посмотреть работу</a>
           </div>
         </div>
-        <div class="cases-s1-l-i-sub-wrap">
+        <div class="cases-s1-l-i-sub-wrap clearfix">
           <div class="cases-s1-list-item-wrap cases-s1-item cases-s1-i-left cases-s1-i10">
             <div class="cases-s1-manifestation cases-s1-man-small">
               <p class="cases-s1-l-head">Агентство<br><span class="u1">Leem</span>on</p>
@@ -93,7 +93,7 @@
           </div>
         </div>
       </div>
-      <div class="cases-s1-list-item-wrap">
+      <div class="cases-s1-list-item-wrap clearfix">
         <div class="cases-s1-l-i-sub-wrap cases-s1-i-left cases-s1-item cases-s1-i12">
           <div class="cases-s1-manifestation cases-s1-man-heig">
             <p class="cases-s1-l-head">Блог<br><span class="u1">Мали</span>ка Хана</p>

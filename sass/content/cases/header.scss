@@ -11,38 +11,32 @@
   .container {
     text-align: center;
     padding-top: 269px;
-
-
     h1 {
       color: #ffffff;
       @extend .bol;
       @extend .px30;
       line-height: 40px;
       letter-spacing: -1.85px;
-          margin-bottom: 82px;
-
+      margin-bottom: 82px;
     }
     .h-cases-btn {
       @extend .btn;
-    margin: 10px 0 25px;
-    width: 199px;
-    color: #fa2247;
-    border: 1px solid #fa2247;
-    &:hover {
-      background-color: #fa2247;
-      color: #ffffff;
+      margin: 10px 0 25px;
+      width: 199px;
+      color: #fa2247;
+      border: 1px solid #fa2247;
+      &:hover {
+        background-color: #fa2247;
+        color: #ffffff;
+      }
     }
-    }
-
     .h-cases-btns {
       width: 452px;
       margin: 0 auto 120px;
     }
-
     .cases-btn-dwnl {
       float: left;
     }
-
     .cases-btn-count {
       float: right;
     }
@@ -52,58 +46,91 @@
       margin-bottom: 44px;
       letter-spacing: -.8px;
     }
-
     .cases-l-dwn-ico {
-      margin:0 auto;
+      margin: 0 auto;
       width: 26px;
       height: 26px;
       background: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABVlBMVEWNlKD///+NlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKCNlKAAAAD6lTdeAAAAcHRSTlMAACVvtu7zvXYsNbLb2fu+PYnJYSMBH1mZs+tKPN3IB57EuJ+lJNo7wD8c0zFxVwkKj7oXhvhGTfpwBd5OQOJQVDfWQkdL/PcuEwPkeE86lsY+p84d5UihiJuH2ATF0C3BDqwPC6CxCMzhw9yK1ZFEtkqE2wAAAAFiS0dEca8HXOIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhBQwREx2M97ZDAAABUklEQVQoz2XS6zsCQRQG8DOUFKkQVisJJXJXIlKE3HIJucv9zvv/fzKzO9tWOx925jm/2Z05Zw+RHE3NNjvQ4mh1MjkkuNrAR7u7gz893lryAZ1d3X6+6ul1AH0mKegPGB9mTB1A0CAFyiCZxFgIQzr5ECaqIzaMEUGjsFMjsQiinMYQs5ITEUbjmCArMRviNIkpEZk2aUaQF7M0h3keWEgkDVpMLXFaRpoSKRFYAaTx1ap4LQOCW4uowJqYs0BOO8zDaV3fvQHkiTYBWUEHaGtbHpIECnFAlVdMg6e1I00Vxc9J2cUe7ePAuHcMKBp5uXDI63RUTfdYraZ8wndRCQVrNU5xxmtYQMZKJZyLnxJCuZEuENZ/ZRCX9XSF6xud/Le4K5p0X0Hkodo2ZeAx/yRWz7EX4PWtptkC7zzdj8/KF5/c2bo+JIp+/2it+PtntOg/WhRGhMGqiMAAAAAASUVORK5CYII=) no-repeat 50% 50%;
       background-size: 26px 26px;
       animation-name: ball;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
     }
-
-
-    @keyframes ball{
+    @keyframes ball {
       0% {
         margin-top: 0;
       }
       50% {
         margin-top: -20px;
       }
-
-      
       100% {
         margin-top: 0;
       }
     }
-
-
-
   }
 }
 
-// @mixin media_480_spuck_header {
-//   .header-section-spuck {
-//     height: 267px;
-//     .logo-white {
-//       width: 112px;
-//       height: 55px;
-//       margin-left: -56px;
-//     }
-//     .container {
-//       width: 440px;
-//       padding: 124px 0 0;
-//       fieldset {
-//         height: 104px;
-//         width: 440px;
-//         p {
-//           font-size: 1.286rem;
-//           line-height: 24px;
-//         }
-//       }
-//     }
-//   }
-// }
+@mixin media_768_cases_header {
+  .header-section-cases {
+    height: 638px;
+    .logo-white {
+      width: 101px;
+      height: 49px;
+      margin-left: -50.5px;
+      top: 39px;
+    }
+    .container {
+      padding-top: 222px;
+      h1 {
+        line-height: 33.27px;
+        font-size: 1.782rem;
+        letter-spacing: -1.55px;
+      }
+      .h-cases-btn {
+        @extend .btn-768;
+        line-height: 44px;
+        width: 200px;
+      }
+      .h-cases-btns {
+        margin: 0 auto 54px;
+      }
+    }
+  }
+}
+
+@mixin media_480_cases_header {
+  .header-section-cases {
+    height: 826px;
+    .logo-white {
+      width: 145px;
+      height: 72px;
+      margin-left: -72.5px;
+      top: 45px;
+    }
+    .container {
+      padding-top: 179px;
+      h1 {
+        margin-bottom: 86px;
+        white-space: nowrap;
+      }
+      .h-cases-btn {
+        @extend .btn-480;
+        float: none;
+        margin: 0 auto 44px;
+      }
+      .h-cases-btns {
+        margin: 0 auto 120px;
+        width: auto;
+      }
+      .cases-look-dwn {
+        font-size: 1.229rem;
+      }
+      .cases-l-dwn-ico {
+        width: 31px;
+        height: 31px;
+        background-size: 31px 31px;
+      }
+    }
+  }
+}
