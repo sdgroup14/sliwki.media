@@ -1,148 +1,127 @@
 .s5 {
   height: 490px;
-  text-align:center;
+  text-align: center;
   z-index: 2;
-
-	.container {width: 582px;}
-
-  h2 {@extend .section-h2;}
-
-  .photo {
-  	width: 148px;
-  	float: left;
+  .container {
+    width: 582px;
   }
-
-  .quote{
-  	position: relative;
-  	float: right;
-  	width: 395px;
-  	padding: 20px 25px;
-  	background-color: $header-bg;
-  	border-radius: 7px;
-		&:after{
-			@extend .s1:after;
-	    left: 30px; 
-	  	border-top: 12px solid $header-bg;
-	  }
-
-	  
-	}
-
-	p {
-	  	text-align: left;
-	  	line-height: 15px;
-	  	font-family: "GothamProLight", sans-serif;
-	  	color: $base3-txt;
-	  	font-size: 0.78rem;
-			letter-spacing: -0.2px;
-
-			span {
-				font-family: "GothamProMedium", sans-serif;
-			}
-	}
-
-	.quote-author{
-		margin-top: 25px;
-		display: inline-block;
-		margin: 25px auto 0 auto;
-	
-		.quote-author-txt {
-			color: $base2-txt;
-			font-size: 0.85rem;
-			line-height: 18px;
-		}
-
-		.quote-author-txt:first-of-type {
-			font-family: "GothamProMedium", sans-serif;
-		}
-	}
+  h2 {
+    @extend .section-h2;
+  }
+  .photo {
+    width: 148px;
+    float: left;
+  }
+  .quote {
+    position: relative;
+    float: right;
+    width: 395px;
+    padding: 20px 25px;
+    background-color: #f4f7fc;
+    border-radius: 7px;
+    &:after {
+      @extend .s1:after;
+      left: 30px;
+      border-top: 12px solid #f4f7fc;
+    }
+  }
+  p {
+    text-align: left;
+    line-height: 15px;
+    font-family: "GothamProLight", sans-serif;
+    color: #3f434a;
+    font-size: 0.78rem;
+    letter-spacing: -0.2px;
+    span {
+      font-family: "GothamProMedium", sans-serif;
+    }
+  }
+  .quote-author {
+    margin-top: 25px;
+    display: inline-block;
+    margin: 25px auto 0 auto;
+    .quote-author-txt {
+      color: #5b636e;
+      font-size: 0.85rem;
+      line-height: 18px;
+    }
+    .quote-author-txt:first-of-type {
+      font-family: "GothamProMedium", sans-serif;
+    }
+  }
 }
 
 @mixin media_768_page-1_s5 {
-
-.s5 {
-  height: 463px;
-
-	.container {width: 578px;}
-
-  h2 {margin-top: 55px;}
-
-  .quote{
-		&:after{
-			content: ''; 
-	    position: absolute;
-	    margin-left: -13px;
-	    bottom: -24px;
-	  	border: 13px solid transparent;
-	  	z-index: 1;
-	    left: 30px; 
-	  	border-top: 12px solid $header-bg;
-	  	} 
-		}
-	}
+  .s5 {
+    height: 463px;
+    .container {
+      width: 578px;
+    }
+    h2 {
+      margin-top: 55px;
+    }
+    .quote {
+      &:after {
+        content: '';
+        position: absolute;
+        margin-left: -13px;
+        bottom: -24px;
+        border: 13px solid transparent;
+        z-index: 1;
+        left: 30px;
+        border-top: 12px solid #f4f7fc;
+      }
+    }
+  }
 }
-
 
 @mixin media_480_page-1_s5 {
-
-.s5 {
-  height: 900px;
-
-  .photo {
-  	float:none;
-  	margin: 0 auto;
-  	width: 168px;
-  	margin-bottom: 52px;
-
-  	img {
-  		width: 168px;
-  	}
+  .s5 {
+    height: 900px;
+    .photo {
+      float: none;
+      margin: 0 auto;
+      width: 168px;
+      margin-bottom: 52px;
+      img {
+        width: 168px;
+      }
+    }
+    .container {
+      min-width: 444px;
+      width: 444px;
+    }
+    h2 {
+      margin-top: 35px;
+    }
+    p {
+      line-height: 24px;
+      font-size: 1.28rem;
+      letter-spacing: -0.5px;
+    }
+    .quote {
+      float: none;
+      width: 100%;
+      padding: 20px 24px;
+      &:after {
+        content: '';
+        position: absolute;
+        margin-left: -13px;
+        bottom: -24px;
+        border: 13px solid transparent;
+        z-index: 1;
+        left: 30px;
+        border-top: 12px solid #f4f7fc;
+      }
+    }
+    .quote-author {
+      float: left;
+      display: inline-block;
+      margin: 25px auto 0 5px;
+      .quote-author-txt {
+        font-size: 1.28rem;
+        line-height: 26px;
+      }
+    }
   }
-
-	.container {
-		min-width: 444px;
-		width: 444px;
-	}
-
-  h2 {margin-top: 35px;}
-
-  
-	p {
-	line-height: 24px;
-  	font-size: 1.28rem;
-  	letter-spacing: -0.5px;
-	}
-  .quote{
-  	float: none;
-  	width: 100%;
-  	padding: 20px 24px;
-  	
-		&:after{
-		content: ''; 
-    position: absolute;
-    margin-left: -13px;
-    bottom: -24px;
-  	border: 13px solid transparent;
-  	z-index: 1;
-    left: 30px; 
-  	border-top: 12px solid $header-bg;
-	  }
-
-	  
-	}
-	.quote-author{
-			float: left;
-			display: inline-block;
-			margin: 25px auto 0 5px;
-		
-			.quote-author-txt {
-				font-size: 1.28rem;
-				line-height: 26px;
-			}
-
-			
-		}
-	
-
-}
 }

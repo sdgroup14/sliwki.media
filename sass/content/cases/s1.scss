@@ -52,14 +52,11 @@
     //   visibility: visible;
     //   opacity: 1;
     // }
-
     .cases-s1-manifestation-active {
       background-color: rgba(0, 174, 239, 1);
       visibility: visible;
       opacity: 1;
     }
-
-
     .cases-s1-i1 {
       background-image: url(../img/cases-s1/1.jpg);
     }
@@ -215,8 +212,8 @@
         margin: 0 auto 20px;
       }
       .cases-s1-list {
-      margin-bottom: 29px;
-    }
+        margin-bottom: 29px;
+      }
       .cases-s1-list-item-wrap {
         width: 235px;
         height: 237px;
@@ -317,18 +314,18 @@
     }
   }
 }
+
 @mixin media_480_cases_s1 {
   .cases-s1 {
     height: 3136px;
     .container {
       .cases-s1-count-works {
-            margin: 44px auto 19px;
-        font-size:1.857rem;
+        margin: 44px auto 19px;
+        font-size: 1.857rem;
       }
-
       .cases-s1-list {
-          margin-bottom: 60px;
-    }
+        margin-bottom: 60px;
+      }
       .cases-s1-list-item-wrap {
         width: 100%;
         height: auto;
@@ -336,8 +333,8 @@
         float: none;
       }
       .cases-s1-list-item-wrap:nth-child(3n) {
-      margin: 0 0 10px 0;
-    }
+        margin: 0 0 10px 0;
+      }
       .cases-s1-i1 {
         height: 450px;
       }
@@ -345,14 +342,12 @@
         height: 217px;
         margin-bottom: 10px;
       }
-
-    .cases-s1-i-left {
-      float: left;
-    }
-
-    .cases-s1-i-right {
-      float: right;
-    }
+      .cases-s1-i-left {
+        float: left;
+      }
+      .cases-s1-i-right {
+        float: right;
+      }
       .cases-s1-i3 {
         width: 210px;
         height: 217px;
@@ -379,7 +374,7 @@
         width: 210px;
         height: 217px;
         margin: 0;
-      } 
+      }
       .cases-s1-i8 {
         height: 450px;
       }
@@ -417,46 +412,43 @@
         // width: 200px;
       }
       .cases-s1-man-big {
-            padding: 315px 0 48px 21px;
-
+        padding: 315px 0 48px 21px;
       }
       .cases-s1-man-long {
-            padding: 102px 0 32px 21px;
+        padding: 102px 0 32px 21px;
       }
       .cases-s1-man-small {
-       padding: 77px 0 32px 21px;
-
+        padding: 77px 0 32px 21px;
       }
       .cases-s1-man-small1 {
-            padding: 107px 0 32px 21px;
-
+        padding: 107px 0 32px 21px;
       }
       .cases-s1-man-heig {
-            padding: 306px 0 32px 21px;
+        padding: 306px 0 32px 21px;
       }
       .cases-s1-l-head {
         line-height: 31.38px;
         font-size: 1.893rem;
         letter-spacing: -1.3px;
-            margin-bottom: 33px;
+        margin-bottom: 33px;
         .u1 {
           &:after {
             // height: 1px;
             // top: 18px;
             width: 67px;
-                top: 37px;
+            top: 37px;
           }
         }
       }
       .cases-s1-l-link {
         // font-size: .8rem;
         font-size: 1.35rem;
-         &:after {
-            margin-left: 13px;
-    width: 10px;
-    height: 8px;
-        background-size: 10px 8px;
-      }
+        &:after {
+          margin-left: 13px;
+          width: 10px;
+          height: 8px;
+          background-size: 10px 8px;
+        }
       }
     }
   }

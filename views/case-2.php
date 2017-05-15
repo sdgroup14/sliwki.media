@@ -87,64 +87,6 @@
     <span class="c1-l1-center c1-l1-center1">Кому?</span>
     <span class="c1-l1-center c1-l1-center2">Зачем?</span>
     <span class="c1-l1-center c1-l1-center3">Следствие</span>
-    <!-- <div class="c1-list1 clearfix">
-      <div class="c1-list1-l">
-        <div class="swiper-container3">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide slide-c1-s2  slide-s2-1"  data-q="" data-aft="">
-              <div class="slide-c1-s2-head">Кому?</div>
-              <div class="c1-l1-item  c1-l2-i1">
-                <h3>Действующему&nbsp;<br class="c2-br2-768"/>бизнесу</h3>
-                <p>Предпринимателям и компаниям в<br>сфере розничной и промышленной<br>торговли, услуг, консалтинга, B2B<br>и интернет бизнеса.</p>
-              </div>
-            </div>
-            <div class="swiper-slide slide-c1-s2 slide-s2-2" data-q="" data-aft="">
-              <div class="slide-c1-s2-head">Зачем?</div>
-              <div class="c1-l1-item c1-l2-i3">
-                <h3>Увеличение&nbsp;<br class="c2-br2-768"/>продаж</h3>
-                <p>Для&nbsp;взаимодействия&nbsp;с&nbsp;максимально <br class="c2-br1-768"/>точной ЦА которая будет покупать&nbsp;<br class="c2-br1-768"/>Ваши товары/услуги на 30% больше&nbsp;<br class="c2-br1-768"/>благодаря актуальному предложению.</p>
-              </div>
-            </div>
-            <div class="swiper-slide slide-c1-s2 slide-s2-3" data-q="" data-aft="">
-              <div class="slide-c1-s2-head">Следствие</div>
-              <div class="c1-l1-item c1-l2-i5">
-                <h3>Перекрытие&nbsp;<br class="c2-br2-768"/>утечки денег</h3>
-                <p>Вы сохраните до 58% прибыли которую&nbsp;<br class="c2-br1-768"/>Вы теряете каждый день недополучая&nbsp;<br class="c2-br1-768"/>десятки заявок от Ваших потенциальных&nbsp;<br class="c2-br1-768"/>клиентов готовых заплатить Вам деньги.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-      <div class="c1-list1-r"> 
-        <div class="swiper-container4">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide slide-c1-s2  slide-s2-1" data-q="" data-aft="">
-              <div class="slide-c1-s2-head">Кому?</div>
-              <div class="c1-l1-item c1-l2-i2">
-                <h3>Начинающему бизнесу</h3>
-                <p>Начинающим предпринимателям,<br>которым важно максимально быстро<br>и эффективно запустить свою идею,<br>а так же извлечь первую прибыль.</p>
-            </div>
-            </div>
-            <div class="swiper-slide slide-c1-s2 slide-s2-2" data-q="" data-aft="">
-             <div class="slide-c1-s2-head">Зачем?</div>
-             <div class="c1-l1-item c1-l2-i4">
-                <h3>Получение первой прибыли</h3>
-                <p>Для быстрого тестирования и анализа&nbsp;<br class="c2-br1-768"/>спроса в нише, а так же для бюджетного&nbsp;<br class="c2-br1-768"/>запуска бизнес идеи которая позволит&nbsp;<br class="c2-br1-768"/>получить клиентов уже на второй день.</p>
-            </div>
-            </div>
-            <div class="swiper-slide slide-c1-s2 slide-s2-3"  data-q="" data-aft="">
-              <div class="slide-c1-s2-head">Следствие</div>
-              <div class="c1-l1-item c1-l2-i6">
-                <h3>Снятие рисков провала</h3>
-                <p>В результате запуска Вашей бизнес идеи&nbsp;<br class="c2-br1-768"/>Вы отсечете все риски провала, а так же&nbsp;<br class="c2-br1-768"/>сохраните свои деньги для дальнейшего&nbsp;<br class="c2-br1-768"/>и эффективного масштабирования.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </div> -->
   </div>
 </section>
 <section class="case1-s3" id="case1-s3">
@@ -692,19 +634,6 @@
     <div  class="c1-s12-map">
       <div id="map"></div>
     </div>
-  </div>
-</section>
-<section class="case1-footer">
-  <div class="container">
-    <h2>Остались вопросы?</h2>
-    <p class="c1-f-sub">Задайте их нашему специалисту</p>
-    <a href="" class="c1-f-btn">Заказать звонок</a>
-    <p class="c1-f-copy">Все права защищены. © 2015 — 2017 ООО «Сливки Медиа»<br>Любое копирование материалов разрешено только с согласия правообладателей</p>
-    <ul>
-      <li><a href="" class="c1-f-link c1-f-polit">Политика конфиденциальности</a></li>
-      <li><a href="" class="c1-f-link c1-f-compl">Согласие с рассылкой</a></li>
-      <li><a href="" class="c1-f-link c1-f-renoun">Отказ от ответственности</a></li>
-    </ul>
   </div>
 </section>
 

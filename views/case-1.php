@@ -1,6 +1,6 @@
 <section class="header-section">
     <div class="container">
-      <div class="logo"><img src="img/logo.png" alt=""></div>
+      <div class="logo"><img src="../img/black-logo.png" alt="logo-slivki-media"></div>
       <h1>Лендинг пейдж для студии<br class="br-h"/>эксклюзивных&nbsp;штор&nbsp;«RUANA»</h1>
       <span class="line"></span>
       <div class="price-block">
@@ -218,7 +218,7 @@
     <div class="container">
       <h2><span class="u1">Отз</span>ыв клиента</h2>
       <div class="clearfix">
-        <div class="photo"><img src="img/photo.jpg" alt=""></div>
+        <div class="photo"><img src="../img/photo.jpg" alt="photo-client"></div>
         <div class="quote">
           <p>Узнала об агентстве из рекламы в социальных сетях. За время сотрудничества с digital agency Slivki.Media был осуществлён комплекс работ по упаковке и продвижению в интернет, благодаря чему <span>увеличилось количество новых клиентов на&nbsp;40%.</span>
             <br> Агентство Slivki.Media на должном уровне и в срок выполнили все поставленные задачи и достигли необходимых результатов. Выражаю благодарность и готова продолжать эффективное сотрудничество.</p>
@@ -231,6 +231,3 @@
       </div>
     </div>
   </section>
-  <?php include __DIR__ . '/permanents/case_awake.php'; ?>
-  <?php include __DIR__ . '/permanents/footer.php'; ?>
-  <?php include __DIR__ . '/permanents/popups.php'; ?>

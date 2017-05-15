@@ -26,6 +26,7 @@
 
 
   <?php include __DIR__ . '/views/case-2.php'; ?>
+  <?php include __DIR__ . '/views/permanents/footer-2.php'; ?>
   
   <div class="modal-tint">
     <div class="modal-tint-wrapeer">

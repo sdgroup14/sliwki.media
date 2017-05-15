@@ -1,6 +1,6 @@
 .header-section {
   height: 707px;
-  background-color: $header-bg;
+  background-color: #f4f7fc;
   overflow: hidden;
   &:after {
     content: '';
@@ -41,13 +41,28 @@
     position: absolute;
     left: 50%;
     margin-left: -14px;
-    bottom: 42px;
+    bottom: 22px;
+    animation-name: ballcase;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     span {
       display: block;
       background: url('../img/sprite.png') no-repeat -25px -25px;
       width: 28px;
       height: 28px;
       margin: 0 auto;
+    }
+  }
+  @keyframes ballcase {
+    0% {
+      bottom: 22px;
+    }
+    50% {
+      bottom: 42px;
+    }
+    100% {
+      bottom: 22px;
     }
   }
 }

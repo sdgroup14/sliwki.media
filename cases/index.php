@@ -6,17 +6,12 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="viewport" content="width=device-width, maximum-scale=1.0">
   <meta http-equiv="cleartype" content="on">
-
-
- 
   <!-- build:remove -->
   <link href="../css/style.css" rel="stylesheet">
   <!-- /build -->
 
   <!-- build:include ../templates/css-link.html -->
   <!-- /build -->
-
-
   <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
   <title>Case</title>
 </head>
@@ -37,7 +32,6 @@
 <!--   <div class="prev-project"><a class="" href=""></a></div>
   <div class="next-project"><a class="" href=""></a></div>
   <span class="slide-up"></span> -->
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.12/js/intlTelInput.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3va0LSuMHbA2917lZv6-iGw15mRkoKOg" type="text/javascript"></script>
@@ -53,7 +47,9 @@
     });
 
     $('.cases-s1-item').on('click', function(){
-      $(this).find('.cases-s1-manifestation').toggleClass('cases-s1-manifestation-active');
+      if (window.matchMedia('(max-width: 767px)').matches) {
+        $(this).find('.cases-s1-manifestation').toggleClass('cases-s1-manifestation-active');
+      }
     });
   </script>
   <!-- /build -->

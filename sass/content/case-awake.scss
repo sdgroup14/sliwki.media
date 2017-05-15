@@ -1,11 +1,11 @@
 .s6 {
   height: 433px;
-  background-color: $header-bg;
+  background-color: #f4f7fc;
   padding: 92px 0;
   .container {
     width: 741px;
     text-align: center;
-    background-color: $white-col;
+    background-color: #ffffff;
     box-shadow: 2px 3px 4px 0px rgba(205, 211, 221, 0.59);
     h3 {
       font-family: "GothamProLight", sans-serif;
@@ -16,7 +16,7 @@
       margin: 0 auto 25px auto;
     }
     p {
-      color: $base4-txt;
+      color: #535354;
       line-height: 24px;
       font-size: 1.14rem;
       letter-spacing: -0.2px;
