@@ -6,7 +6,7 @@
 	</div>
   <div class="container">
 		<h1 class="header-section-thanks-h1">PDF чек-лист для оптимизации сайта и лендинг пейдж</h1>
-  	<a href="http://slivki.media/lp/checklist/open/" class="checklist-open-link">Открыть файл</a>
+  	<a href="http://slivki.media/lp/checklist/pdf/" class="checklist-open-link" target="_blank">Открыть файл</a>
   </div>
 </section>
 <section class="thanks-s1">

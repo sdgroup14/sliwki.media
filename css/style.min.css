@@ -2262,7 +2262,7 @@ section {
     padding-top: 92px; }
   .case1-s7 .container {
     overflow: visible;
-    overflow-x: hidden; }
+    overflow-y: visible; }
   .case1-s7 .case1-s7-l {
     width: 50%; }
     .case1-s7 .case1-s7-l:after {
@@ -2477,15 +2477,15 @@ section {
       color: #ffffff; }
 
 .case1-s9 {
-  min-height: 754px;
-  height: 100%; }
+  min-height: 579px;
+  height: 100%;
+  padding-bottom: 45px; }
   .case1-s9 h2 {
     text-align: center;
     margin: 67px auto 64px; }
   .case1-s9 .container {
-    width: 800px;
-    overflow: visible;
-    margin-bottom: 60px; }
+    width: 740px;
+    overflow: visible; }
   .case1-s9 .c1-s9-l-item {
     margin-bottom: 42px; }
     .case1-s9 .c1-s9-l-item .c1-s9-head {
@@ -3010,7 +3010,7 @@ ul {
         float: right; }
 
 .footer-1 {
-  height: 249px;
+  height: 233px;
   background-color: #313131;
   padding: 25px 0; }
   .footer-1 .footer-1-contacts {
@@ -3182,10 +3182,10 @@ ul {
         height: 100%; }
     .oto-s1 .container .s1-oto-right {
       float: right;
-      width: 422px;
+      width: 416px;
       height: 100%;
       text-align: center;
-      padding-left: 30px; }
+      padding-left: 24px; }
       .oto-s1 .container .s1-oto-right .s1-oto-sub {
         position: relative;
         line-height: 18px;
@@ -3259,12 +3259,13 @@ ul {
     overflow: visible;
     width: 960px; }
   .oto-s2 .s2-oto-left {
-    float: left;
-    width: 537px;
+    display: inline-block;
+    width: 538px;
     min-height: 488px;
     height: auto;
-    padding: 33px 0 33px 37px;
-    border: 1px solid #6f7176; }
+    padding: 33px 0 33px 27px;
+    border: 1px solid #6f7176;
+    vertical-align: middle; }
     .oto-s2 .s2-oto-left .s2-oto-h2 {
       margin-bottom: 50px; }
       .oto-s2 .s2-oto-left .s2-oto-h2:after {
@@ -3330,11 +3331,11 @@ ul {
       -moz-transition: all .15s linear;
       transition: all .15s linear; }
   .oto-s2 .s2-oto-right {
-    float: right;
-    width: 422px;
+    display: inline-block;
+    width: 416px;
     text-align: center;
-    padding-left: 30px;
-    margin-top: 168px; }
+    padding-left: 24px;
+    vertical-align: middle; }
     .oto-s2 .s2-oto-right .s2-oto-sub {
       line-height: 18px;
       font-weight: 400;
@@ -3866,6 +3867,8 @@ ul {
     line-height: 47px;
     background-color: #302c39;
     border: 1px solid #7c7883;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
     color: #ffffff; }
   .popup .popup-inp-ico {
     display: block;
@@ -4678,7 +4681,7 @@ ul {
     .case1-s8 .case1-s8-phone {
       margin-bottom: 0; }
   .case1-s9 {
-    min-height: 720px; }
+    min-height: 600px; }
     .case1-s9 h2 {
       margin: 42px auto 39px; }
     .case1-s9 .container {
@@ -6262,7 +6265,7 @@ ul {
       -moz-transition: all .5s;
       transition: all .5s; }
   .case1-s9 {
-    min-height: 1020px; }
+    min-height: 813px; }
     .case1-s9 h2 {
       margin: 26px auto 45px; }
     .case1-s9 .container {

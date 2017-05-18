@@ -50,7 +50,7 @@
       </div>
   </div>
 </section>
-<section class="case1-s1" id="case1-s1">
+<section class="case1-s1" id="about">
   <div class="container">
     <h2 class="section-h2"><span class="u1">О н</span>ас в цифрах</h2>
     <div class="c1-list clearfix">
@@ -89,7 +89,7 @@
     <span class="c1-l1-center c1-l1-center3">Следствие</span>
   </div>
 </section>
-<section class="case1-s3" id="case1-s3">
+<section class="case1-s3" id="brief">
   <div class="container">
     <h2 class="section-h2"><span class="u1">Хот</span>ите начать?</h2>
       <div class="case1-s3-l">
@@ -99,7 +99,7 @@
           <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
           <label for="" class="case1-s3-ico case1-s3-ico-name"><input class="case1-s3-inp case1-s3-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
           <label for="" class="case1-s3-ico case1-s3-ico-mail"><input class="case1-s3-inp case1-s3-mail" type="text" name="" id="fields[944883_1]" placeholder="Ваш e-mail" required/></label>
-          <input class="case1-s3-inp case1-s3-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
+          <input class="case1-s3-inp case1-s3-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" maxlength="13" required/>
           <input type="hidden" name="form_id" id="form_id" value="151453"/>
           <input type="hidden" name="hash" value="fdd75b69a2d3eaba224f7f2a8b1cea22"/>
           <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:56:29 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -115,7 +115,7 @@
       </div>
     </div>
 </section>
-<section class="case1-s4" id="case1-s4">
+<section class="case1-s4" id="case">
   <div class="container">
     <h2 class="section-h2"><span class="u1">Ке</span>йсы</h2>
     <div class="case1-s4-list clearfix">
@@ -145,12 +145,12 @@
       </div>
       <div class="c1-s4-item c1-s4-i5">
         <div class="s4-manifestation">
-          <h3>Лендинг пейдж для дизайн-<br>студии Просторный дом</h3>
+          <h3>Лендинг пейдж для дизайн<br>студии Просторный дом</h3>
           <a href="">Посмотреть работу</a>
         </div>
       </div>
       <div class="c1-s4-item c1-s4-i6">
-        <h3>Получите 20+&nbsp;<br class="c2-br2-768"/>бизнес-кейсов</h3>
+        <h3>Получите 10+&nbsp;<br class="c2-br2-768"/>бизнес-кейсов</h3>
         <p class="s4-sub-h3">и узнайте, как компании удвоили продажи.</p>
         <p class="s4-sub-promo">Получите кейсы на свой е-mail</p>
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
@@ -280,14 +280,14 @@
     </div>
   </div>
 </section>
-<section class="case1-s6" id="case1-s6">
+<section class="case1-s6" id="team">
   <div class="container">
     <h2 class="section-h2"><span class="u1">Ко</span>манда</h2>
     <div class="case1-s6-list clearfix">
       <div class="c1-s6-item c1-s6-i1">
         <div class="s6-manifestation">
           <p class="s6-member-name">Малик Хан</p>
-          <p class="s6-member-position">Основатель компании</p>
+          <p class="s6-member-position">Генеральный директор</p>
           <p class="s6-member-mail">founder@slivkimedia.com</p>
         </div>
       </div>
@@ -301,7 +301,7 @@
       <div class="c1-s6-item c1-s6-i3">
         <div class="s6-manifestation">
           <p class="s6-member-name">Алексей</p>
-          <p class="s6-member-position">Project-менеджер</p>
+          <p class="s6-member-position">Проект менеджер</p>
           <p class="s6-member-mail">project@slivkimedia.com</p>
         </div>
       </div>
@@ -322,7 +322,7 @@
       <div class="c1-s6-item c1-s6-i6">
         <div class="s6-manifestation">
           <p class="s6-member-name">Роман Врублевский</p>
-          <p class="s6-member-position">Управляющий партнер</p>
+          <p class="s6-member-position">Управляющий директор</p>
           <p class="s6-member-mail">co-founder@slivkimedia.com</p>
         </div>
       </div>
@@ -366,7 +366,7 @@
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
       <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;"> 
         <label for="" class="case1-s7-ico case1-s7-ico-name"><input class="case1-s7-inp case1-s7-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
-        <input class="case1-s7-inp case1-s7-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
+        <input class="case1-s7-inp case1-s7-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" maxlength="13" required/>
         <input type="hidden" name="form_id" id="form_id" value="151957"/>
         <input type="hidden" name="hash" value="132d0e20957376863f8202e93a9412f4"/>
         <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:59:03 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -390,7 +390,7 @@
       <div class="card-helper"></div>
       <div class="card">
         <figure class="back back1">
-          <h3>Анализ сайта/лендинга</h3>
+          <h3>Анализ лендинга</h3>
           <p>Предложим улучшения текущего<br>лендинг пейдж для увеличения<br>продаж.</p>
           <a href="" class="case1-s8-btn">Получить</a>
         </figure>
@@ -400,7 +400,7 @@
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
           <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" maxlength="13" required/>
             <input type="hidden" name="form_id" id="form_id" value="151960"/>
             <input type="hidden" name="hash" value="240584a21301f18da560007995b4d1fa"/>
             <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:59:53 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -430,7 +430,7 @@
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
           <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" maxlength="13" required/>
             <input type="hidden" name="form_id" id="form_id" value="151963"/>
             <input type="hidden" name="hash" value="23e98f476e005694733e1407245b2241"/>
             <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:00:45 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -451,7 +451,7 @@
       <div class="card">
         <figure class="back back3">
           <h3>Аудит рекламы</h3>
-          <p>Проанализируем рекламную<br>кампанию иукажем точки<br>слива денег.</p>
+          <p>Проанализируем рекламную<br>кампанию и укажем точки<br>слива денег.</p>
           <a href="" class="case1-s8-btn">Получить</a>
         </figure>
         <figure class="front">
@@ -460,7 +460,7 @@
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
           <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
             <label for="" class="case1-s8-ico case1-s8-ico-name"><input class="case1-s8-inp case1-s8-name" type="text" name="" id="fields[name_1]" placeholder="Ваше имя" required/></label>
-            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" required/>
+            <input class="case1-s8-inp case1-s8-phone" type="text" name="" id="fields[944881_1]" placeholder="+380 1234567890" maxlength="13" required/>
             <input type="hidden" name="form_id" id="form_id" value="151966"/>
             <input type="hidden" name="hash" value="07c2e45cb783c0421936e6d4a5078445"/>
             <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:02:22 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
@@ -478,7 +478,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s9" id="case1-s9">
+<section class="case1-s9" id="faq">
   <div class="container">
     <h2 class="section-h2"><span class="u1 hide">Час</span>то задаваемые <span class="u1 show">во</span>просы</h2>
     <div class="c1-s9-list">
@@ -557,7 +557,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s11" id="case1-s11">
+<section class="case1-s11" id="service">
   <h2 class="section-h2"><span class="u1">Наш</span>и другие услуги</h2>
   <div class="container clearfix">
     <div class="c1-s11-item c1-s11-i1">
@@ -602,7 +602,7 @@
     </div>
   </div>
 </section>
-<section class="case1-s12" id="case1-s12">
+<section class="case1-s12" id="contact">
   <div class="container clearfix">
     <div class="c1-s12-contacts">
       <h2 class="section-h2"><span class="u1">Наш</span>и контакты</h2>

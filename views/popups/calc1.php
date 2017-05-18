@@ -9,7 +9,7 @@
     <label for="" class="popup-inp-ico popup-inp-ico-mail">
       <input type="text" id="fields[944883_1]" class="popup-input calc1-mail" placeholder="Ваш e-mail" required/>
     </label>
-    <input type="text" class="popup-input calc1-phone" id="fields[944881_1]" placeholder="+380 1234567890" required/>
+    <input type="text" class="popup-input calc1-phone" id="fields[944881_1]" placeholder="+380 1234567890" maxlength="13" required/>
     <input type="hidden" name="form_id" id="form_id" value="151321"/>
     <input type="hidden" name="hash" value="0605f83d5c47d2d541e673e8c23c9dfc"/>
     <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 19:55:15 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>

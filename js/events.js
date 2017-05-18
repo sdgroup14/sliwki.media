@@ -447,6 +447,15 @@ $(window).on('keydown', function(e) {
   }
 });
 
+$('.modal-tint-wrapeer').on('click', function(e) {
+    if($('.modal-tint').hasClass('popup1-active') && !$(e.target).closest(".popup1").length){
+  $('.modal-tint').removeClass('modal-tint-active popup1-active popup-active');
+  $('body').removeClass('body-scroll-hide');
+  $('.popup1').css('display', 'none');
+  $('.popup').css('display', 'none');
+    }
+});
+
 
 $(".calc1-phone, .case1-s3-phone, .case1-s7-phone, .case1-s8-phone, .details-phone, .call-phone, .calc-phone, .statem-phone, .payment-phone").intlTelInput({
   onlyCountries: ["ru", "ua", "az", "by", "am", "kz", "kg", "md", "tj", "tm", "uz", "us", "gb", "at", "al", "ad", "be", "bg", "va", "hu", "de", "gr", "dk", "ie", "is", "es", "it", "lv", "lt", "li", "lu", "mk", "mt", "mc", "nl", "no", "pl", "pt", "ro", "sm", "rs", "sk", "sl", "fi", "fr", "hr", "me", "cz", "ch", "se", "ee"],

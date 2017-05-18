@@ -1,14 +1,14 @@
 .case1-s9 {
-  min-height: 754px;
+  min-height: 579px;
   height: 100%;
+      padding-bottom: 45px;
   h2 {
     text-align: center;
     margin: 67px auto 64px;
   }
   .container {
-    width: 800px;
+        width: 740px;
     overflow: visible;
-    margin-bottom: 60px;
   }
   .c1-s9-l-item {
     margin-bottom: 42px;
@@ -69,7 +69,7 @@
 
 @mixin media_768_case_2_s9 {
   .case1-s9 {
-    min-height: 720px;
+        min-height: 600px;
     h2 {
       margin: 42px auto 39px;
     }
@@ -87,7 +87,7 @@
 
 @mixin media_480_case_2_s9 {
   .case1-s9 {
-    min-height: 1020px;
+    min-height: 813px;
     h2 {
       margin: 26px auto 45px;
     }

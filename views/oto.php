@@ -107,7 +107,7 @@
         <div class="s2-oto-item">
           <h3 class="s2-oto-head">После завершения аудита</h3>
           <div class="s2-oto-item-hide">
-            <p>Вы узнаете:</p>
+            <p>Вы получите:</p>
             <ul>
               <li><span class="oto-show-marker">- </span>30 минутную презентацию от нашего специалиста при личной встрече или по скайп</li>
               <li><span class="oto-show-marker">- </span>PDF файл с четкими рекомендации по устранению текущих проблем</li>

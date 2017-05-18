@@ -1,6 +1,6 @@
 <div class="popup subsc">
-	<h3>Подписаться</h3>
-	<p>Внесите свои данные, чтобы подписаться&nbsp;<br class="c2-br2-768">на рассылку</p>
+	<h3>Подписка на рассылку</h3>
+	<p>Внесите свои данные, чтобы получать<br/>первыми наш опыт, идеи и вкусные<br/>предложения</p>
 	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
   <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
 		<label for="" class="popup-inp-ico popup-inp-ico-name"><input type="text" class="popup-input subsc-name" placeholder="Ваше имя" required/></label>
