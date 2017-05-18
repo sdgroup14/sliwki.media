@@ -30,6 +30,13 @@
   .c1-s12-contact {
     margin-bottom: 29px;
   }
+  .c1-s12-disp {
+    width: 160px;
+    .c1-s12-text {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
   .c1-s12-map {
     float: right;
     width: 50%;
@@ -98,7 +105,7 @@
 }
 
 ul {
-  margin-top: 13px;
+  margin: 13px 12px 0 12px;
 }
 
 .c1-s12-social-item {
@@ -120,6 +127,13 @@ ul {
     vertical-align: bottom;
   }
 }
+
+ .c1-s12-social-item:first-of-type {
+    margin-left: 0;
+  }
+  .c1-s12-social-item:last-of-type {
+    margin-right: 0;
+  }
 
 .c1-s12-s-inst:after {
   width: 20px;

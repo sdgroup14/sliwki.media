@@ -621,7 +621,7 @@
         <a href="" class="c1-s12-btn">Подписаться</a>
       </div>
       <div class="c1-s12-join">
-        <p class="c1-s12-head">Присоединяйтесь к нам:</p>
+        <p class="c1-s12-head">Присоединяйтесь к нам</p>
         <ul>
           <li class="c1-s12-social-item c1-s12-s-inst"><a href="https://www.instagram.com/slivkimedia/" target="_blank"></a></li>
           <li class="c1-s12-social-item c1-s12-s-fb"><a href="https://facebook.com/slivkimedia/" target="_blank"></a></li>

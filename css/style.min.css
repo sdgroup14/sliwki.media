@@ -2255,14 +2255,14 @@ section {
 
 .case1-s7 {
   height: 768px;
-  background-color: #f3f0f0; }
+  background-color: #f3f0f0;
+  overflow: hidden; }
   .case1-s7 h2 {
     text-align: center;
     margin: 0 auto 82px;
     padding-top: 92px; }
   .case1-s7 .container {
-    overflow: visible;
-    overflow-y: visible; }
+    overflow: visible; }
   .case1-s7 .case1-s7-l {
     width: 50%; }
     .case1-s7 .case1-s7-l:after {

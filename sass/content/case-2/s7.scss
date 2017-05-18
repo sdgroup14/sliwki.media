@@ -1,6 +1,7 @@
 .case1-s7 {
   height: 768px;
   background-color: #f3f0f0;
+  overflow: hidden;
   h2 {
     text-align: center;
     margin: 0 auto 82px;
@@ -8,7 +9,6 @@
   }
   .container {
     overflow: visible;
-    overflow-y: visible;
   }
   .case1-s7-l {
     width: 50%;
