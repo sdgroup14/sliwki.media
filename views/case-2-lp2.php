@@ -13,7 +13,7 @@
       </div>
     </header>
     <div class="header-content">
-      <h1>Лендинг Пейдж для бизнеса&nbsp;<br class="c2-br2-768"/>с гарантией&nbsp;<br class="c2-br1-768"/>потока заявок&nbsp;<br class="c2-br2-768"/>от 3 до <span class="header-underline">80</span> ежедневно</h1>
+      <h1>Создадим лендинг пейдж&nbsp;<br class="c2-br2-768"/>с конверсией&nbsp;<br class="c2-br1-768"/>от <span class="header-underline">5%</span>&nbsp;<br class="c2-br2-768"/>за 20 дней</h1>
       <p>Узнайте сколько клиентов&nbsp;<br class="c2-br2-768"/>Вы получите в следующем месяце</p>
       <button class="content-btn">Получить расчет</button>
     </div>

@@ -5,7 +5,7 @@
     <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
 	    <label for="" class="popup-inp-ico popup-inp-ico-name"><input type="text" id="fields[name_1]" class="popup-input payment-name" placeholder="Ваше имя" required/></label>
 			<label for="" class="popup-inp-ico popup-inp-ico-mail"><input type="text" id="fields[944883_1]" class="popup-input payment-mail" placeholder="Ваш e-mail" required/></label>
-			<input type="text" class="popup-input payment-phone" id="fields[944881_1]" placeholder="+380 1234567890" maxlength="13" required/>
+			<input type="tel" class="popup-input payment-phone" id="fields[944881_1]" placeholder="+380 1234567890" maxlength="15" required/>
 	    <input type="hidden" name="form_id" id="form_id" value="152002"/>
 	    <input type="hidden" name="hash" value="f6a7d6080fe383df628a207dbb440565"/>
 	    <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:05:35 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>

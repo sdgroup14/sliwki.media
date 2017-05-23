@@ -139,16 +139,16 @@
 
 @mixin media_480_case_2_s7 {
   .case1-s7 {
-    height: 1109px;
+    height: 1086px;
     h2 {
       margin: 0 auto 38px;
       padding-top: 49px;
     }
     .case1-s7-l {
       &:after {
-        width: 485px;
+        width: 332px;
         height: 315px;
-        right: -94px;
+        right: 59px;
         top: 166px;
         transform: scale(1);
         background-repeat: no-repeat;
@@ -170,11 +170,8 @@
         line-height: 31.31px;
       }
             .case1-s7-ico {
-      // position: relative;
       &:after {
-        // position: absolute;
         @extend .sprite-480;
-        // top: 50%;
         transform: scale(.85);
       }
     }
@@ -188,13 +185,13 @@
       .case1-s7-inp {
         width: 412px;
         height: 62px;
-        margin-bottom: 35px;
+        margin-bottom: 29px;
         padding-left: 67px!important;
         font-size: 1.379rem;
       }
       .case1-s7-sbmt {
         @extend .btn-480;
-        margin: 35px auto 0;
+        margin: 43px auto 0;
       }
     }
     ::-webkit-input-placeholder {

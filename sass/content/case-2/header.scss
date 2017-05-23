@@ -318,8 +318,12 @@
        min-height: 830px;
        display: none;
      }
+     header {
+      padding: 0 24px;
+     }
      .container {
        margin-top: 32px;
+       width: auto;
        .menu-button {
          height: 30px;
          width: 55px;

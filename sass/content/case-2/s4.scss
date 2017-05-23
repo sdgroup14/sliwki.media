@@ -40,6 +40,11 @@
   .c1-s4-i5 {
     background: url(../img/case4/case_5.jpg);
   }
+
+  .c1-s4-i1, .c1-s4-i2, .c1-s4-i3, .c1-s4-i4, .c1-s4-i5 {
+    background-size: cover;
+  }
+
   .c1-s4-i6 {
     background-color: #1f72d0;
     @extend .lig;
@@ -150,10 +155,11 @@
       color: #00aeef;
       font-size: .857rem;
       &:after {
-        @extend .sprite;
         display: inline-block;
+        content: '';
         margin-left: 4px;
-        background-position: -714px -253px;
+        background: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABCCAMAAADkBuH7AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABGlBMVEUAAAAGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNwGoNz////Fqxz7AAAAXHRSTlMAIbj97YUGB97KH0/uSm2GA3C/GOc//HcBsxHfNPlppQzWK/Rbl8zvTokEwRnoQXu2EuE2+mypDQl0i5DYLA/1XpoIHunPI7zwUUSMoMKj96QFveqbQs2meEu77OqpUZQAAAABYktHRF2d3zABAAAAB3RJTUUH4QUTEQExzqHtugAAAWdJREFUWMPF2MdWAkEQheFBRBQFMwYMCCZEDIhZUTGLOYf7/s/hIHD0uJCRU7/Wvr/FTHd113Uc7+Vr8DcGmn6xwGMFm+VWS8gcbtVHtYWt4Ygq1d5hC3dWYXV1Q7B6eiFY0b5+BpYGBiFYsSEI1vAIBEujcQjWWAKClRyHYGkiCMGa9EGwpqYhWErNQLDSsxCszBwEyz9ff1f6EZYWFiFY2SUIVm4ZgqWV1W9r1sLrG5u1Kl0b1tb2VzYfSHpY4612dj/dRMyMLdVeoeLuH5i60uFRGT42dqWT05J7Zu66VXS70jkB6yLvZBFYl06Oga84GPoU19zPY7bbjbuRb83Z8gFxQnfGbvVIWzeh+wLeNsuNvgg0evBqMrpMI8xlSl3/0IOFemJlHupm/+UZCz28qVHhERpuoHGMGiCpkfcpbuH+WaxABSFQdBN9ZsImKh4zDvSwCLIamr7YsmDM6/heo28pr8H0O+jRWsHtcZBwAAAAAElFTkSuQmCC) no-repeat 50% 0;
+        background-size: 9px;
         width: 9px;
         height: 7px;
       }
@@ -251,9 +257,10 @@
         height: 45px;
         padding-left: 47px;
         font-size: 1.429rem;
-        border: 0;
-        outline: 0;
-        border-bottom: 1px solid #ffffff;
+        outline: 0!important;
+        border-radius: 0!important;
+        border: 0!important;
+        border-bottom: 1px solid #ffffff!important;
       }
       .c1-s4-sbmt {
         margin: 25px auto 0;
@@ -302,7 +309,9 @@
         font-size: 1.429rem;
         line-height: 27.55px;
         &:after {
-          height: 9px;
+          width: 15px;
+          height: 13px;
+          background-size: 15px;
         }
       }
     }

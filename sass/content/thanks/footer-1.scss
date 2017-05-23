@@ -130,9 +130,10 @@
   .f1-copy {
     text-align: center;
     @extend .px10;
+    @extend .lig;
     line-height: 14px;
     margin: 25px 0 5px;
-    color: #737070;
+    color: #868484;
   }
   ul {
     text-align: center;
@@ -140,8 +141,9 @@
   li {
     display: inline-block;
     line-height: 14px;
+    @extend .lig;
     .f1-link {
-      color: #737070;
+      color: #868484;
       margin: 0px 28px;
       @extend .px10;
       letter-spacing: -.4px;
@@ -220,7 +222,7 @@
     }
   }
   .f1-copy {
-    margin: 25px 0 44px;
+    margin: 40px 0 28px;
     font-size: 1.286rem;
     line-height: 24px;
   }

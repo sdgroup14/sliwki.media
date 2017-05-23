@@ -71,6 +71,7 @@
   .c1-s6-i10 {
     margin-right: 0;
   }
+
   .c1-s6-i1 {
     background-image: url(../img/members/member_1.jpg);
   }
@@ -100,6 +101,10 @@
   }
   .c1-s6-i10 {
     background-image: url(../img/members/member_10.jpg);
+  }
+
+  .c1-s6-i1, .c1-s6-i2, .c1-s6-i3, .c1-s6-i4, .c1-s6-i5, .c1-s6-i6, .c1-s6-i7, .c1-s6-i8, .c1-s6-i9, .c1-s6-i10 {
+    background-size: cover;
   }
 }
 
@@ -164,12 +169,13 @@
       padding: 0;
     }
     .case1-s6-list {
-      padding-top: 208px;
+      padding-top: 209px;
     }
     .c1-s6-item {
       width: 214px;
       height: 206px;
       margin-right: 0;
+      margin-bottom: 3px;
       background-size: cover;
       overflow: hidden;
       background-position: 50% 50%;

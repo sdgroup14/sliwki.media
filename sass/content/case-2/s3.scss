@@ -6,7 +6,7 @@
     margin: 0 auto 82px;
     padding-top: 92px;
   }
-  .container{
+  .container {
     overflow: visible;
   }
   .case1-s3-l {
@@ -167,43 +167,36 @@
         font-size: 1.637rem;
         line-height: 31.31px;
       }
-
-
-       .case1-s3-ico {
-      // position: relative;
-      &:after {
-        // position: absolute;
-        @extend .sprite-480;
-        // top: 50%;
-        transform: scale(.85);
+      .case1-s3-ico {
+        &:after {
+          @extend .sprite-480;
+          transform: scale(.85);
+        }
       }
-    }
-    .case1-s3-ico-name:after {
-      left: 19px;
-      margin-top: -14.5px;
-      background-position: -1336px -854px;
-  width: 30px;
-  height: 29px;
-    }
-    .case1-s3-ico-mail:after {
-      left: 19px;
-      margin-top: -11px;
-      background-position: -1336px -896px;
-  width: 30px;
-  height: 22px;
-    }
-
-
+      .case1-s3-ico-name:after {
+        left: 19px;
+        margin-top: -14.5px;
+        background-position: -1336px -854px;
+        width: 30px;
+        height: 29px;
+      }
+      .case1-s3-ico-mail:after {
+        left: 19px;
+        margin-top: -11px;
+        background-position: -1336px -896px;
+        width: 30px;
+        height: 22px;
+      }
       .case1-s3-inp {
         width: 412px;
         height: 62px;
-        margin-bottom: 35px;
+        margin-bottom: 29px;
         padding-left: 67px!important;
         font-size: 1.379rem;
       }
       .case1-s3-sbmt {
         @extend .btn-480;
-        margin: 35px auto 0;
+        margin: 43px auto 0;
       }
     }
     ::-webkit-input-placeholder {

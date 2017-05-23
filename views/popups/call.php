@@ -1,10 +1,10 @@
 <div class="popup call">
   <h3>Заказать звонок</h3>
   <p>Внесите свои данные и наш менеджер<br/>свяжется с вами в течение 5 минут</p>
-  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://slivki.media/lp/thanks/';}"></iframe>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='https://slivki.media/lp/oto/';}"></iframe>
   <form action="https://forms.amocrm.ru/queue/add" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
     <label for="" class="popup-inp-ico popup-inp-ico-name"><input type="text" id="fields[name_1]" class="popup-input call-name" placeholder="Ваше имя" required/></label>
-    <input type="text" class="popup-input call-phone" id="fields[944881_1]" placeholder="+380 1234567890"  maxlength="13" required/>
+    <input type="tel" class="popup-input call-phone" id="fields[944881_1]" placeholder="+380 1234567890"  maxlength="15" required/>
     <input type="hidden" name="form_id" id="form_id" value="151993"/>
     <input type="hidden" name="hash" value="79a712683112d357542f2e035a16fa2f"/>
     <input type="hidden" name="user_origin" id="user_origin" value="{&quot;datetime&quot;:&quot;Sun Apr 09 2017 20:05:00 GMT+0300 (EEST)&quot;,&quot;referer&quot;:&quot;&quot;}"/>
